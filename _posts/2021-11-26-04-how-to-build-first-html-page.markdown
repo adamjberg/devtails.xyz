@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Build Your First HTML Page"
 permalink: /how-to-build-your-first-html-page
-tags: learntocode assignment
+tags: learntocode assignment web
 ---
 
 ## Pre-Requisites
@@ -104,7 +104,7 @@ This should open the file in your default browser. If it doesn't for some reason
 
 ![](/assets/html-intro-07.png)
 
-## Wrap-up
+## Wrap-Up
 
 In this assignment you have learned:
 - the basics of HTML
