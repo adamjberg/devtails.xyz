@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "How to Start Learning to Code"
-categories: learntocode
+permalink: /how-to-start-learning-to-code
+tags: learntocode
 ---
 
 There are a few common responses I get after introducing myself to people and telling them I'm a software engineer:
