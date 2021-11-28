@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Breadth-First Search a Walk in the Park"
+permalink: /breadth-first-search-a-walk-in-the-park
 image: /assets/img/IMG_1161.jpg
 tag: tails
 ---
