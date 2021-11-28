@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+<div class="text-center mb-4">
+  <img style="border-radius: 50%;" src="/assets/adam.jpg"/>
+</div>
+
 ## Hello, my name is Adam
 
 After over 10 years of programming, I'm still disappointed in the state of programming content across the web and the pace that new developers are able to level up. I firmly believe that everyone in the world should learn to code. I have a lot of opinions, but until now, those have mostly only been shared with the teams I directly work with. 
