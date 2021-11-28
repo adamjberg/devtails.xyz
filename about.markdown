@@ -14,7 +14,7 @@ After over 10 years of programming, I'm still disappointed in the state of progr
 
 This blog is where I will share my thoughts on software development topics such as #react, #javascript, #typescript, #engineeringmanagement, #rust, #webdevelopment, and #gamedevelopment.
 
-## Why DevTails
+## Why dev/tails?
 
 Recently I started journaling about some work related events and also started to generally see more development stories being shared on the Internet. I thought it would be fun to have a place to share these "dev tales" (as I started to refer to them).  That seemed a bit too straightforward and one day I randomly stumbled on a photo of Tails from Sonic the Hedgehod and the moniker [devtails](https://twitter.com/devtails) was born.
 
