@@ -22,14 +22,6 @@ It is very difficult to find content of the appropriate depth when casually sear
 
 These roughly correlate to the usual job titles of junior, intermediate, senior, staff, and senior staff.  I find the term "senior" oversells how much experience someone actually has.  -->
 
-## #project
-
-I strongly believe that project based learning is the way to go and so the learning on this site will be centered around that. Projects will be filed under the #project category. If you are new to programming, it's best that you tackle these in order as the first few will cover some more foundational knowledge.
-
-## #learntocode
-
-While projects will be the primary method of teaching you how to code, there will be times where there's some non project based learning that needs to occur.  If you are interested in learning to code, this is the category to follow to get all of the material.
-
 ## Help Me Help You
 
 If you have questions or feedback, please join my [Discord server](https://discord.gg/H9r4yyc4r4) where you can hopefully find others somewhere on their learning to code journey.  
