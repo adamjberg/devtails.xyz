@@ -16,11 +16,11 @@ Recently I started journaling about some work related events and also started to
 
 When I was a kid [Sonic the Hedgehog 2](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2) was the greatest game I had ever played. As the younger sibling, I was destined to be player two (aka [Tails](https://en.wikipedia.org/wiki/Tails_(Sonic_the_Hedgehog))). In two player mode, the game still really only cares about Sonic. The camera follows Sonic and sometimes I would find myself completely offscreen only to be teleported back to where Sonic actually was.  Some might not have considered this position fun. However, it came with a significant benefit: Tails could infinitely respawn. Lessons learned: only one person can be player one at a time and lean in to the strengths of whatever hand you've been dealt.
 
-## #novice #apprentice #journeyman #expert #master
+<!-- ## #novice #apprentice #journeyman #expert #master
 
 It is very difficult to find content of the appropriate depth when casually searching the web. Where applicable, I will categorize my posts by the apprenticeship terms. 
 
-These roughly correlate to the usual job titles of junior, intermediate, senior, staff, and senior staff.  I find the term "senior" oversells how much experience someone actually has. 
+These roughly correlate to the usual job titles of junior, intermediate, senior, staff, and senior staff.  I find the term "senior" oversells how much experience someone actually has.  -->
 
 ## #project
 

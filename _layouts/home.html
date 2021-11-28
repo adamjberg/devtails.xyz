@@ -11,11 +11,11 @@ layout: default
 
   {% assign posts = site.posts %} 
   {%- if page.tag -%}
-    {% assign posts = site.posts | where_exp: "item", "item.tags contains page.tag" %} 
+    {% assign posts = site.posts | where_exp: "item", "item.tags contains page.tag" | reverse %} 
   {%- endif -%}
   {%- if posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in posts reversed -%}
+      {%- for post in posts -%}
         {%- include post-preview.html -%}
       {%- endfor -%}
     </ul>
