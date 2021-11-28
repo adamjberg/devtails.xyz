@@ -11,7 +11,10 @@ layout: default
 
   {% assign posts = site.posts %} 
   {%- if page.tag -%}
-    {% assign posts = site.posts | where_exp: "item", "item.tags contains page.tag" | reverse %} 
+    {% assign posts = site.posts | where_exp: "item", "item.tags contains page.tag" %}
+  {%- endif -%}
+  {%- if page.ascending -%}
+    {% assign posts = posts | reverse %}
   {%- endif -%}
   {%- if posts.size > 0 -%}
     <ul class="post-list">
