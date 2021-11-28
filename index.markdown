@@ -1,8 +1,8 @@
 ---
 layout: home
+title: dev/tails
+show_in_header: false
 ---
-
-# Welcome to dev/tails
 
 dev/tails is a publication dedicated to all topics related to software development.  Head to the [about page](/about) for more backstory.
 
