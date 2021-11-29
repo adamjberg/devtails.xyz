@@ -14,6 +14,8 @@ tag: dev react esbuild
 
 [How to Implement Server Side Rendering with React](#how-to-implement-server-side-rendering-with-react)
 
+**Code for this tutorial can be found on [GitHub](https://github.com/adamjberg/react-ssr)**
+
 ## What is Server Side Rendering?
 
 Server side rendering is the ability for the server to immediately return a fully rendered HTML page for the client. A simple static file server might return the exact contents of an `index.html` file on the server. 
@@ -27,10 +29,6 @@ With client side libraries like React, generally a simple `index.html` file is r
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server Side Rendering With React</title>
     <script src="app.js" async defer></script>
 </head>
 <body>
@@ -44,6 +42,7 @@ Once the `app.js` script above gets loaded, it immediately fires up the React li
 ```
 // index.tsx
 
+import React from "react";
 import ReactDOM from 'react-dom';
 import { App } from './App';
 
@@ -61,7 +60,7 @@ Take a very simple React application:
 import React from "react";
 
 export const App: React.FC = () => {
-    return <h1>Hello from the server!</h1>
+    return <h1>Hello World!</h1>
 }
 ```
 
@@ -72,15 +71,11 @@ When server side rendering is properly implemented, instead of the `index.html` 
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server Side Rendering With React</title>
     <script src="app.js" async defer></script>
 </head>
 <body>
     <div id="root">
-        <h1 data-reactroot="">Hello from the server!</h1>
+        <h1 data-reactroot="">Hello World!</h1>
     </div>
 </body>
 </html>
@@ -144,6 +139,7 @@ Create a file called `index.tsx` in `client/src`
 
 ```
 // index.tsx
+import React from "react";
 import ReactDOM from 'react-dom';
 import { App } from './App';
 
@@ -153,10 +149,20 @@ ReactDOM.render(<App />, document.getElementById('root'));
 Create App Component `App.tsx` in `client/src`
 
 ```
-import React from "react";
+// App.tsx
+import React, { useEffect, useState } from "react";
 
 export const App: React.FC = () => {
-    return <h1>Hello from the server!</h1>
+    const [clientMessage, setClientMessage] = useState("");
+    
+    useEffect(() => {
+        setClientMessage("Hello From React");
+    })
+
+    return <>
+        <h1>Hello World!</h1>
+        <h2>{clientMessage}</h2>
+    </>
 }
 ```
 
@@ -198,14 +204,125 @@ Create a folder to house the express.js application
 Create a file called `server.tsx` in `server/src`
 
 ```
+// server.tsx
 import express from "express";
 
 const app = express();
+
+app.get('/', (req, res) => {
+    const html = `
+        <html lang="en">
+        <head>
+            <script src="app.js" async defer></script>
+        </head>
+        <body>
+            <div id="root"></div>
+        </body>
+        </html>
+    `
+    res.send(html);
+});
 
 app.use(express.static("./built"));
 
 app.listen(4242);
 ```
 
-Code for this tutorial can be found on [GitHub](https://github.com/adamjberg/react-ssr)
+### Bundle the express.js server with esbuild
 
+Add `server:build` and `start` scripts to `package.json`
+
+```
+{
+  "scripts": {
+    "client:build": "esbuild client/src/index.tsx --bundle --outfile=built/app.js",
+    "server:build": "esbuild server/src/server.tsx --bundle --outfile=built/server.js --platform=node",
+    "start": "node built/server.js"
+  },
+}
+```
+
+### Build the Server Bundle
+
+`npm run server:build`
+
+### Run the Server
+
+`npm start`
+
+You can now open your browser to <a href="http://localhost:4242">http://localhost:4242</a> and see the "Hello World!" message.
+
+### Add Server Side Rendering
+
+```
+// server.tsx
+import express from "express";
+import * as ReactDOMServer from 'react-dom/server';
+import { App } from "../../client/src/App";
+
+const app = express();
+
+app.get('/', (req, res) => {
+    const app = ReactDOMServer.renderToString(<App />);
+
+    const html = `
+        <html lang="en">
+        <head>
+            <script src="app.js" async defer></script>
+        </head>
+        <body>
+            <div id="root">${app}</div>
+        </body>
+        </html>
+    `
+    res.send(html);
+});
+
+app.use(express.static("./built"));
+
+app.listen(4242);
+```
+
+This imports the App component and renders it to a string using the `react-dom/server` library.  We then place that rendered string inside our #root div and return the resulting html.
+
+Re-build the server with `npm run server:build`. Then restart the server with `npm start`.
+
+You can use `curl` to confirm this works as expected by running `curl http://localhost:4242`.
+
+You should see the following:
+
+```
+<html lang="en">
+<head>
+    <script src="app.js" async defer></script>
+</head>
+<body>
+    <div id="root"><h1 data-reactroot="">Hello World!</h1></div>
+</body>
+</html>
+```
+
+Note that the "Hello From React" message is missing.  This is because the `renderToString` method will not run the `useEffect` logic.
+
+If we refresh the page in the browser we should see the correct `clientMessage` correctly.
+
+### Switching From [ReactDOM.render](https://reactjs.org/docs/react-dom.html#render) to [ReactDOM.hydrate](https://reactjs.org/docs/react-dom.html#hydrate)
+
+While this seems to be working as expected, there is one final change to make.  The server returns the rendered html and then once the `app.js` script is loaded it's going to re-render the entire App component and overwrite what's already there.
+
+<pre>
+<span class="del">ReactDOM.render(&lt;App />, document.getElementById('root'));</span>
+<span class="add">ReactDOM.hydrate(&lt;App />, document.getElementById('root'));</span>
+</pre>
+
+With this change, React will re-use the existing markup and attach any event listeners to the existing elements.
+
+In our small example, this won't make much of a difference, but in a large application this could save a lot of re-rendering.
+
+## Wrap-Up
+
+Congratulations! You now have a react application with server side rendering. In my experience, it's much easier to start off with server side rendering than implement it after the fact. Now that you know the fundamentals behind it, you should be able to apply these principles to an existing React application as well.
+
+## Resources
+
+https://www.digitalocean.com/community/tutorials/react-server-side-rendering
