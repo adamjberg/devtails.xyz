@@ -2,9 +2,13 @@
 layout: post
 title:  "How to Set Up Server Side Rendering (SSR) With React and esbuild"
 permalink: /how-to-set-up-server-side-rendering-ssr-with-react-and-esbuild
+image: img/A7R08458.JPG
 description: Tutorial for setting up SSR for a React app with esbuild
 tags: dev react esbuild
 ---
+
+![](/assets/img/A7R08458.JPG)
+<figcaption class="text-center">Server Side Rendering is Magical</figcaption>
 
 ## Table of Contents
 

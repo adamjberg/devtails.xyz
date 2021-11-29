@@ -2,7 +2,7 @@
 layout: post
 title:  "Breadth-First Search a Walk in the Park"
 permalink: /breadth-first-search-a-walk-in-the-park
-image: /assets/img/IMG_1161.jpg
+image: img/IMG_1161.jpg
 description: Today I went for a walk, and I'd like to take you along for a ride
 tag: tails
 ---
