@@ -4,7 +4,7 @@ title:  "Bundling Your Node.js Express App with esbuild"
 permalink: /bundling-your-node-js-express-app-with-esbuild
 ext_image: https://cdn-images-1.medium.com/max/2000/0*OZr9Fph56IeYS2On.png
 description: Tutorial for setting up esbuild to bundle an express.js app
-tag: dev
+tag: dev esbuild
 ---
 
 When setting up a backend node project, I have almost always defaulted to setting up a TypeScript to build the app using the outDir property in tsconfig.json.
