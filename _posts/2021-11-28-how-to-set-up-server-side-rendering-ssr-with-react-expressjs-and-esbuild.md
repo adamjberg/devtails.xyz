@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "How to Set Up Server Side Rendering (SSR) With React and esbuild"
+title:  "How to Set Up Server Side Rendering (SSR) With React, express.js, and esbuild"
 permalink: /how-to-set-up-server-side-rendering-ssr-with-react-and-esbuild
 image: img/A7R08458.JPG
-description: Tutorial for setting up SSR for a React app with esbuild
+description: Tutorial for setting up SSR for a React app with express.js and esbuild
 tags: dev react esbuild
 ---
 
@@ -315,6 +315,7 @@ If we refresh the page in the browser we should see the correct `clientMessage` 
 While this seems to be working as expected, there is one final change to make.  The server returns the rendered html and then once the `app.js` script is loaded it's going to re-render the entire App component and overwrite what's already there.
 
 <pre>
+// index.tsx
 <span class="del">ReactDOM.render(&lt;App />, document.getElementById('root'));</span>
 <span class="add">ReactDOM.hydrate(&lt;App />, document.getElementById('root'));</span>
 </pre>
@@ -327,6 +328,6 @@ In our small example, this won't make much of a difference, but in a large appli
 
 Congratulations! You now have a react application with server side rendering. In my experience, it's much easier to start off with server side rendering than implement it after the fact. Now that you know the fundamentals behind it, you should be able to apply these principles to an existing React application as well.
 
-## Resources
+## Additional Resources
 
 https://www.digitalocean.com/community/tutorials/react-server-side-rendering
