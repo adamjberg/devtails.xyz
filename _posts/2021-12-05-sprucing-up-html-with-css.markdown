@@ -149,6 +149,56 @@ And with that we have successfully completed our header.
 
 ## Move the Text Input to the Bottom of the Page
 
+Now that we have introduced the `display: flex`, we will use it again to split the page into three main sections: header, content, and footer. The content will include the list of notes and the footer will have the text input fixed to the bottom of the page (much like the text box seen on most messaging apps).
+
+<pre>
+&lt;style>
+    body {
+      margin: 0;
+    }
+
+<span class="add">    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }</span>
+
+    header {
+      background-color: #3f51b5;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+<span class="add">    #content {
+      flex-grow: 1;
+    }</span>
+&lt;/style>
+
+&lt;body>
+<span class="add">  &lt;div id="app"></span>
+    &lt;header>
+      &lt;img src="img/logo.png" width="48px" height="48px" />
+    &lt;/header>
+<span class="add">    &lt;div id="content">
+      &lt;div id="notes">&lt;/div>
+    &lt;/div>
+    &lt;div id="bottom-bar">
+      &lt;input id="input" />
+      &lt;button >Submit&lt;/button>
+    &lt;/div>
+  &lt;/div></span>
+&lt;/body>
+</pre>
+
+The `#` is used to select an element by id in CSS. `#app` will thus tell the browser to apply the contained styles to the element with id `app`. `flex-direction: column;` specifies to render the component in a column (from to bottom) instead of the row default (left to right). `height: 100%;` makes it fill the entire available space.
+
+The `flex-grow: 1;` for `#content` specifies that the #content element should grow to fill the remaining space between the header and the footer. 
+
+
+![](/assets/img/css-intro/css-intro-06.png)
+<figcaption>Text Input Now at Bottom of Page</figcaption>
 
 ## Final Code
 
