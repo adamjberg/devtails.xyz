@@ -200,6 +200,90 @@ The `flex-grow: 1;` for `#content` specifies that the #content element should gr
 ![](/assets/img/css-intro/css-intro-06.png)
 <figcaption>Text Input Now at Bottom of Page</figcaption>
 
+## Styling the Text Input
+
+<pre>
+&lt;style>
+    body {
+      margin: 0;
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    header {
+      background-color: #3f51b5;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #content {
+      flex-grow: 1;
+    }
+
+<span class="add">    #bottom-bar {
+      background-color: #424242;
+    }
+
+    .input-wrapper {
+      display: flex;
+      padding: 16px 8px;
+    }
+
+    #bottom-bar input {
+      flex-grow: 1;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px white solid;
+      color: white;
+    }
+
+    #bottom-bar input:focus-visible {
+      border-bottom: 1px #3f51b5 solid;
+      outline: none;
+    }</span>
+&lt;/style>
+
+&lt;body>
+  &lt;div id="app">
+    &lt;header>
+      &lt;img src="img/logo.png" width="48px" height="48px" />
+    &lt;/header>
+    &lt;div id="content">
+      &lt;div id="notes">&lt;/div>
+    &lt;/div>
+    &lt;div id="bottom-bar">
+      <span class="add">&lt;div class="input-wrapper">
+        &lt;input id="input" />
+        &lt;button >Submit&lt;/button>
+      &lt;/div></span>
+    &lt;/div>
+  &lt;/div>
+&lt;/body>
+</pre>
+
+![](/assets/img/css-intro/css-intro-07.png)
+
+`#bottom-bar` simply gets a background-color attached to it.
+
+`.input-wrapper` demonstrates a common HTML/CSS pattern where you "wrap" some inner elements in an additional div to provide some styling. In this case we add `display: flex` which will allow us to make the input take up as much horizontal space as possible.
+
+`#bottom-bar input` is a new type of selector. These styles will only affect input elements that are a child of the element with an id of "bottom-bar".   `flex-grow: 1` causes it to grow horinzontally to fill in is `.input-wrapper` parent. `background-color: transparent` removes the default white background on the input field, making it blend in more with the background.  `border: none` removes the default border added all around input elements. `border-bottom: 1px white solid` adds a solid white border to just the bottom of the element with 1px thickness. `color: white` modifies the text so that the text a user inputs displays as white.
+
+`#bottom-bar input:focus-visible` introduces one more concept with selectors: [psuedo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp). Psuedo-classes are used to define a special state of an element. In this case, the psuedo-class is "focus-visible".  This is a special state the browser assigns to an element when the user has "focused" on it. By default, this is often a blue border around an element. In this example we use it to change the color of the bottom border. `border-bottom: 1px #3f51b5 solid` specifies a solid 1px wide bottom border with the hex color #3f51b5. It's important to note that this style will override the border-bottom that was already set on this element in the previous selector. 
+
+![](/assets/img/css-intro/css-intro-08.png)
+
+In the image above you can see that the developer tools shows the first `border-bottom` property stricken through. A single property can only be set once in CSS and if multiple selectors match an element the "most specific" selector will be used.  In this case the pseudo-class selector is more specific.
+
+`outline: none` removes the default blue outline that should around focused elements. And with that, try out the input and see how it changes color when clicking on it and away from it (you can also use tab to focus on it). 
+
+
 ## Final Code
 
 <pre>
