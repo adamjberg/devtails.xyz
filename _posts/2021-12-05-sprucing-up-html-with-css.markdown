@@ -20,6 +20,11 @@ In this assignment you will:
 - Style the submit button
 - Style the notes
 
+The final webpage will look like this:
+
+![](/assets/img/css-intro/css-intro-00.png)
+
+
 ## Intro to Cascading Style Sheets
 
 This is a topic better covered on places like [w3schools](https://www.w3schools.com/css/css_intro.asp) and [MDN Wed Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS). It's worth giving those a quick read if you are unfamiliar with CSS. Put very simply, CSS styles allow you to control how elements on a page are displayed. Page layout, colors, fonts, sizing, and many more can be modified using CSS.
@@ -186,7 +191,7 @@ Now that we have introduced the `display: flex`, we will use it again to split t
     &lt;/div>
     &lt;div id="bottom-bar">
       &lt;input id="input" />
-      &lt;button >Submit&lt;/button>
+      &lt;button id="submit">Submit&lt;/button>
     &lt;/div>
   &lt;/div></span>
 &lt;/body>
@@ -260,7 +265,7 @@ The `flex-grow: 1;` for `#content` specifies that the #content element should gr
     &lt;div id="bottom-bar">
       <span class="add">&lt;div class="input-wrapper">
         &lt;input id="input" />
-        &lt;button >Submit&lt;/button>
+        &lt;button id="submit">Submit&lt;/button>
       &lt;/div></span>
     &lt;/div>
   &lt;/div>
@@ -283,97 +288,171 @@ In the image above you can see that the developer tools shows the first `border-
 
 `outline: none` removes the default blue outline that should around focused elements. And with that, try out the input and see how it changes color when clicking on it and away from it (you can also use tab to focus on it). 
 
-
-## Final Code
+## Styling the Button
 
 <pre>
-&lt;html lang="en"&gt;
+button {
+    margin-left: 8px;
+    background-color: #3f51b5;
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
 
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Notes&lt;/title&gt;
-    &lt;script&gt;
-        window.onload = function () {
-            var submitBtn = document.getElementById("submit");
-            var inputElement = document.getElementById("input");
-            var notesElement = document.getElementById("notes");
+button:hover {
+    background-color: #3848a2;
+}
 
-            submitBtn.addEventListener("click", function () {
-                var div = document.createElement("div");
-                div.innerText = inputElement.value;
-                notesElement.appendChild(div);
-
-                inputElement.value = "";
-            });
-        }
-    &lt;/script&gt;
-    &lt;style&gt;
-        body {
-            margin: 0;
-            background-color: #303030;
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        header {
-            background-color: #3f51b5;
-            text-align: center;
-            font-size: 36px;
-            font-weight: bold;
-            color: white;
-            height: 64px;
-            line-height: 64px;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 960px;
-            margin: 0 auto;
-        }
-
-        #bottom-bar {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            background-color: #424242;
-        }
-
-        .input-wrapper {
-            display: flex;
-            padding: 16px 8px;
-        }
-
-        #bottom-bar input {
-            flex-grow: 1;
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px white solid;
-            color: white;
-        }
-
-        #bottom-bar input:focus-visible {
-            border: none;
-            border-bottom: 1px #3f51b5 solid;
-            outline: none;
-        }
-
-        #bottom-bar button {
-            margin-left: 8px;
-        }
-    &lt;/style&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-    &lt;header&gt;Notes&lt;/header&gt;
-    &lt;div id="notes"&gt;&lt;/div&gt;
-    &lt;div id="bottom-bar"&gt;
-        &lt;div class="container"&gt;
-            &lt;div class="input-wrapper"&gt;
-                &lt;input id="input"/&gt;
-                &lt;button id="submit"&gt;Submit&lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;/html&gt;
+button:active {
+    background-color: #324090;
+} 
 </pre>
+
+`border-radius` adds a slight roundedness to the button. `cursor: pointer` changes the cursor to a hand when hovering over the button. All of the other styles you should have seen already and understand.
+
+`button:hover` is a new pseudo-class that selects the element when the mouse is hovering over it.
+
+`button:active` is yet another pseudo-class the selects the element when it is actively by pressed.
+
+The combination of the hover and active gives the user visual feedback that this button is interactive in some way. 
+
+## Styling the Main Content
+
+<pre>
+&lt;html lang="en">
+
+&lt;head>
+  &lt;meta charset="UTF-8">
+  &lt;title>Notes&lt;/title>
+  &lt;script>
+    window.onload = function () {
+      var submitBtn = document.getElementById("submit");
+      var inputElement = document.getElementById("input");
+      var notesElement = document.getElementById("notes");
+
+      submitBtn.addEventListener("click", function () {
+        var div = document.createElement("div");
+        <span class="add">div.setAttribute("class", "note");</span>
+        div.innerText = inputElement.value;
+        notesElement.appendChild(div);
+
+        inputElement.value = "";
+      });
+    }
+  &lt;/script>
+  &lt;style>
+    body {
+      margin: 0;
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    header {
+      background-color: #3f51b5;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #content {
+      flex: 1;
+      overflow: auto;
+    }
+
+    #bottom-bar {
+      background-color: #424242;
+    }
+
+    .input-wrapper {
+      display: flex;
+      padding: 16px 8px;
+    }
+
+    #bottom-bar input {
+      flex-grow: 1;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px white solid;
+      color: white;
+    }
+
+    #bottom-bar input:focus-visible {
+      border-bottom: 1px #3f51b5 solid;
+      outline: none;
+    }
+
+    button {
+      margin-left: 8px;
+      background-color: #3f51b5;
+      padding: 4px 12px;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #3848a2;
+    }
+
+    button:active {
+      background-color: #324090;
+    }
+
+<span class="add">    body {
+      background-color: #303030;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .note {
+      padding: 8px;
+      border-bottom: 1px solid #424242;
+    }</span>
+  &lt;/style>
+&lt;/head>
+
+&lt;body>
+  &lt;div id="app">
+    &lt;header>
+      &lt;img src="img/logo.png" width="48px" height="48px" />
+    &lt;/header>
+    &lt;div id="content">
+      <span class="add">&lt;div class="container">
+        &lt;div id="notes">&lt;/div>
+      &lt;/div></span>
+    &lt;/div>
+    &lt;div id="bottom-bar">
+      <span class="add">&lt;div class="container">
+        &lt;div class="input-wrapper">
+          &lt;input id="input" />
+          &lt;button id="submit">Submit&lt;/button>
+        &lt;/div>
+      &lt;/div></span>
+    &lt;/div>
+  &lt;/div>
+&lt;/body>
+
+&lt;/html>
+</pre>
+
+`div.setAttribute("class", "note");` is the way to dynamically add a class to the div we created in the previous assignment.  This is necessary so we can properly apply styles to these dynamic elements.
+
+For these final style changes, have a read through each new line of code. With what you have learned so far, it should be possible to understand what each one is doing. If one doesn't make sense try deleting it and refreshing the page to see what happens. If you want to know more about what's possible for a specific property just google the name of the property plus "CSS" and you should find some decent resources.
+
+## Conclusion
+
+This has been my least favorite post so far. CSS is an incredibly broad topic and it's difficult to know what needs more explanation and what is self-explanatory.  More than any other concept so far, learning CSS is best done through experimentation. The goal of this assignment was to give a rough sense of how CSS can be used to achieve a specific design.  Try coming up with your own designs and seeing if you can use CSS to make it happen.
