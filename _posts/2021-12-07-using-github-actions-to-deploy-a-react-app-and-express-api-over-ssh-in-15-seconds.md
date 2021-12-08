@@ -7,6 +7,8 @@ tags: react devops
 
 **The following post was created as part of the Github Actions Hackathon 2021 on [dev.to](https://dev.to/t/actionshackathon21).**
 
+## Motivation
+
 I've been looking to revamp the deployment process for several projects that I'm working on and start building towards my preferred method of deployment.
 
 My biggest requirements are **simplicity** and **speed**.  I have used [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Docker Swarm](https://docs.docker.com/engine/swarm/), and various other methods of deployment in the past. I recognize these tools have their advantages, but have found that for small to medium sized projects they are more effort than they are worth to maintain.
