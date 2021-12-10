@@ -2,7 +2,10 @@
 layout: home
 title: dev/tails
 show_in_header: false
+image: /assets/logo-with-text.png
 ---
+
+![dev/tails](/assets/logo-with-text.png)
 
 dev/tails is a publication dedicated to all topics related to software development.  Head to the [about page](/about) for more backstory.
 
