@@ -3,6 +3,7 @@ layout: post
 title:  "How to Build a Note Taking Command Line Application With Rust: Part 2"
 permalink: /how-to-build-a-note-taking-command-line-application-with-rust-part-2
 image: https://cdn-images-1.medium.com/max/8064/1*fjuW91urikTWjMyRaY11Og.jpeg
+description: Reading, updating, and deleting notes from an sqlite database
 tags: rust dev
 ---
 
