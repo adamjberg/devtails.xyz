@@ -1,6 +1,5 @@
 ---
 layout: home
-title: dev/tails
 show_in_header: false
 image: /assets/logo-with-text.png
 ---
