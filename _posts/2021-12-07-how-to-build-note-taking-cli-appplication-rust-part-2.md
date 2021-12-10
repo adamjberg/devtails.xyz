@@ -5,12 +5,15 @@ permalink: /how-to-build-a-note-taking-command-line-application-with-rust-part-2
 image: https://cdn-images-1.medium.com/max/8064/1*fjuW91urikTWjMyRaY11Og.jpeg
 description: Reading, updating, and deleting notes from an sqlite database
 tags: rust dev
+prev: 
+  url: /how-to-build-a-note-taking-command-line-application-with-rust
+  title: "How to Build a Note Taking Command Line Application With Rust: Part 1"
 ---
 
 ![Lots of rain in Vancouver, but the only Rust to be found is in the post below](https://cdn-images-1.medium.com/max/8064/1*fjuW91urikTWjMyRaY11Og.jpeg)
 <figcaption>Lots of rain in Vancouver, but the only Rust to be found is in the post below</figcaption>
 
-In the [first part of this series](https://levelup.gitconnected.com/how-to-build-a-note-taking-command-line-application-with-rust-part-1-34b9cd5be6b9), we created a basic rust CLI program that allows us to **create** notes and save them in an sqlite database. If you have not already read that one, you should start there as this builds off of where that post left off. 
+In the [first part of this series](how-to-build-a-note-taking-command-line-application-with-rust), we created a basic rust CLI program that allows us to **create** notes and save them in an sqlite database. If you have not already read that one, you should start there as this builds off of where that post left off. 
 
 This next part will cover the rest of CRUD: **reading**, **updating**, and **deleting**.
 

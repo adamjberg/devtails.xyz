@@ -5,6 +5,12 @@ permalink: /how-to-build-a-note-taking-command-line-application-with-rust
 image: https://cdn-images-1.medium.com/max/8064/1*4Fq7K0d07prvWsuxCG1Esg.jpeg
 description: Creating and saving notes to an sqlite database
 tags: rust dev
+prev: 
+  url: /building-my-first-command-line-interface-with-rust
+  title: "Building My First Command Line Interface (CLI) with Rust"
+nxt:
+  url: /how-to-build-a-note-taking-command-line-application-with-rust-part-2
+  title: "How to Build a Note Taking Command Line Application With Rust: Part 2"
 ---
 
 ![Miner with a **rusty** pickaxe finds gold nugget circa 2021 — Bonus internet points if you can identify the location](https://cdn-images-1.medium.com/max/8064/1*4Fq7K0d07prvWsuxCG1Esg.jpeg)
