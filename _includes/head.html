@@ -4,13 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- seo -%}
 
-    <meta name="twitter:card" content="summary" />
-    {% if page.ext_image %}
-    <meta property="og:image" content="{{ page.ext_image }}">
-    {% endif %}
-    {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}/assets/{{ page.image }}">
-    {% endif %}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     {%- feed_meta -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
