@@ -2,6 +2,7 @@
 layout: post
 title:  "Building My First Command Line Interface (CLI) with Rust"
 permalink: /building-my-first-command-line-interface-with-rust
+image: https://cdn-images-1.medium.com/max/8064/1*4B_IJvXzRd0kyRjj-8lfJw.jpeg
 tags: rust dev
 ---
 
