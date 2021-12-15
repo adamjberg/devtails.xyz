@@ -3,6 +3,7 @@ layout: post
 title:  "3 Lines of Code Shouldn't Take All Day"
 permalink: /3-lines-of-code-shouldnt-take-all-day
 image: assets/img/IMG_3498.jpg
+description: "Reflections on my time at Electronic Arts and techniques used to improve iteration times in video game development"
 tags: tails
 ---
 
