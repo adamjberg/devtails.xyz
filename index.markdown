@@ -1,6 +1,5 @@
 ---
 layout: home
-show_in_header: false
 image: /assets/logo-with-text.png
 ---
 
