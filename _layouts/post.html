@@ -13,6 +13,26 @@ layout: default
       {%- endfor -%}
     </span>
   </header>
+  <div id="ad" class="text-center border px-4 py-4 mb-4"></div>
+  <script>
+    const ad = document.getElementById("ad");
+    const ads = {
+      dubsado: {
+        body: 'Like solving difficult problems and live in Los Angeles? <a href="https://www.notion.so/Dubsado-Job-Board-d122c307a4bb4025a9c4f249e2608b2d" target="_blank">Join me at Dubsado</a>.'
+      }, 
+      kaizen: {
+        body: 'Check out <a href="https://kaizen.place" target="_blank">Kaizen</a> where you can incrementally release your music or listen to other artists.'
+      },
+      engram: {
+        body: 'Check out <a href="https://github.com/adamjberg/engram" target="_blank">engram</a> an open source application for quickly gathering thoughts.'
+      }
+    };
+    const keys = Object.keys(ads);
+    const randomIndex = Math.floor(Math.random() * keys.length);
+    const key = keys[randomIndex];
+    const adToUse = ads[key];
+    ad.innerHTML = adToUse.body;
+  </script>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
