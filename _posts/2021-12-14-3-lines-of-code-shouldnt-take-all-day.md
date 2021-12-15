@@ -47,7 +47,7 @@ It's hard to emphasize just how important this threshold is. **At less than a se
 
 For the first time, I started enjoying writing code at work. Refactoring and moving large blocks of code was a breeze.  It became much easier to modify someone else's code and know that I didn't completely break everything. The **anxiety of making code changes disappeared**. 
 
-I went on to re-write the competition logic to speed it up and to add unit tests. There were all kinds of edge cases that made unit testing the perfect method for making sure all the bases were covered. When I finally left the company I felt better knowing that **I left a system that had it's own checks in place**.  The hours of me figuring out how something is supposed to work is codified in a test spec. 
+I went on to re-write the competition logic to speed it up and to add unit tests. There were all kinds of edge cases that made unit testing the perfect method for making sure all the bases were covered. When I finally left the company I felt better knowing that **I left a system that had its own checks in place**.  The hours of me figuring out how something is supposed to work is codified in a test spec. 
 
 ## Closing Thoughts
 
