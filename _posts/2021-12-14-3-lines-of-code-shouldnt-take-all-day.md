@@ -5,6 +5,12 @@ permalink: /3-lines-of-code-shouldnt-take-all-day
 image: assets/img/IMG_3498.jpg
 description: "Reflections on my time at Electronic Arts and techniques used to improve iteration times in video game development"
 tags: tails
+prev:
+  url: /how-to-set-up-server-side-rendering-ssr-with-react-and-esbuild
+  title: "How to Set Up Server Side Rendering (SSR) With React, express.js, and esbuild"
+nxt:
+  url: /building-my-first-command-line-interface-with-rust
+  title: "Building My First Command Line Interface (CLI) with Rust"
 ---
 
 ![](/assets/img/IMG_3498.jpg)

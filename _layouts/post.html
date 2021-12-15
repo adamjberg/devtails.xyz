@@ -25,18 +25,18 @@ layout: default
   <div class="flex">
     {% if page.prev or page.nxt %}
       {% if page.prev %}
-      <a class="flex-1" href="{{page.prev.url}}">&laquo; {{page.prev.title}}</a>
+      <a class="flex-1 mx-2" href="{{page.prev.url}}">&laquo; {{page.prev.title}}</a>
       {% endif %}
       {% if page.nxt %}
-      <a class="flex-1" href="{{page.nxt.url}}">{{page.nxt.title}} &raquo;</a>
+      <a class="flex-1 mx-2" href="{{page.nxt.url}}">{{page.nxt.title}} &raquo;</a>
       {% endif %}
     {% else %}
       {% if page.previous.url %}
-      <a class="flex-1" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+      <a class="flex-1 mx-2" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
       {% endif %}
     
       {% if page.next.url %}
-      <a class="flex-1" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      <a class="flex-1 mx-2" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
       {% endif %}
     {% endif %}
   </div>
