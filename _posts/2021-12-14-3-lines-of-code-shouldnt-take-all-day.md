@@ -2,8 +2,11 @@
 layout: post
 title:  "3 Lines of Code Shouldn't Take All Day"
 permalink: /3-lines-of-code-shouldnt-take-all-day
+image: assets/img/IMG_3498.jpg
 tags: tails
 ---
+
+![](/assets/img/IMG_3498.jpg)
 
 I have worked at 5 different software companies with a mixture of game development, mobile development, and web development. Across all of these, one topic stands out that does not get the attention it deserves: time to iterate.  Originally I planned to write about build times, but I think iteration times more accurately captures the full picture. For the purpose of this post, I define iteration time as **the amount of time it takes to see a change in code working as expected**.
 
