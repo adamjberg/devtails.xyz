@@ -15,7 +15,7 @@ The goal of this post is to help remind you to reflect on your current developme
 
 ## Electronic Arts
 
-I worked on the FIFA games during my time at EA. I remember my eyes widening when I saw that my desktop had 16 (maybe more?) CPU cores available. Then I remember following instructions to get things set up and was told to prepare for at least 30 minutes for the initial build. I'm told the incremental builds will be much faster after this.
+I joined the FIFA team as an intern back in 2014.  Completely new to the world of AAA game development. I remember my eyes widening when I saw that my desktop had 16 (maybe more?) CPU cores available. Then I remember following instructions to get things set up and was told to prepare for at least 30 minutes for the initial build. I'm told the incremental builds will be much faster after this.
 
 While the incremental builds were indeed much faster a single line of code change would still easily take more than 10 seconds to compile. As a relatively new C++ developer at the time, the number of syntax errors I made was high. **Every time I made a code change I was subjected to 15 seconds of waiting to see what I did wrong**.
 
