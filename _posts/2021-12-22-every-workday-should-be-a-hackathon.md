@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Work Days as a Software Developer Should be More Like a Hackathon"
-permalink: /workdays-as-a-software-developer-should-be-more-like-a-hackathon
+title:  "Every Workday Should be a Hackathon"
+permalink: /every-workday-should-be-a-hackathon
 image: assets/1640228485813-hackathon-workday.png
 description: "Getting stuff done and having fun don't have to be mutually exclusive"
 tags: tails
