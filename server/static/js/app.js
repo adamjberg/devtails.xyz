@@ -48,6 +48,8 @@ async function Post() {
     e.preventDefault();
     e.stopPropagation();
 
+    const cursorPosition = e.target.selectionStart;
+
     if (e.dataTransfer.files.length) {
       const file = e.dataTransfer.files[0];
       const fd = new FormData();
@@ -58,6 +60,9 @@ async function Post() {
           body: fd
       });
       const { data: filename } = await res.json();
+
+      const newText = `${textarea.value.substring(0, cursorPosition)}![](/assets/${filename})${textarea.value.slice(cursorPosition)}`
+      textarea.value = newText;
     }
   });
 
@@ -72,7 +77,7 @@ async function Post() {
       },
       method: "POST",
       body: JSON.stringify({
-        body: simplemde.value(),
+        body: textarea.value,
       }),
     });
   });

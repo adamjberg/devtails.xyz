@@ -40,7 +40,7 @@ app.post("/api/posts/:id", (req, res, next) => {
 })
 
 app.post("/api/upload", upload.single('image'), (req, res, next) => {
-  res.sendStatus({
+  res.json({
     data: req.file.filename
   });
 });
