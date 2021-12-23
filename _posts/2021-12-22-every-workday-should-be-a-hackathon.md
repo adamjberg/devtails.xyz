@@ -10,6 +10,8 @@ prev:
   title: "3 Lines of Code Shouldn't Take All Day"
 ---
 
+> The goal of a hackathon is to create functioning software or hardware by the end of the event
+
 I have only stumbled on a couple instances where someone clearly blocks out how a hypothetical work day should be structured for a software developer. It was many years before I stopped trying to get as much "work" done as possible and instead focused on finding a sustainable rhythm that was enjoyable and ultimately produced better results. Below is a breakdown of how a day in the life of a software developer could look.
 
 ![Google Calendar Screenshot](/assets/1640228485813-hackathon-workday.png)
