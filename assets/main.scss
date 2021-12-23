@@ -6,3 +6,11 @@
 @import "flexbox";
 @import "code";
 @import "text";
+@import "border";
+@import "padding";
+
+figcaption {
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}

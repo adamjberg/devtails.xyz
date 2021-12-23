@@ -1,8 +1,11 @@
 ---
 layout: home
-title: dev/tails
-show_in_header: false
+image: /assets/logo-with-text.png
 ---
+
+<div class="text-center fs-1 mb-30">dev / tails</div>
+
+![dev/tails](/assets/img/fox-logo.png)
 
 dev/tails is a publication dedicated to all topics related to software development.  Head to the [about page](/about) for more backstory.
 

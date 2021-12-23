@@ -3,6 +3,8 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  {% include ad.html %}
+
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <span class="post-meta">
@@ -21,11 +23,21 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
   <div class="flex">
-    {% if page.previous.url %}
-    <a class="flex-1" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-    <a class="flex-1" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% if page.prev or page.nxt %}
+      {% if page.prev %}
+      <a class="flex-1 mx-2" href="{{page.prev.url}}">&laquo; {{page.prev.title}}</a>
+      {% endif %}
+      {% if page.nxt %}
+      <a class="flex-1 mx-2" href="{{page.nxt.url}}">{{page.nxt.title}} &raquo;</a>
+      {% endif %}
+    {% else %}
+      {% if page.previous.url %}
+      <a class="flex-1 mx-2" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+      {% endif %}
+    
+      {% if page.next.url %}
+      <a class="flex-1 mx-2" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
     {% endif %}
   </div>
 </article>
