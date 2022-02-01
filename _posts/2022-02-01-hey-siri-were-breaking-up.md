@@ -57,6 +57,7 @@ Flash forward to today and I've found myself again in similar shoes. Despite my 
 ## Concluding Thoughts
 
 ![](/assets/img/watchy-nokia.jpg)
+<figcaption>The 90s called they want their phone back</figcaption>
 
 After reflecting on it, I strongly believe I would be happier with a less "smart" phone. A mobile phone's primary purpose has become completely lost in the modern technology world. In my opinion, a mobile phone should primarily be used as a device to call people.  Currently, if I need to call someone on my smart phone, it takes me several seconds to figure out how to even do this.  
 
