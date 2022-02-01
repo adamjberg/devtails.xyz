@@ -2,10 +2,13 @@
 layout: post
 title:  "Hey Siri, We're Breaking Up"
 permalink: /breaking-up-with-apple
-image: 
-description: 
+image: assets/img/watchy-nokia.jpg
+description: Motivations behind switching from a smart phone to a feature phone
 tags: tails
 ---
+
+<img src="/assets/img/apple.jpg"/>
+<figcaption>What should show up when searching for "apple"</figcaption>
 
 As I start this article I'm pulling the SIM card out of my ~~iPhone X Pro~~.
 
@@ -21,11 +24,17 @@ This post is the beginning of a long journey to reclaim my digital self.  Step o
 
 ## Erase iPhone
 
+![](/assets/img/erasebook.jpg)
+<figcaption>Totally real photage of me erasing apps one by one</figcaption>
+
 I navigate to the button to erase all content from the phone.  Even after clicking the button, I'm still nervous that something critically important lives on the device.  After submitting, it then starts uploading data to iCloud.  The previous screen said I have over 50 GB of space left, so I was worried it was going to try uploading all of that.  This part takes only about a minute and then it asks me to confirm my Apple ID Password to disable the Activation Lock.  I fill it in and hit the "Turn Off" button.  The phone asks me one final time to confirm that I want to delete all data on the device.  This warning comes with red text: "Erase iPhone".  
 
 I push the button and the phone shows the Apple logo above loading bar.  It cycles through a couple of times and then the screen goes black.  Finally it reboots now with just the Apple logo. And once again a slow moving loading bar.  Once this one is complete the phone writes "hello" on the screen in numerous languages.  It is now ready for a new owner and new home.
 
 ## How I Got Here
+
+![](/assets/img/nightstand-electronics.jpg)
+<figcaption>A nightstand should be calm, not filled with sleeping gadgets</figcaption>
 
 A couple of years ago, I shocked even myself when I switched from a Pixel 2XL to an iPhone. My Pixel had taken an unfortunate tumble that caused issues with the camera and audio.  Shortly after I completed my set with an Apple Watch.  "Wow", I thought as I didn't have to log in to my laptop when wearing my Apple Watch.  But as time went on, each of these things started to lose its luster.  
 
@@ -46,6 +55,8 @@ At the time, Facebook was probably the largest social media addiction for others
 Flash forward to today and I've found myself again in similar shoes. Despite my best efforts, I fill idle time with Reddit, Twitter, TikTok, HackerNews, news, etc.  I "can't wait" for a break in my day so I can scroll through endless mindless content that brings me little joy.  I used to make fun of cigarrette smokers for not realizing how bad the habit is for their health but continuing to do it.  But here I am doing the exact same thing (in some ways I would argue worse).
 
 ## Concluding Thoughts
+
+![](/assets/img/watchy-nokia.jpg)
 
 After reflecting on it, I strongly believe I would be happier with a less "smart" phone. A mobile phone's primary purpose has become completely lost in the modern technology world. In my opinion, a mobile phone should primarily be used as a device to call people.  Currently, if I need to call someone on my smart phone, it takes me several seconds to figure out how to even do this.  
 
