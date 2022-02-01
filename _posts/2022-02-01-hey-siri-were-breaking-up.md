@@ -40,9 +40,9 @@ A couple of years ago, I shocked even myself when I switched from a Pixel 2XL to
 
 My night time ritual became more focused on making sure all of my electronics got tucked in appropriately so I wouldn't be stranded with a dead device the next day.  I never ended up finding it more convenient to tap my wrist or phone to make a payment. At first, it was exciting to see people messaging me on my wrist.  But this eventually became a nuisance as time went on.  Every 5 minutes some new distraction would pop up on my wrist.  Early on I learned to disable the vibrate on notification.  Unfortunately, your wrist is pretty much always in view when working at a computer.  So even "silent" notifications would create a visual distraction.
 
-I configured some more until I was left with something that was calming.  This sleek, sexy, and over $500 device was now exclusively telling me the time. Decades of research went into making this device and the only thing I really wanted it to do was tell time.  For me, I have no desire to have something whizzing colorful lights at sounds at all times.  
+I configured some more until I was left with something that was calming.  This sleek, sexy, and over $500 device was now exclusively telling me the time. Decades of research went into making this device and the only thing I really wanted it to do was tell time.  For me, I have no desire to have something whizzing colorful lights and sounds at all times.  
 
-And so, a small seed was planted in the back of my mind. If all I wanted was for my watch to tell time, why not just build my own.  Long ago, in university I had seen how simple the hardware is for a digital clock.  And now we have some interesting new displays like e-ink.  I decided that I would build my own watch.  Not only would it be a great learning experience, but it would also allow me to build the device I truly wanted.
+And so, a small seed was planted in the back of my mind. If all I wanted was for my watch to tell time, why not just build my own?  Long ago, in university I had seen how simple the hardware is for a digital clock.  And now we have some interesting new displays like e-ink.  I decided that I would build my own watch.  Not only would it be a great learning experience, but it would also allow me to build the device I truly wanted.
 
 Somewhere in between all of this, I read [an article from someone about how they "downgraded" to a feature phone](https://artmatsak.com/post/first-three-months-with-nokia/). I resonated with a lot of what the author had to say about smart phones.  After reading this, I couldn't stop thinking about it. Would I be able to survive without a smart phone?
 
@@ -50,9 +50,9 @@ Somewhere in between all of this, I read [an article from someone about how they
 
 I have long battled addictions with technology. This first began with video games at home on a computer.  Once I started university it transitioned to silly mobile games that required constant attention throughout the day. Ironically, learning to build video games was the thing to finally put that nail in the coffin.  I was only able to take back control once I became knowledgeable enough to see that every game is the same thing wrapped in different clothing.
 
-At the time, Facebook was probably the largest social media addiction for others.  Funnily enough, my video game addiction helped me dodge that one.  When I finally broke away from video games I was "free" (Except for two jobs and a girlfriend...).
+At the time, Facebook was probably the largest social media addiction for others.  Funny enough, my video game addiction helped me dodge that one.  When I finally broke away from video games I was "free" (Except for two jobs and a girlfriend...).
 
-Flash forward to today and I've found myself again in similar shoes. Despite my best efforts, I fill idle time with Reddit, Twitter, TikTok, HackerNews, news, etc.  I "can't wait" for a break in my day so I can scroll through endless mindless content that brings me little joy.  I used to make fun of cigarrette smokers for not realizing how bad the habit is for their health but continuing to do it.  But here I am doing the exact same thing (in some ways I would argue worse).
+Flash forward to today and I've found myself again in similar shoes. Despite my best efforts, I fill idle time with Reddit, Twitter, TikTok, HackerNews, news, etc.  I "can't wait" for a break in my day so I can scroll through endless mindless content that brings me little joy.  I used to make fun of cigarrette smokers for not realizing how bad the habit is for their health but continuing to do it.  But here I am doing the exact same thing (worse in some ways, I would argue).
 
 ## Concluding Thoughts
 
