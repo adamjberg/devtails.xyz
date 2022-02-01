@@ -50,7 +50,7 @@ Somewhere in between all of this, I read [an article from someone about how they
 
 I have long battled addictions with technology. This first began with video games at home on a computer.  Once I started university it transitioned to silly mobile games that required constant attention throughout the day. Ironically, learning to build video games was the thing to finally put that nail in the coffin.  I was only able to take back control once I became knowledgeable enough to see that every game is the same thing wrapped in different clothing.
 
-At the time, Facebook was probably the largest social media addiction for others.  Funny enough, my video game addiction helped me dodge that one.  When I finally broke away from video games I was "free" (Except for two jobs and a girlfriend...).
+At the time, Facebook was probably the largest social media addiction for others.  Funny enough, my video game addiction helped me dodge that one.  When I finally broke away from video games I was "free".
 
 Flash forward to today and I've found myself again in similar shoes. Despite my best efforts, I fill idle time with Reddit, Twitter, TikTok, HackerNews, news, etc.  I "can't wait" for a break in my day so I can scroll through endless mindless content that brings me little joy.  I used to make fun of cigarrette smokers for not realizing how bad the habit is for their health but continuing to do it.  But here I am doing the exact same thing (worse in some ways, I would argue).
 
