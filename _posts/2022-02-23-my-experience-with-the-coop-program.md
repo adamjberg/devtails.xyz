@@ -2,7 +2,7 @@
 layout: post
 title:  "My Experience With the University of British Columbia (UBC) Co-op Program"
 permalink: /my-experience-with-the-ubc-coop-program
-image: assets/img/IMG_1161.jpg
+image: assets/img/coop-marco-adam.png
 description: A reflection on my experience through all stages of the co-op process from student to employer
 tag: tails
 ---
