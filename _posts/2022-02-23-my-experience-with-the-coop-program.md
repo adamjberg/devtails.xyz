@@ -2,12 +2,12 @@
 layout: post
 title:  "My Experience With the University of British Columbia (UBC) Co-op Program"
 permalink: /my-experience-with-the-ubc-coop-program
-image: assets/img/IMG_1161.jpg
+image: assets/img/coop-marco-adam.png
 description: A reflection on my experience through all stages of the co-op process from student to employer
 tag: tails
 ---
 
-This post is a reflection on my experience through all stages of the co-op process from student to employer.  I was recently awarded “[Co-op Super Supervisor](https://sciencecoop.ubc.ca/employers/award)” in 2021 which prompted the writing of this post.  If you are a prospective co-op student from UBC you will likely find a posting or two from my company, [xyzdigital](https://www.xyzdigital.com/) each work term.
+This post is a reflection on my experience through all stages of the co-op process from student to employer.  I was recently awarded “[Co-op Super Supervisor](https://sciencecoop.ubc.ca/employers/award)” in 2021 which prompted the writing of this post.  If you are a prospective co-op student from UBC you will likely find a posting or two from my company, [xyzdigital](https://www.xyzdigital.com/) each work term (at the time of writing Summer 2022 openings are filled).
 
 ## From Prospective Student Co-op
 
@@ -23,7 +23,7 @@ This course also introduced the Co-op program to me and I knew right away that w
 
 At UBC (University of British Columbia), each faculty runs its own co-op program to help match employers with students in fields related to their studies.  [The Engineering Co-op program advertises](https://coop.apsc.ubc.ca/prospective-students/) that it helps you: “develop your technical skills, make industry connections, gain firsthand experience, test out career options or apply your classroom learning to real-world problems.”  
 
-The program taught me how to make a resume, write a cover letter, interview, and apply for a job. Due to my immigration status as a dependent of a TN visa holder in the U.S. I was legally not allowed to work until I moved back to Canada for university.  Having a program specifically focused on getting a job in my field was tremendously helpful to overcome this.
+Prior to university, I lived in the U.S. and due to my immigration status was not legally able to work there.  Having a program specifically focused on getting a job in my field was tremendously helpful to overcome this. The program taught me how to make a resume, write a cover letter, interview, and apply for a job.
 
 ## To Co-op Student
 
