@@ -11,7 +11,7 @@ tags: tails flash
 
 ![](/assets/1641670725920-irok2.jpeg)
 
-In May 2012 I started my first software internship as a Game Developer at a now defunct startup company iRok2 Media Inc. The above screenshot is one of the few surviving images I can find of the project.
+In May 2012, I started my first software internship as a Game Developer at a now defunct startup company iRok2 Media Inc. The above screenshot is one of the few surviving images I can find of the project.
 
 Prior to joining, I had barely scraped together a Pong game in Java.  That was apparently enough to get me in the door. I was immediately thrown into a flash codebase and was in way over my head.
 
@@ -32,11 +32,14 @@ After making a couple simple demo projects, I managed to convince 3 friends to m
 
 ### Indie Game: The Movie
 
-Part of the inspiration for the project was [*Indie Game: The Movie*](https://en.wikipedia.org/wiki/Indie_Game:_The_Movie#:~:text=The%20film%20is%20about%20the,on%20the%20success%20of%20Braid.), a documentary about indie game developers.  The documentary introduced me to the [Independent Games Festival](https://igf.com/), an annual compeition where indie game developers went to showcase their work. I knew we'd never compete with the quality of games being released there, but upon further investigation, found that they had a student competition. 
+Part of the inspiration for the project was [*Indie Game: The Movie*](https://en.wikipedia.org/wiki/Indie_Game:_The_Movie#:~:text=The%20film%20is%20about%20the,on%20the%20success%20of%20Braid.), a documentary about indie game developers.  The documentary introduced me to the [Independent Games Festival (IGF)](https://igf.com/), an annual competition where indie game developers went to showcase their work. I knew we'd never compete with the quality of games being released there, but upon further investigation, found that they had a student competition. 
 
 The submission deadline was mid-October and we were already heading into late Summer. I knew that a deadline was the only thing that would motivate us to get something put together so I suggested we submit to the student IGF competition.
 
 ### Zoop
+
+![](/assets/1641668778541-i_solated.jpeg)
+<figcaption>Zoop doing some heavy lifting</figcaption>
 
 Before we had a game idea, the animator of the group showed us a cute little drawn robot character named "zoop".  This became the inspiration for a point and click adventure that would ultimately be titled: *i_solated*.
 
@@ -49,8 +52,6 @@ We had rough paper drawings of the levels we wanted to have and the "core game m
 
 ### Development
 
-![](/assets/1641668778541-i_solated.jpeg)
-
 I spent what felt like every evening and weekend outside of work working on the project.  I had never built a project this large and that meant a LOT of learning along the way.
 
 By October, most of the game was put together, but it was still not possible to make it through a full playthrough due to a variety of bugs.  I pulled a near all nighter before the submission deadline to at least get the first couple of levels functional.  I figured it would be some time before the judges actually had a look and maybe if they ran in to a problem they'd reach out and I've have it fixed by then.  Better yet, the submission was just a URL to the game.  Which means I could submit on time and still update the game after the fact.
@@ -61,8 +62,6 @@ I didn't expect this game to win any awards (and it definitely didn't), but work
 
 ## I Can No Longer Compile i_solated
 
-My commit history shows that I was still making fixes up until January 2013, several months after the competition.  Some were minor tweaks and fixes and I also remember tackling some major performance issues by converting vector graphics to bitmaps.  **Spoiler alert**: I suspect this is what ended up causing many of the issues that can be seen in the final build.  (to my knowledge, these issues did not exist when running the game at the time)
-
 It's been almost 10 years now, which is a lifetime in software (RIP Flash).  Between my poor documentation and the death of Flash, I am unable to figure out how to compile this anymore. I remember using [FDT](https://fdt.powerflasher.com/) for development, but this program crashes upon opening. I've tried installing the [Flex SDK](https://flex.apache.org/), but running the compiler throws errors about finding the location of certain required files (why these aren't a part of the SDK is beyond me).
 
 Thankfully, my past self decided to commit the final [built `swf` application](https://github.com/adamjberg/i_solated/blob/master/bin/Main.swf) into the code repository. Besides digging out a hard drive I'm not sure even exists anymore, I'm not sure I'll ever be able to modify the game again.
@@ -71,19 +70,23 @@ With Flash now unable to run in browsers the only way to play the game is to dow
 
 This is made more frustrating by the fact that something about newer standalone flash players causes one of the levels to be near unplayable.  I will probably have to accept that it will just remain broken for eternity until I take on the project of rewriting the game.
 
+My commit history shows that I was still making fixes up until January 2013, several months after the competition.  Some were minor tweaks and fixes and I also remember tackling some major performance issues by converting vector graphics to bitmaps.  **Spoiler alert**: I suspect this is what ended up causing many of the issues that can be seen in the final build.  (to my knowledge, these issues did not exist when running the game at the time)
+
 I'm sure it must be possible, so if you're somehow still a Flash wizard and reading this, the full source code is available [here on Github](https://github.com/adamjberg/i_solated).  Fixing the actual problem is a whole other thing, but in order to track that down I'd need to be able to rebuild the game.
 
 ## How to Play i_solated
 
 1. Download the [flash player projector](https://www.adobe.com/support/flashplayer/debug_downloads.html) for your respective operating system.
-1. Clone or download the repo https://github.com/adamjberg/i_solated
-1. Open the Flash Player Projector and click "File > Open File..."
-1. Select i_solated/bin/Main.swf
+1. Clone or download the repo [https://github.com/adamjberg/i_solated](https://github.com/adamjberg/i_solated)
+1. Open the Flash Player Projector and click `File > Open File...`
+1. Select `i_solated/bin/Main.swf`
 
 Apparently the build I checked in was a development one, which means it's possible to skip ahead levels by using the Right Arrow key.  Unfortunately, this doesn't correctly clean up audio, so you end up with overlapping songs if you do so.  But it can be a useful way to get a sense of the game.  And because the third chapter renders the past and present layers incorrectly, you pretty much have to skip it (it's technically completable, but quite painful).
 
 ## Final Thoughts
 
-When I first started i_solated, I never could have predicted this current situation. This experience is a reminder that proprietary things come and go.  I have already started the long journey towards future-proofing projects that I work on.  We've seen an explosion of languages, frameworks, and libraries in the last several years.  But how many of these will still be around in 5, 10, or 20 years?  I pretty much only have faith that C and the HTML specification will remain in widespread use.  Thankfully, I think we'll see better backwards compatibility on these kinds of things.  Though certain realms still feel heavily reliant on central entities.  If NPM ever shutters it's doors, the process to get your website back together again is going to be quite painful.
+When I first started building i_solated, I never could have predicted this current situation. This experience is a reminder that proprietary things come and go.  I have already started the long journey towards future-proofing projects that I work on.  We've seen an explosion of languages, frameworks, and libraries in the last several years.  But how many of these will still be around in 5, 10, or 20 years?  I pretty much only have faith that C and the HTML specification will remain in widespread use.  
+
+Thankfully, I think we'll see better backwards compatibility on these kinds of things.  Though certain realms still feel heavily reliant on central entities.  For example, If NPM ever shut its doors, the process to get your JavaScript project back together again is going to be quite painful.
 
 I miss Flash.  I don't know if we'll ever see the same kind of community around something like it.  I'm glad to have been a part of the story - even though I was a fairly late entrant.  In the future I'll share some more general thoughts on Flash that challenge some of the [conclusions that were drawn by Steve Jobs](https://newslang.ch/wordpress/wp-content/uploads/2020/06/Thoughts-on-Flash.pdf).
