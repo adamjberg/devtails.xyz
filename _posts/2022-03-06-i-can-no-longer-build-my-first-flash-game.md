@@ -7,6 +7,10 @@ description: A tale about game development and techonlogy obsolescence
 tags: tails flash
 ---
 
+**Update**
+
+With some [help from a HN user](https://news.ycombinator.com/item?id=30583307), I've managed to actually compile the main swf.  Unfortunately still unable to actually run the game as it's stuck at a grey screen at launch.  I have hope that this is just a silly issue and have started tracking this on [Github issues](https://github.com/adamjberg/i_solated/issues/4).  Thanks to all who have suggested things, has given me renewed interest in porting this over to Haxe/OpenFL.
+
 ## iRok2 Media Inc.
 
 ![](/assets/1641670725920-irok2.jpeg)
