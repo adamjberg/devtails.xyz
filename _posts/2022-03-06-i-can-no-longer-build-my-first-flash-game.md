@@ -9,7 +9,7 @@ tags: tails flash
 
 **Update**
 
-With some [help from a HN user](https://news.ycombinator.com/item?id=30583307), I've managed to actually compile the main swf.  Unfortunately still unable to actually run the game as it's stuck at a grey screen at launch.  I have hope that this is just a silly issue and have started tracking this on [Github issues](https://github.com/adamjberg/i_solated/issues/4).  Thanks to all who have suggested things, has given me renewed interest in porting this over to Haxe/OpenFL.
+With some [help from a HN user](https://news.ycombinator.com/item?id=30583307), I've managed to successfully compile the main swf.  The issue was a combination of not knowing the right command line parameters and there were a [couple code changes that needed to be made](https://github.com/adamjberg/i_solated/issues/4)  Thanks to all who have suggested things, has given me renewed interest in bringing this back to life.  I think a Haxe/OpenFL port is looking like the most likely option to get this running on the web.  That is an adventure for another day.
 
 ## iRok2 Media Inc.
 
