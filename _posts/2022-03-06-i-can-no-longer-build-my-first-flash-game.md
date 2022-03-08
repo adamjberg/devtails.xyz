@@ -9,7 +9,7 @@ tags: tails flash
 
 **Update**
 
-With some [help from a HN user](https://news.ycombinator.com/item?id=30583307), I've managed to successfully compile the main swf.  The issue was a combination of not knowing the right command line parameters and there were a [couple code changes that needed to be made](https://github.com/adamjberg/i_solated/issues/4)  Thanks to all who have suggested things, has given me renewed interest in bringing this back to life.  I think a Haxe/OpenFL port is looking like the most likely option to get this running on the web.  That is an adventure for another day.
+With some [help from a HN user](https://news.ycombinator.com/item?id=30583307), I've managed to successfully compile the main swf.  The issue was a combination of not knowing the right command line parameters and there were a [couple code changes that needed to be made](https://github.com/adamjberg/i_solated/issues/4)  Thanks to all who have suggested things, has given me renewed interest in bringing this back to life.  I think a Haxe/OpenFL port is looking like the most likely option to get this running on the web.  Or perhaps helping out the [ruffle.rs](https://ruffle.rs/) project to get AS3 working as intended. That is an adventure for another day.
 
 ## iRok2 Media Inc.
 
