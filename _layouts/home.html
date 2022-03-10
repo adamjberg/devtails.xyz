@@ -9,7 +9,6 @@ layout: default
 
   {{ content }}
 
-  {% assign posts = site.posts %} 
   {%- if page.tag -%}
     {% assign posts = site.posts | where_exp: "item", "item.tags contains page.tag" %}
   {%- endif -%}

@@ -3,24 +3,36 @@ layout: home
 image: /assets/logo-with-text.png
 ---
 
-<div class="text-center fs-1 mb-30">dev / tails</div>
+<div class="text-center fs-1">dev / tails</div>
 
 ![dev/tails](/assets/img/fox-logo.png)
 
-dev/tails is a publication dedicated to all topics related to software development.  Head to the [about page](/about) for more backstory.
+<style>
+  .box {
+    border: 1px solid black;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
 
-## [learntocode](/tags/learntocode)
+  .box-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+</style>
 
-One major category is [learntocode](/tags/learntocode), which is specifically targeted at individuals just beginning their journey to learning how to code.
+<div class="box">
+  <a href="/tags/dev"><div class="box-title">dev</div></a>
+  <div>Independent posts on how to use different technologies and tools.</div>
+</div>
 
-I strongly believe that project based learning is the way to go and so the learning on this site will be centered around that. If you are new to programming, it's best that you tackle these in order as the first few will cover some more foundational knowledge. This topic will be broken down into [`courses`](/tags/courses). Courses will be broken down into [`projects`](/tags/project). Projects will be broken down into [`assignments`](/tags/assignments). 
 
-## [dev](/tags/dev)
+<div class="box">
+  <a href="/tags/tails"><div class="box-title">tails</div></a>
+  <div>Stories (tales) from my experience as a software engineer and lessons learned along the way</div>
+</div>
 
-Anything tagged with #dev will be isolated posts on specific topics. These won't be part of any structured curriculum, but often will cover more intermediate to advanced topics such as how to use a specific library.
-
-## [tails](/tags/tails)
-
-Stories are an important method of showcasing what it's really like to be a developer.  `tails` will be less focused on the code side of things and focus more on telling a story or ranting about some particular subject.
-
-# Posts
+<div class="box">
+  <a href="/tags/learntocode"><div class="box-title">learn</div></a>
+  <div>Project based curriculum for learning web development</div>
+</div>
