@@ -95,3 +95,10 @@ Thankfully I have the tools and knowledge to do so. The only struggle now is **g
 
 | Are you going to dine out your entire life? Or are you eventually going to **wake up** and realize that **learning to cook is not really that difficult**?
 
+# Other Tails
+
+[3 Lines of Code Shouldn't Take All Day](/3-lines-of-code-shouldnt-take-all-day)
+
+[I Can No Longer Compile My First Flash Game](/i-can-no-longer-compile-my-first-flash-game)
+
+[Hey Siri, We're Breaking Up](/breaking-up-with-apple)
