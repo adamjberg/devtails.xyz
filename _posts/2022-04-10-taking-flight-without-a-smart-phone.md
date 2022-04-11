@@ -30,21 +30,21 @@ This is how I eventually landed on the idea of taking a **flight over Squamish**
 
 **Addictions are like cults**, you don't really know you have one until you're out of it. Hanging out with friends as the only person without a smart phone causes you to see things from a different perspective.
 
-Count how many times someone you're hanging out with checks their phone, often while you are mid-conversation. Or just have a look around at a coffee shop and see how many people are just idly tapping through Instagram stories (aka most people's dopamine drip) **wanting and wishing** their life could be like someone elses.
+Count how many times someone you're hanging out with checks their phone, often while you are mid-conversation. Or just have a look around at a coffee shop and see how many people are just idly tapping through Instagram stories (aka most people's dopamine drip) **wanting and wishing** their life could be like someone else's.
 
 ![](/assets/1649606329218-A7R08714.jpeg)
-<figcaption>In this case, obeying the pilots orders was probably a good idea</figcaption>
+<figcaption>In this case, obeying the pilot's orders was probably a good idea</figcaption>
 
 I'm curious when these people find time to **break away from this slavery**. Or if they realize how much it can hurt them in the long run. Society loves to point fingers at companies like Facebook for how harmful social media is. I would agree on many levels, but having grown up with it, I don't remember it always being the toxic place it now often is. 
 
 I instead think the slippery slope began with the advent of the touch screen.  Once corporations were given the ability to put an **advertisement in our pocket**, that was the beginning of the end.  Our system is designed to wring out as much money as physically possible, usually regardless of other implications.
 
-The next time you're scrolling though Instagram, TikTok, or whatever other alternative and see that ad interrupting what you're doing, remember that the only reason it exists is to make more money. If you're thinking "but they need the money so they can pay their workers."  Have a look at the compensation data below and tell me these companies aren't doing ok. And if you're struggling to afford a home in your area, I again refer you to the data below.
+The next time you're scrolling though Instagram, TikTok, or whatever other alternative and see that ad interrupting what you're doing, remember that the only reason it exists is to make more money. If you're thinking "but they need the money so they can pay their workers," have a look at the compensation data below and tell me these companies aren't doing ok. If you're struggling to afford a home in your area, I again refer you to the data below.
 
 ![](/assets/1649608866890-FacebookSalaryData.png)
 <figcaption>Facebook compensation data from <a href="https://www.levels.fyi/company/Facebook/salaries/">levels.fyi</a></figcaption>
 
-Enough of that tangent let's get back to the topic at hand and return to big tech in a future post.
+Enough of that tangent; let's get back to the topic at hand and return to big tech in a future post.
 
 # Nearly Impossible to Get By Without Smart Phone
 
