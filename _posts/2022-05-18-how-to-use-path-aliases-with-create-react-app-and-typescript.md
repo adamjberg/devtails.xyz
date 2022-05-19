@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to Use Path Aliases With Create React App (CRA) and Typescript"
-permalink: /how-to-use-path-aliases-with-create-react-app-and-typescript
+title:  "How to Use Path Aliases With Create React App (CRA), Webpack, and Typescript"
+permalink: /how-to-use-path-aliases-with-create-react-app-webpack-and-typescript
 tags: dev
 ---
 
