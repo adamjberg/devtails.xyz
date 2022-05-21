@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Building My Own App to Enhance Language Learning
+title:  Building an App for Myself to Enhance Language Learning
 permalink: /building-my-own-app-to-enhance-language-learning
 description: I've started to craft my own structure for learning and as usual it has led me to build a small app to help consolidate knowledge
 image: assets/img/vocab-2.png
