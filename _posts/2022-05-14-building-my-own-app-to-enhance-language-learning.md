@@ -7,7 +7,7 @@ image: assets/img/vocab-2.png
 tags: dev
 ---
 
-# Background
+## Background
 
 A couple of years ago, I read [Fluent in Three Months](https://www.amazon.ca/Fluent-Months-Anyone-Language-Anywhere/dp/0062282697/ref=sr_1_2?crid=3EIDH85VULGC&keywords=how+to+be+fluent+in&qid=1652553951&sprefix=how+to+be+fluent+in%2Caps%2C127&sr=8-2) and was inspired to tackle learning a new language.  **After studying and working with computer languages, I realized that learning new ones became easier and easier once I understood the underlying concepts**.  
 
@@ -19,9 +19,9 @@ I learned a lot in this time, particularly around the rules and conventions of t
 
 In two weeks, I travel to Bulgaria. I have picked things back up and am doing my best to get to a level where I can at least participate in some small way while there.  **I've started to craft my own structure for learning and as usual it has led me to build a small app to help consolidate knowledge**.
 
-# Language Learning Strategies
+## Language Learning Strategies
 
-## Listening to Songs
+### Listening to Songs
 
 Listening to Bulgarian songs has been one of my favorite ways to learn new words and practice Bulgarian.  Ледено момиче by D2 is the first song I have poured effort into learning:
 
@@ -29,7 +29,7 @@ Listening to Bulgarian songs has been one of my favorite ways to learn new words
 
 I pull the lyrics to a song and then run them through Google Translate to get a fairly accurate translations (I usually fact check anything that sounds weird).  Thankfully, song lyrics are usually quite simple.  As an added bonus, **it is enjoyable to listen to the same song over and over again which helps reinforce the words**.
 
-## Reading the News
+### Reading the News
 
 ![](/assets/img/vocab-0.png)
 <figcaption>24часа homepage (bg)</figcaption>
@@ -41,13 +41,13 @@ I use the built-in Translate this page tool in Google Chrome to cycle back and f
 ![](/assets/img/vocab-0en.png)
 <figcaption>24часа homepage (en)</figcaption>
 
-# The `vocab` App
+## The `vocab` App
 
-## Repository
+### Repository
 
 The code for the web app described below can be found on [Github](https://github.com/adamjberg/engram/tree/main/vocab).
 
-## What Should it Do?
+### What Should it Do?
 
 I acquired basic vocabulary from my initial course and other learnings, but I have found it **difficult to decide what vocabulary to focus on**.  There is surely **some limit to the number of words I can properly encode in a given day**. 
 
@@ -62,14 +62,14 @@ I also want it to enhance my experience with my song learning and news reading. 
 1. It shows me what words in a sentence I should already know
 2. It shows me what words I don't know and should be translating and adding to my system
 
-# Minimum Viable Product
+## Minimum Viable Product
 
-## User Stories
+### User Stories
 
 - As a user, I can enter a Bulgarian word and provide the English translation
 - As a user, I can highlight known Bulgarian words in given piece of text
 
-## Entity Relationship Diagram
+### Entity Relationship Diagram
 
 ```mermaid
  classDiagram
@@ -82,9 +82,9 @@ I also want it to enhance my experience with my song learning and news reading. 
 
 There are so many more things than this that I want this to do, but **capping it off here ensures that I will actually be able to complete this in a single programming session** and start using it the same day.
 
-# Development
+## Development
 
-## Data Persistence
+### Data Persistence
 
 I wanted to keep data storage dead simple, so decided to just store the words in a csv file.  
 
@@ -104,13 +104,13 @@ for (const row of rows) {
 }
 ```
 
-## Saving a New Word
+### Saving a New Word
 
-### UI
+#### UI
 
 ![](/assets/img/vocab-1.png)
 
-### API
+#### API
 
 ```js
 app.post("/api/vocab", (req, res) => {
@@ -147,15 +147,15 @@ app.post("/api/vocab", (req, res) => {
 });
 ```
 
-## Highlighting a Word
+### Highlighting a Word
 
-### UI
+#### UI
 
 ![](/assets/img/vocab-2.png)
 
 It's nothing fancy, but it gets the job done. 
 
-### API
+#### API
 
 ```js
 // Checks to see if Bulgarian word exists in current dataset
@@ -190,11 +190,11 @@ app.post("/api/highlight", async (req, res) => {
 });
 ```
 
-# What Did I Learn?
+## What Did I Learn?
 
 > The purpose of a Minimum Viable Product is to gain a better understanding of what you should actually be building and how it should work.
 
-## Grammar, Conjugations, and other Rules
+### Grammar, Conjugations, and other Rules
 
 Most langauges have some concept of applying minor changes to some root word. For nouns, you can have "apple" or "apples" ("ябълка" или "ябълки").  In English, usually this is just a "-s" or maybe "-es", but there's also **fun exceptions like "octopi"**. Bulgarian is no different and has more variety in how to pluralize a noun. Verbs have a similar issue with conjugations and tenses.
 
@@ -202,7 +202,7 @@ In using my highlighter for the first time, **I was faced with questions about h
 
 The neatest part of this challenge, is that this is the same problem I am currently struggling with.  I don't have the basic rules and conventions embedded in my brain yet. **My hope is that by forcing myself to write it out for a computer, the knowledge will be reinforced for myself.**
 
-# What's Next?
+## What's Next?
 
 Eventually I hope to be able to use this data to develop a fairly basic translation engine. Teaching is one of the most effective ways to learn something, and teaching a computer requires teaching it exactly what it needs to know.
 
