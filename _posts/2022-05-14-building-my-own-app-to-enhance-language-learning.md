@@ -41,7 +41,7 @@ I use the built-in Translate this page tool in Google Chrome to cycle back and f
 ![](/assets/img/vocab-0en.png)
 <figcaption>24часа homepage (en)</figcaption>
 
-## The `vocab` App
+## Vocab App
 
 ### Repository
 
