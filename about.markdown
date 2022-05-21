@@ -17,7 +17,7 @@ This blog is where I will share my thoughts on software development topics such 
 
 ## Why dev/tails?
 
-Recently I started journaling about some work related events and also started to generally see more development stories being shared on the Internet. I thought it would be fun to have a place to share these "dev tales" (as I started to refer to them).  That seemed a bit too straightforward and one day I randomly stumbled on a photo of Tails from Sonic the Hedgehod and the moniker [devtails](https://twitter.com/devtails) was born.
+Recently I started journaling about some work related events and also started to generally see more development stories being shared on the Internet. I thought it would be fun to have a place to share these "dev tales" (as I started to refer to them).  That seemed a bit too straightforward and one day I randomly stumbled on a photo of Tails from Sonic the Hedgehog and the moniker [devtails](https://twitter.com/devtails) was born.
 
 When I was a kid [Sonic the Hedgehog 2](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2) was the greatest game I had ever played. As the younger sibling, I was destined to be player two (aka [Tails](https://en.wikipedia.org/wiki/Tails_(Sonic_the_Hedgehog))). In two player mode, the game still really only cares about Sonic. The camera follows Sonic and sometimes I would find myself completely offscreen only to be teleported back to where Sonic actually was.  Some might not have considered this position fun. However, it came with a significant benefit: Tails could infinitely respawn. Lessons learned: only one person can be player one at a time and lean in to the strengths of whatever hand you've been dealt.
 
