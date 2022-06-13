@@ -159,7 +159,7 @@ esbuild
     },
     {
       entryPoints: ["./src/index.js"],
-      outfile: "./public/js/app.js",
+      outfile: "./public/assets/app.js",
       bundle: true,
       loader: {
         ".js": "jsx",
