@@ -2,7 +2,7 @@
 layout: post
 title:  "Reflecting on the Future - A Mirror Sample of Thinks to Come"
 permalink: /@randy/all-old-movies-are-garbage
-ext_image: "assets/img/sample-in-progress.png"
+image: "assets/img/sample-in-progress.png"
 description: Mine and mind the media of the past to posit a picture of the future - in small measured samples. We will think quietly and calmly before expressing thoughts and opinions resulting from forward reflection; and aim to throw back light or sound on bygone eras with words and images.
 tags: tails analog-sampling
 ---
