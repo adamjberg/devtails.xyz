@@ -7,11 +7,9 @@ description: Mine and mind the media of the past to posit a picture of the futur
 tags: tails analog-sampling
 ---
 
-![](/assets/img/sample-in-progress.png)
-
-<!-- <video width="720" height="480" controls>
-   <source src="/assets/img/BlackHoleSon720.avc.mp4" type="video/mp4">
-</video> -->
+<video width="720" height="480" controls>
+   <source src="/assets/img/BlackHoleSon.webm" type="video/webm">
+</video>
 
 **OLD'S COOL?**
 
