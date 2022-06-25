@@ -7,7 +7,7 @@ description: Mine and mind the media of the past to posit a picture of the futur
 tags: tails analog-sampling
 ---
 
-<video width="720" height="480" controls>
+<video width="720" height="auto" controls style="max-width: 100%">
    <source src="/assets/img/BlackHoleSon.webm" type="video/webm">
 </video>
 
