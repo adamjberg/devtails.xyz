@@ -94,7 +94,9 @@ layout: default
   {%- if posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in posts -%}
+        {% if post.id != page.id %}
         {%- include post-preview.html -%}
+        {% endif %}
       {%- endfor -%}
     </ul>
   {%- endif -%}
