@@ -2,6 +2,7 @@
 layout: post
 title:  Taking Flight Without a Smart Phone
 author: adam
+author_rank: 3
 permalink: /taking-flight-without-a-smart-phone
 description: Reflections after one month with a feature phone
 image: assets/1649606064087-A7R08696.jpeg
