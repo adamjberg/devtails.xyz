@@ -16,7 +16,7 @@ tags: tails analog-sampling
 
 I am Old School human equipped with analog gears, but thankfully patched up with digital tape. Having a fair amount of life passed, I tend to spend a lot of time reflecting on my past. It seems like I always need to have a bar to measure and gauge my present with the paths and events it took to get me here. What was my record?
 
-I have a thousand memories of positive greatness, but the reflections that come back are often on the negative side. Perhaps that is just physics, not age related. As described by the Blue Oyster Cult [Blue Oyster Cult](https://www.youtube.com/watch?v=F1HrO2W6w-4):
+I have a thousand memories of positive greatness, but the reflections that come back are often on the negative side. Perhaps that is just physics, not age related. As described by the [Blue Oyster Cult](https://www.youtube.com/watch?v=F1HrO2W6w-4):
 
 "A [mirror](https://www.azlyrics.com/lyrics/blueoystercult/mirrors.html) is a negative space
 with a frame
