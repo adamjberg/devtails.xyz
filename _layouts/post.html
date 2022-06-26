@@ -20,7 +20,69 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.tags contains "learntocode" %}
+  {% if page.tags contains "tails" or page.tags contains "dev" %}
+    <hr>
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup {
+        clear: left;
+      }
+
+      #mc_embed_signup form {
+        padding: 8px;
+      }
+    </style>
+    <div id="mc_embed_signup">
+      <form action="https://xyz.us1.list-manage.com/subscribe/post?u=d597bd6edc50da6946aed0608&amp;id=83f1715cd3"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        novalidate>
+        <div id="mc_embed_signup_scroll">
+          <h2>Subscribe to Monthly Newsletter</h2>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+            </label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+          <div hidden="true"><input type="hidden" name="tags" value="3991333"></div>
+          <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+              name="b_d597bd6edc50da6946aed0608_83f1715cd3" tabindex="-1" value=""></div>
+          <div class="optionalParent">
+            <div class="clear foot">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+              <p class="brandingLogo"><a href="http://eepurl.com/hwNINX"
+                  title="Mailchimp - email marketing made easy and fun"><img
+                    src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script
+      type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+    <!--End mc_embed_signup-->
+
+    <!-- <h2>More from {{page.author}}</h2> -->
+    {% assign posts = site.posts | where_exp: "item", "item.author contains page.author and item.author_rank" | sort: "author_rank" %}
+    {%- if posts.size > 0 -%}
+      <ul class="post-list">
+        {%- for post in posts -%}
+          {% if post.id != page.id %}
+          {%- include post-preview.html -%}
+          {% endif %}
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+  {% elsif page.tags contains "learntocode" %}
   <div class="flex">
     {% if page.prev or page.nxt %}
     {% if page.prev %}
@@ -39,66 +101,8 @@ layout: default
     {% endif %}
     {% endif %}
   </div>
+
   {% else %}
-  <hr>
-  <!-- Begin Mailchimp Signup Form -->
-  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    #mc_embed_signup {
-      clear: left;
-    }
 
-    #mc_embed_signup form {
-      padding: 8px;
-    }
-  </style>
-  <div id="mc_embed_signup">
-    <form action="https://xyz.us1.list-manage.com/subscribe/post?u=d597bd6edc50da6946aed0608&amp;id=83f1715cd3"
-      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-      novalidate>
-      <div id="mc_embed_signup_scroll">
-        <h2>Subscribe to Monthly Newsletter</h2>
-        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-        <div class="mc-field-group">
-          <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-          </label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-        </div>
-        <div hidden="true"><input type="hidden" name="tags" value="3991333"></div>
-        <div id="mce-responses" class="clear foot">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-            name="b_d597bd6edc50da6946aed0608_83f1715cd3" tabindex="-1" value=""></div>
-        <div class="optionalParent">
-          <div class="clear foot">
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-            <p class="brandingLogo"><a href="http://eepurl.com/hwNINX"
-                title="Mailchimp - email marketing made easy and fun"><img
-                  src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-  <script
-    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-  <!--End mc_embed_signup-->
-
-  <!-- <h2>More from {{page.author}}</h2> -->
-  {% assign posts = site.posts | where_exp: "item", "item.author contains page.author and item.author_rank" | sort: "author_rank" %}
-  {%- if posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in posts -%}
-        {% if post.id != page.id %}
-        {%- include post-preview.html -%}
-        {% endif %}
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
   {% endif %}
 </article>
