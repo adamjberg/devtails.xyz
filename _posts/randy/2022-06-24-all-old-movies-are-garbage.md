@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Reflecting on the Future - A Mirror Sample of Thinks to Come"
-permalink: /@randy/reflecting-on-the-future
-ext_image: "assets/img/sample-in-progress.png"
-description: Mine and mind the media of the past to posit a picture of the future - in small measured samples. We will think quietly and calmly before expressing thoughts and opinions resulting from forward reflection; and aim to throw back light or sound on bygone eras with words and images.
+title:  "All Old Movies Are Garbage (In the End)"
+permalink: /@randy/old-movie-are-garbage
+ext_image: "assets/img/old-movie-are-garbage.png"
+description: Mine 
 tags: tails analog-sampling
 ---
 
@@ -13,70 +13,71 @@ tags: tails analog-sampling
    <source src="/assets/img/BlackHoleSon720.avc.mp4" type="video/mp4">
 </video> -->
 
-**OLD'S COOL?**
+**DIRT ON THE FRAME**
 
-I am Old School human equipped with analog gears, but thankfully patched up with digital tape. Having a fair amount of life passed, I tend to spend a lot of time reflecting on my past. It seems like I always need to have a bar to measure and gauge my present with the paths and events it took to get me here. What was my record?
+I would personally like to thank the motion picture industry for paying me over the years to help clean up in the movie business. Also, thanks to its new technology for polluting the planet to a slower and lesser degree now than before. Chief among the benefits of the sharp and painful transition from film to digital was the massive reduction in physical product manufacturing, distribution and disposal. 
 
-I have a thousand memories of positive greatness, but the reflections that come back are often on the negative side. Perhaps that is just physics, not age related. As described by the Blue Oyster Cult [Blue Oyster Cult](https://www.youtube.com/watch?v=F1HrO2W6w-4):
+One of the few projects I remember from grade school was my Grade 4 required report on pollution. Relying solely on magazine-type sources for pictures to cut out and glue paste, I found enough photographs of smoke spewing stacks, poisoned rivers and ruined landscapes to make the grade. The research and images burned my eyes; turned my stomach; learned my mind. I couldn't believe mankind could do such a thing to the same planet we eat and breathe from. I swore that I would never in my life be a polluter. 
 
-"A [mirror](https://www.azlyrics.com/lyrics/blueoystercult/mirrors.html) is a negative space
-with a frame
-And a place for your face
-It reveals what the rest of us see
-It conceals what you'd like it to be"
+**POLLUTION CONTROL DEVICE** 
 
-We see our own progress go bacward and forward (and upside down through our eyes, you know). The positive in life was expected; the negative was not. Altogether, history is important to revisit, but one must never go back and live there. Every day we face a new barrage of problems and choices – who has time to look at old ones?
+Nevertheless, my first big job was at a pollution chugging chemical plant – with tailing ponds of acidic waste as large as a small city. My resistance to harming the earth melted away as fast as I could stash away that big paycheck, even after daily corrosive dust coatings and breathing deadly chemicals through gaps in my gas mask seal. 
 
-That said, in this series of articles – **Analog Sampling**, we shall mine and rewind the media of the past to posit a picture of the future. In small measured samples, to be precise. To be definitively reflective, we will think quietly and calmly before expressing thoughts and opinions resulting from forward reflection; and aim to throw back light or sound on bygone eras with words and motion pictures.
+In time my activist-style "memo to the management" essays earned me a reputation as a writer who could reasonably put words together for the big picture. I was assigned to create a training program for a key transportation function of the plant. Working with Wang word processors (ha!) and video equipment conveniently needed to be performed in an office, insulated from the noise, fumes and dust and shift work. 
 
-**WHAT IS SAMPLING?**
+After the summer project I was completed, I was unceremoniously dumped back out into the pollution and night shifts. It wasn't too long before I quit for a cleaner living; large paycheck and rational plans be damned. I figured computers weren't going to kill me, so they may have a future beyond typing. I better learn to type. 
 
-To start, **Sampling** is the process of converting continuous **Analog** signal data to discrete **Digital** values. **Signals** (waves of light, sound, radio etc.) in the world are real world are analog. A **Sample** is a single measurement of **Amplitude** in **Time**. 
+**MOUNT FILLMORE** 
 
-Key variables for determining the results and validity of sampling are: 
+Flash forward in my timeline. I later worked for a Deluxe style company that once processed and distributed a billion feet of acetate-based film (used for movie release prints) per year, in order to get Hollywood films out to theaters around the world. That was billion. With a B. Per year – gradually getting to that high volume point over 90 years since the film business began. 
 
-- **Sensitivity** - smallest change in an input signal that can cause the measuring device to respond 
+There was a competing company with a Technicolor name that produced a similar volume over the same long time frame, so let's just say – two heckuva lots of film feet pumped out of Los Angeles. 
 
-- **Accuracy** - measure of the capability of the instrument to faithfully indicate the value of the measured signal 
+Film started off on the wrong feet - the original type of film product was self-destructing and highly toxic to boot. Cellulose-nitrate film was used until about 1952, when it finally became apparent that basing your business model on a highly flammable product derived from military-grade explosives may not be so good an idea. 
 
-- **Precision** - measure of the stability of the instrument and its capability of resulting in the same measurement over and over again for the same input signal 
+Many a studio film storage facility burned to the ground if the film stock didn't disintegrate into powder first. New technology in film manufacture enabled the film industry to shine into the future, rather than fade into the past. Well, 60 more years into the future. 
 
-- **Noise** - uncertainty of the measurement because of the effect of noise in the measurement and is factored into determining the accuracy 
+**THE SHOW MUST GO ON** 
 
-The different spellings of the key word Analog (US) and Analogue (UK) could loosely be used as an example of analog vs. digital representation. The original word spelling Analogue is all/whole: analog; upon digital conversion, the unneeded data (u & e) is silent and not encoded. On playback, the audible result is the same – with Digital Analog coming in with a 25% letter saving. 
+A SKU count of 7,000 copies of the master print was required for the average movie by the turn of the 21st century. Each print moved from city to town to village to overseas on pavement and diesel or air and jet fuel.  Multiply that by the hundreds of movies produced for theatrical release each year, and that adds up to many tons of product. Product that needs massive resources to go places on a strict timeline; by truck, by plane, by hook or crook. The movie plays on release date or there is hell to freeze over. 
 
-**MY EGG SAMPLE**
+With sales growing to a billion of anything by any measure, massive revenue ensues. With revenues come jobs, development, tax sources, and good stories – but also causing permanent blindness in one eye (just the one looking at potential problems). Still, with my good eye I saw no smokestacks obscuring the sun, and none of that film got me dirty or made me keel over from burned lungs. I am ahead of the game and plan at this point.  
 
-Starting from ground zero; my technology sampling perspective comes from growing up in the 1960s, especially good memories of visiting my grandparents on the farm. My mother's father was an early century homesteader – by the Roaring Twenties he had not a little house prairie and all the best of everything. 
+**THE SHOW MUST GO... IN THE DUMP** 
 
-Then 1929 crashed a lot of dreams; it seemed the family house and occupants got stuck in that time. The same big wooden box telephone and party line was still in use into the 60s. Their communication technology did not change for over 40 years. No one needed anything more than what they knew about at the time. 
+When the rolling film reels fail to draw in enough paying customers, the product is declared dead. Spent reels may have worked just fine for another 100 years (just shine a light), but they were good for nothing when the next film came to town. Those billions of feet of film? Where does all that non-biodegradable hazard go to rot slower than a McDonald's Big Mac? 
 
-We now live in a world where technology does not stay relevant for 40 years. While CDs are still going since 1983 and DVDs since 1997, it's only because we can't save ourselves from dipping into the Dollar Store Disc Bin. Being in any Digital business means that anyone can replicate your data, your product, your idea - at less cost to steal than it took you to make it. If you don't make it big fast, you are the one in the Dollar bin. In many industries, constant product churn is necessary just to keep even of the game. 
+Straight to the garbage dump, as there is no recycle code number for acetate film. Better than single use straws, or not. 
 
-My present perspective is that I need to spend a lot more of my present tense time envisioning what my influence on the world's direction could be, so I can work more effectively now to radiate positive energy in the right direction. 
+**TRADING ANALOG DOLLARS FOR DIGITAL DIMES** 
 
-Amid plenty of success, significant portions of my used-up lifetime and hard-earned money were wasted chasing down a few wrong avenues and dreams. Bleeding edge learning came with a costly curve - the urge has long hoped to bury those bodies and cover the trail leading to them. My family has instead encouraged me to go back inside my head and make sense of those experiences - good and bad, as they relate to our family business today.
+My company long had foresight that digital was a real thing, and that the writing was on the projection screen for the physical film distribution business. While enormous costs were invested to seed new replacement media technologies, the inevitable and more sudden than expected decline in revenues was jarring. The old school sales team used to joke that we were "trading analog dollars for digital dimes." It wasn't a joke - the days of chemically printing dollars was over. 
 
-**BITE SIZED SAMPLE PLATTER**
+**COMPACT DISCONTINUED** 
 
-Analog Sampling (or should it be Analog Dumpling: a bite sized pinch-wrapped morsel?) will thus forward be a digital (online) snippet of some analog (offline) part of the world as it happened to me. You probably don't need to hear the TLDR versions, so for the time sensitive audience we'll set the Frequency at weekly and the Amplitude at the 1,024-word stun level. 
+Millions of containers with billions of feet of film in bits is still sitting out there in paid, climate controlled buildings. The magical era of digital movie-making serially  ushered in different physical products to hold the movie for processing and posterity: videotapes, data backup tapes, hard and solid state drives and memory devices. We have made a continent of new mountains with new movie media. At least it is not flammable. 
 
-While we can report on what is reflected behind us clearly (hindsight), we also hope to point the light cone ahead, from whence it comes and goes. The future can tell us exactly how things happened in the meantime – we just need the right projector to capture where the light dispersed from today is going and play it back. 
+You can't shine a light through to see the content with any one of these newfangled technology items, and you will always need a specific machine and electricity to function. Unless made of a totally dead format, it is less necessary to throw away every piece of storage media, with reuse and recycling often being an option. 
 
-While sometimes we have a good concept of where we and the lighted path are going, we may just have to make some of this stuff up for now. The quantum future will reveal whether we are right or wrong, or both at the same time - the information will be there for further compare. 
+Data will be stored until costs overcome value or product failure determines its fate. Note that every spinning hard drive ever created will stop working one day. Who knows when that will be, other than when needed most? 
 
-We will attempt to flip the picture frame to positive and reverse: light to be thrown back the right way so that we may see improvements applicable for today. We may get into self-serving rants about tastes and wastes relating to planets, corporations, energy, habits, humans and resources, but all in the cause of providing a reasonably **Accurate** sample with a **Precision** theme, and with limited **Noise**. 
+**MYSTERY IN THE MAKING** 
 
-How is that for X Sample? 
+Like switching from gasoline to electric cars, with Digital Everything we have just shifted the pollution up and down stream to where we really don't have to think about it. The movie meat comes nicely packaged down the cloud pipe so you have no need to think of the dead bits left at the factory, nor at the dump when done. 
 
+Giant server farms and data centers are water wasters and coal eaters; heat generators; climate changers - and we will ruin a lot more Earth before we figure out something better using less energy. 
+
+Direction from here is unknown, but feature film movies will always be trashed to a matter of degree - by critics, by necessity, or by design. 
+
+##RELATED READING 
+
+ 
+
+https://www.amnh.org/.../general-conservation/health-safety/nitrate-films 
 Randy Berg
 ##---
 ## RECOMMENDED READING
 
 [Analog Communication - Sampling (tutorialspoint.com)](https://www.tutorialspoint.com/analog_communication/analog_communication_sampling.htm)
 
-[Analog/Digital and Sampling (uark.edu)](http://csce.uark.edu/~ahnelson/CSCE4114/lectures/lecture11.pdf)
 
-[Sampling Analogue Signal Tutorial - MATLAB : 8 Steps - Instructables](https://www.instructables.com/Sampling-Analogue-Signal-Tutorial-MATLAB/)
-
-[Analog sampling: what do accuracy, sensitivity, precision, and noise mean? - Embedded.com](https://www.embedded.com/analog-sampling-what-do-accuracy-sensitivity-precision-and-noise-mean/)
