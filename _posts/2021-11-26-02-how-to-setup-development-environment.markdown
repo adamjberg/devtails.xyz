@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Setup Your Development Environment"
+author: adam
 permalink: /how-to-setup-your-development-environment
 tags: learntocode assignment
 ---

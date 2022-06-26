@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Deploy a Simple NodeJS Server to Linux VM"
+author: adam
 permalink: /how-to-deploy-a-simple-nodejs-server-to-linux-vm
 image: assets/img/simple-nodejs-server.png
 description: An introductory lesson on how to run a nodejs server on linux VM

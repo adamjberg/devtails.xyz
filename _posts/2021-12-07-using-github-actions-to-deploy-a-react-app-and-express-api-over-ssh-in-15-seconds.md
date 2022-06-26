@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Using Github Actions to Deploy a React App and Express API Over SSH in  15 seconds"
+title:  "Using Github Actions to Deploy a React App and Express API Over SSH in 15 seconds"
+author: adam
 permalink: /using-github-actions-to-deploy-a-react-app-and-express-api-over-ssh-in-15-seconds
 tags: react devops
 ---

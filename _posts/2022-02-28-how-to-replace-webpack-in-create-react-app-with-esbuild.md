@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Replace Webpack in Create React App With esbuild"
+author: adam
 permalink: /how-to-replace-webpack-in-create-react-app-with-esbuild
 image: assets/img/0-cra.png
 description: 

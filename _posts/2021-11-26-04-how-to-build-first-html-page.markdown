@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Build Your First HTML Page"
+author: adam
 permalink: /how-to-build-your-first-html-page
 tags: learntocode assignment web
 ---
