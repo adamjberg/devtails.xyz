@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Building My First Command Line Interface (CLI) with Rust"
+author: adam
 permalink: /building-my-first-command-line-interface-with-rust
 image: https://cdn-images-1.medium.com/max/8064/1*4B_IJvXzRd0kyRjj-8lfJw.jpeg
 description: After telling myself over and over that today is the day I start learning rust. I finally successfully built a command line app for engram.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Use Path Aliases With Create React App (CRA), Webpack, and Typescript"
+author: adam
 permalink: /how-to-use-path-aliases-with-create-react-app-webpack-and-typescript
 tags: dev
 ---
@@ -121,4 +122,5 @@ export default App;
 ## Resources
 
 [https://stackoverflow.com/questions/63067555/how-to-make-an-import-shortcut-alias-in-create-react-app](https://stackoverflow.com/questions/63067555/how-to-make-an-import-shortcut-alias-in-create-react-app)
+
 [https://dev.to/larswaechter/path-aliases-with-typescript-in-nodejs-4353](https://dev.to/larswaechter/path-aliases-with-typescript-in-nodejs-4353)

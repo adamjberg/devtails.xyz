@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "I Can No Longer Compile My First Flash Game"
+author: adam
 permalink: /i-can-no-longer-compile-my-first-flash-game
 image: assets/1641668778541-i_solated.jpeg
 description: A tale about game development and techonlogy obsolescence

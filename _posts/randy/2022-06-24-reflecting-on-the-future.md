@@ -1,17 +1,16 @@
 ---
 layout: post
 title:  "Reflecting on the Future - A Mirror Sample of Thinks to Come"
+author: randy
 permalink: /@randy/reflecting-on-the-future
-ext_image: "assets/img/sample-in-progress.png"
+image: "assets/img/sample-in-progress.png"
 description: Mine and mind the media of the past to posit a picture of the future - in small measured samples. We will think quietly and calmly before expressing thoughts and opinions resulting from forward reflection; and aim to throw back light or sound on bygone eras with words and images.
 tags: tails analog-sampling
 ---
 
-![](/assets/img/sample-in-progress.png)
-
-<!-- <video width="720" height="480" controls>
-   <source src="/assets/img/BlackHoleSon720.avc.mp4" type="video/mp4">
-</video> -->
+<video width="720" height="auto" controls style="max-width: 100%">
+   <source src="/assets/img/BlackHoleSon.webm" type="video/webm">
+</video>
 
 **OLD'S COOL?**
 
