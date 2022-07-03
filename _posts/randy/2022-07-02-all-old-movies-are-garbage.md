@@ -5,7 +5,7 @@ author: randy
 permalink: /@randy/old-movies-are-garbage
 image: "assets/img/old-movies-are-garbage.png"
 description: For over 100 years, film presented the world before our eyes in ever increasing volume and scale. Adding up to BILLIONS of feet of product, no movie patron gave too much thought about where all the movie reels go when they leave the theater.
-tags: tails randy analog-sampling
+tags: tails analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
