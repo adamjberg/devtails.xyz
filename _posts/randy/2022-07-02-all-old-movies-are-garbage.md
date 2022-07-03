@@ -9,7 +9,7 @@ tags: tails analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/assets/img/old-movies-are-garbage-720.avc.mp4" type="video/mp4">
+   <source src="/assets/old-movies-are-garbage-720.mp4" type="video/mp4">
 </video>
 
 **DIRT IN MY EYE**
