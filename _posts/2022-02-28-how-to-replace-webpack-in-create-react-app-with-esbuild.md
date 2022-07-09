@@ -6,7 +6,7 @@ author_rank: 5
 permalink: /how-to-replace-webpack-in-create-react-app-with-esbuild
 image: assets/img/0-cra.png
 description: 
-tags: dev
+tags: dev react esbuild
 ---
 
 The year is 2022 and all your web development friends tell you to learn React.  To make things simple, they tell you about this thing called [Create React App](https://github.com/facebook/create-react-app).  You see that in three commands you can have a fully configured React app running and rejoice.

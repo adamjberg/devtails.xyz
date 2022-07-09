@@ -9,7 +9,7 @@ tags: tails analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/assets/img/BlackHoleSon.mp4" type="video/mp4">
+   <source src="/assets/img/BlackHoleSon.webm" type="video/webm">
 </video>
 
 **OLD'S COOL?**
