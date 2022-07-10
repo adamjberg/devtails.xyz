@@ -4,7 +4,7 @@ title:  "Car Trek Technology - Joy Ride of the Century "
 author: randy
 permalink: /@randy/car-trek-technology
 image: "assets/img/car-trek-technology.png"
-description: Mine
+description: The world as we know it was made small by automobiles, and made bigger by the car radio. While it took many basic inventions and technologies (metals, wheels, lubricants, etc.) to build the first car, technology now pervades through all parts of the automotive food chain. The pace of change was not always so fast, so enjoy this slow walk through mobile dashboard technology.
 tags: tails analog-sampling
 ---
 
@@ -14,13 +14,13 @@ tags: tails analog-sampling
 
 **WHEN AUTOS WERE HARD WARE** 
 
-Automotive transportation is one of the key pivotal innovations that connected mankind and permanently changed the world. It was not one single instant technology to start, but rather the amalgamation of a few disparate ones.
+Automotive transportation is one of the key pivotal innovations that connected mankind and permanently changed the world. There was not one complete instant technology to start, but rather arising from the amalgamation of a few disparate ones.
 
 Coachbuilders had been making people-carrying carriages since Roman times; [steam](https://www.britannica.com/technology/steam-engine) and [electric motors](https://www.eti.kit.edu/english/1376.php) existed almost a century prior to the first commercial automobile. 
 
 What took everyone so long to think to put motive power together with wheels? Henry Ford is often incorrectly credited with inventing the automobile. He did not – the Benz Patent-Motorcar was the first production automobile made in 1885. 
 
-In 1913, copying OPT (Other Peoples' Technology) Ford instead created the [assembly line](https://www.thehenryford.org/collections-and-research/digital-collections/expert-sets/7139). The improvement in process was biggest catalyst for changing the world; not technology. Early cars were threadbare hardware – minimum viable products with no fat on the bones; creature comforts not yet  invented. Yet the rest of mankind was now just a road and drive away. 
+In 1913, copying OPT (Other Peoples' Technology) Ford instead developed the first automobile [assembly line](https://www.thehenryford.org/collections-and-research/digital-collections/expert-sets/7139). The improvement in process was biggest catalyst for changing the world; not technology. Early cars were threadbare hardware – minimum viable products with no fat on the bones; creature comforts not yet invented. Yet the rest of mankind was now just a road and drive away. 
 
 **GREEN ACHES & AM** 
 
@@ -32,11 +32,11 @@ FM radio had its own option box on car dealer order forms, but few buyers checke
 
 Before a dime was considered on any vehicle safety repair, one had to first bolt on the next step in the auto-sound revolution: an under dash 8-Track tape player. You may have had to cut another hole on the other side of rear package tray for speaker #2. Better for you but worse for the car though, was cutting holes in those cherry front door or kick panels for speakers #3 & 4. 
 
-The playback headend technology evolved to cassette tape and then to compact disc, but for generations any goofy teenager could handle this stereo upgrade in the driveway. 
+The playback head unit technology evolved to cassette tape and then to compact disc, but for generations any goofy teenager could handle this stereo upgrade in the driveway. 
 
 **MONEY FOR NOTHING** 
 
-Towards the 21st century, electronic and computer technology really changed in short order. Big-Auto had wised up to the fact that if they used the same the same dash hole template forever, customers would not order their factory premium priced radio products in favor of better stereo aftermarket goods. Integrating various components into more modern unique sculpted dashboards made it hard for customization after the factory. 
+Towards the 21st century, electronic and computer technology really changed in short order. Big-Auto had wised up to the fact that if they used the same dash hole template forever, customers would not order their factory premium priced radio products in favor of better stereo aftermarket goods. Integrating various components into more modern unique sculpted dashboards made it hard for customization after the factory. 
 
 Still, automotive electronic components are planned long in advance for model year assembly lines, and are generally outdated by the time the customer buys from the dealer. In spite of always behind the times, the entertainment systems in vehicles became a serious cash cow for the automakers. Charging big bucks for yesterday's ghetto blaster equivalent system was great for the bottom line. 
 
@@ -61,7 +61,7 @@ Still, automotive electronic components are planned long in advance for model ye
 **COMMUNICATION** 
 
      MOBILE CAR PHONE 
-     [ON-STAR (GM) 
+     ON-STAR (GM) 
      NAVIGATION 
      INFOTAINMENT SYSTEM 
      AUTONOMOUS VEHICLE 
