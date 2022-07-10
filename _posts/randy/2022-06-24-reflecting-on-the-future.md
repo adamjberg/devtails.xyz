@@ -16,9 +16,9 @@ tags: tails analog-sampling
 
 I am Old School human equipped with analog gears, but thankfully patched up with digital tape. Having a fair amount of life passed, I tend to spend a lot of time reflecting on my past. It seems like there is always the need to have a bar to measure and gauge present with the paths and events it took to get here. What, after decades n the "media" business, was accomplished?
 
-I have a thousand memories of positive greatness, but the reflections that come back are often on the negative side. Perhaps that is just physics, not age related. As described by the [Blue Oyster Cult](https://www.youtube.com/watch?v=F1HrO2W6w-4),
+I have a thousand memories of positive greatness, but the reflections that come back are often on the negative side. Perhaps that is just physics, not age related mirror diffraction. As described by the [Blue Oyster Cult](https://www.youtube.com/watch?v=F1HrO2W6w-4),
 
-     "A [mirror](https://www.azlyrics.com/lyrics/blueoystercult/mirrors.html) is a negative space with a frame 
+     "A mirror is a negative space with a frame 
      And a place for your face 
      It reveals what the rest of us see 
      It conceals what you'd like it to be" 
@@ -84,3 +84,5 @@ Randy Berg
 [Sampling Analogue Signal Tutorial (MATLAB : 8 Steps - Instructables)](https://www.instructables.com/Sampling-Analogue-Signal-Tutorial-MATLAB/)
 
 [Analog sampling: what do accuracy, sensitivity, precision, and noise mean? (Embedded.com)](https://www.embedded.com/analog-sampling-what-do-accuracy-sensitivity-precision-and-noise-mean/)
+
+[Mirrors -AZLyrics.com](https://www.azlyrics.com/lyrics/blueoystercult/mirrors.html)
