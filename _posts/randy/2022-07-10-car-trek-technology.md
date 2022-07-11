@@ -9,7 +9,7 @@ tags: tails analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/assets/img/car-trek-technology-720.mp4" type="video/mp4">
+   <source src="/assets/car-trek-technology-720.mp4" type="video/mp4">
 </video>
 
 **WHEN AUTOS WERE HARD WARE** 
