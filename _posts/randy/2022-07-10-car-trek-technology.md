@@ -26,7 +26,7 @@ In 1913, copying OPT (Other Peoples' Technology) Ford instead developed the firs
 
 Getting a driver's learning permit certainly grew my world; bought my first car for $285 at age 15. The only communication technology aboard that very ugly mallard green 1967 Pontiac Strato Chief was a push-button AM radio and the horn for forward replies. 
 
-FM radio had its own option box on car dealer order forms, but few buyers checked it off in the heydays of AM radio. The one speaker in the back window shelf was scratchy and good for nothing, but if the ignition key was on, the radio was on. Aerial up and away: I was connected to the outside world. If I could go back and apologize to the neighbors for the volume, I would feel better yelling at all the loud music idiots driving around today. 
+FM radio had its own option box on car dealer order forms, but few buyers checked it off in the heydays of AM radio. The one speaker in the back window shelf was scratchy and good for nothing, but if the ignition key was on, the radio was on. Aerial up and away: I was connected to the outside world. If I could go back and apologize to my former neighbors for the volume, I would feel better yelling at all the loud music idiots like me driving around today. 
 
 **8-TRACK MIND** 
 
@@ -66,7 +66,7 @@ Still, automotive electronic components are planned long in advance for model ye
      INFOTAINMENT SYSTEM 
      AUTONOMOUS VEHICLE 
 
-We've never had or knew we needed so much information and entertainment. Now we must have "infotainment" as if a new term and skill set was needed to keep us progressing in synch. On one hand it seems ridiculous but to be truthful, the 2022 list of features for Tesla's [Infotainment Upgrade](https://www.tesla.com/support/infotainment) is admittedly astounding in technical depth: 
+We've never had or knew we needed so much information and entertainment. Now we must have "infotainment" as if a new term and skill set was needed to keep us progressing in synch. On one hand it seems ridiculous but to be truthful (on the other hand), the 2022 list of features for Tesla's [Infotainment Upgrade](https://www.tesla.com/support/infotainment) is admittedly astounding in technical depth: 
 
 **TESLA INFOTAINMENT UPGRADE** 
 
@@ -77,37 +77,43 @@ We've never had or knew we needed so much information and entertainment. Now we 
      SECURITY 
      CELLULAR & WIFI 
 
-AM radio is not possible – but good riddance. FM radio is another story – one could expect it but you need to pay $500 to listen to free radio. Billionaires... they get you coming and going, then back up over you to make sure no more money falls out. 
+AM radio is not possible – but good riddance. FM radio is another story – one could expect it but you need to pay $500 to listen to free radio. Billionaires... they get you coming and going, then back up over you to make sure no more cash falls out. 
 
 **DISTRACTED THRIVING** 
 
-Just because we can do something does not always mean it is a good idea, such as telephoning and driving. Studies have shown that the act of simply talking on a phone (even if hands-free) is a significant distraction for a driver. Multitaskers at heart, we think that while we can see and hear multiple subjects at a time – but realistically the brain can only focus on one thing. 
+Just because we can do something does not always mean it is a good idea, such as telephoning and driving. Studies have shown that the act of simply talking on a phone (even if hands-free) is a significant distraction for a driver. 
 
-Choose your focus carefully – even if only for self-defense. There are a sickening number of folks driving down the highway at full speed, but with head down looking at their phone. [Distracted driving](https://policyadvice.net/insurance/insights/distracted-driving-statistics) causes nearly one third as many deaths per year as drunk driving (~3,000 vs. 10,000). Off yourself away from my lane, thank you very much. 
+Multitaskers at heart, we think that while we can see and hear multiple subjects at a time – but realistically the brain can only focus on one thing. 
 
-I can admit to one possible character flaw – I love music. I love modern cabin multi-speaker systems, and I love music loud (not on your street though). Can one fully concentrate on the road while singing and tapping to the loved music at any volume? Probably not. While chances are slim, one day a critical horn honk from a neighboring car, emergency siren or train whistle may not be heard instead of that last swan song. 
+Choose your focus carefully – even if only for self-defense. There are a sickening number of folks driving down the highway at full speed, but with head down looking at their phone. [Distracted driving](https://policyadvice.net/insurance/insights/distracted-driving-statistics) causes nearly one third as many deaths per year as drunk driving (~3,000 vs. 10,000 US ~2019). Off yourself away from my lane, thank you very much. 
+
+I can admit to one possible character flaw – I love music; the better the song, the louder. Can one fully concentrate on the road while singing and tapping to music at high volume? Probably not. While chances are slim, one day a critical horn honk from a neighboring car, emergency siren or train whistle may not be heard instead of that last swan song. 
 
 **GLITCH IN THE PAY-TRICKS** 
 
-Another ominous trend is that what used to be free is no longer; over-the-air broadcast options are being supplanted with "Premiums". Every product needs an account and a subscription, which really means YOU are the product, and maybe dumb enough to pay a privilege fee for the rest of your life. Forced monetization is a curse across the electronic communication spectrum, but you can just say no if you wish to remain in the last century. 
+Another ominous trend is that what used to be free is no longer; over-the-air broadcast options are being supplanted with "Premiums." Every product needs an account and a subscription, which really means YOU are the product, and maybe dumb enough to pay a privilege fee for the rest of your life. 
+
+Forced monetization is a curse across the electronic communications spectrum, but you CAN just say no if you wish to remain in the last century. 
 
 **CONNECTED TO THE ENDS** 
 
-The hardware/software value ratio to the automobile has flipped - gone soft. No car this century was designed without software, got to the assembly line without programming, or was marketed to a customer without coding, or without computer bits guiding delivery.
+The hardware/software value ratio to the automobile has flipped - gone soft. No car this century was designed without software, got to the assembly line without programming, was marketed to a customer without coding, or shipped without computer bits guiding delivery.
 
-Technology in the dash is among the top considerations in a modern day vehicle purchase. Volks want their Wagon connected and powered. Customer demand is surely what drives automakers to a new level of "stereo" wars. 
+While innovations in power and styling have hit a padded wall, technology in the padded dash is among the top considerations in a modern day vehicle purchase. Volks want their Wagon connected and powered. Customer demand is surely what drives automakers to a new level of "stereo" wars. 
 
 **SLEEPER CAR TECH**
 
-Buick is running a 2022 ad campaign featuring their new in-car voice-activated search, with the older lead actor mis-calling his own car's brand by an Amazon brand: Alexa. The message is an insult trifecta – to Buick's own brand, to their target customers, and to our intelligence. 
+Buick is running a 2022 ad campaign this season featuring their new in-car voice-activated search. The older lead actor mis-calls his own car's brand by an Amazon brand: Alexa. The message is an insult trifecta – to Buick's own brand, to their target customers, and to our intelligence. 
 
-     "Alexa: Is this the best Buick can do?""
+     "Alexa: Is this the best Buick can do?"
      
      "ummm"
      
-     "Buick: I mean Alexa: please change driving directions to the nearest Tesla dealer." 
+     "Buick: I mean Alexa:
+      please change driving directions
+      to the nearest Tesla dealer." 
 
-All joking while being serious aside, if I am ever homeless, I would make sure my last possession was a Tesla, not a Buick (except for a 1954 Skylark). That way, it would be comforting to live on the street with your fingers on the dash and pulse on the world.  
+All joking while being serious aside, if Apocalypse comes early and I am homeless, I would make sure my last possession was a Tesla, not a Buick (except for a 1954 Skylark). That way, it would be comforting to live on the street with fingers on the dash and pulse on the world.  
 
 Music just loud enough to not disturb the neighbors. 
 
@@ -121,7 +127,7 @@ Randy Berg
 
 ## RECOMMENDED READING
 
-[The History of Car Radios (caranddriver.com)](https://www.caranddriver.com/features/a15128476/the-history-of-car-radios) 
+[The History of Car Radios - caranddriver.com](https://www.caranddriver.com/features/a15128476/the-history-of-car-radios) 
 
 [History and development of early Car Radios - radiomuseum.org](https://www.radiomuseum.org/forum/first_car_radios_history_and_development_of_early_car_radios.html) 
 
