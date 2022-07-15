@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 Second Video Takes All Day"
+title: "How Can 10 Second of Video Take All Day?"
 author: randy
 permalink: /@randy/10-second-video-takes-all-day
 image: "assets/img/10-second-video.png"
@@ -32,7 +32,7 @@ Video content can now be uploaded in real time by any sole individual with a cel
 
 While creating (and recreating) the short banner animation accompanying the story on [last week's post](https://devtails.xyz/@randy/car-trek-technology), my significantly better half asked how much time was left before I was done. Other chores beckoned.
 
-As I had finally just settled on the final concept while tinkering on the timeline, I could only reply with a feeble "few more hours." How can I justify to anyone that it takes that long to punt out a 10-second video program?
+As I had finally just settled on the final concept while tinkering on the timeline, I could only reply with a feeble "few more hours." How can I justify to anyone that it takes so long to punt out a 10-second video program?
 
 Son Adam recently wrote an article on the tribulations of coding a big project: [3 Lines of Code Shouldn't Take All Day](https://devtails.xyz/3-lines-of-code-shouldnt-take-all-day). Limiting software development processes impeded progress, and he was having none of it.
 
