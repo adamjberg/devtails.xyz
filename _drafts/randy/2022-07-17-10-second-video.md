@@ -8,7 +8,7 @@ description: In the age of Tik-Tok and flavor-of-the-month mob apps that instant
 tags: tails randy analog-sampling
 ---
 
-![How Can 10 Seconds of Video Take All Day?](/assets/10-second-video.png)
+![How Can 10 Seconds of Video Take All Day?](/assets/img/10-second-video.png)
 
 <video width="720" height="auto" controls style="max-width: 100%">
    source src="/assets/10-second-video-720.mp4" type="video/mp4">
