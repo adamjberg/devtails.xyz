@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "How Can 10 Second of Video Take All Day?"
+title: "How Can a 10 Second Video Take All Day?"
 author: randy
 permalink: /@randy/10-second-video-takes-all-day
 image: "assets/img/10-second-video.png"
 description: In the age of Tik-Tok and flavor-of-the-month mob apps that instantly share minute insights to the world, a more complex video will take more time to produce. Here is a creative project review of our own making.
 tags: tails randy analog-sampling
 ---
-
-![How Can 10 Seconds of Video Take All Day?](/assets/10-second-video.png)
 
 <video width="720" height="auto" controls style="max-width: 100%">
    source src="/assets/10-second-video-720.mp4" type="video/mp4">
@@ -94,7 +92,7 @@ Wait - some PLANNING and TALENT may still be necessary!
 
 **CONCEPT IN PROGRESS**
 
-Ideas for creative concepts develop while writing the words to Analog Samplings. In the same way articles change heading and direction mid-draft, it helps to be flexible on video execution. 
+Ideas for creative concepts develop while writing the words to [Analog Samplings](/tags/analog-sampling). In the same way articles change heading and direction mid-draft, it helps to be flexible on video execution. 
 
 Concepts turn into creative choices with the help of STORYBOARDS - a board of stories you are supposing to tell. Professionally this is done on formatted templates with typed words and example pictures and diagrams. 
 
@@ -102,7 +100,13 @@ If there is no team of people to yell at or otherwise communicate with, formalit
 
 For a scant 10-second video, you likely do not need a spreadsheet to keep track of your project - your head may have capacity for a few items of note (minimum one required). Sometimes you can get away with using the flipbook in your mind. 
 
-Based on the storyboard, some sheep (ewe) has to put together a shot list of media parts needed to pretend together for the show. In the case of the [Car Trek Technology](https://devtails.xyz/@randy/car-trek-technology_blank) video: 
+Based on the storyboard, some sheep (ewe) has to put together a shot list of media parts needed to pretend together for the show.
+
+In the case of the Car Trek Technology video for the previous article, the list is fairly short:
+
+<video width="720" height="auto" controls style="max-width: 100%">
+   <source src="/assets/car-trek-technology-720.mp4" type="video/mp4">
+</video>
 
       SHOT LIST
           VIDEO
