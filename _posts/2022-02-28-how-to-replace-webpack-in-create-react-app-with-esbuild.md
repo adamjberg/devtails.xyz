@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  "How to Replace Webpack in Create React App With esbuild"
+author: adam
+author_rank: 5
 permalink: /how-to-replace-webpack-in-create-react-app-with-esbuild
 image: assets/img/0-cra.png
 description: 
-tags: dev
+tags: dev react esbuild
 ---
 
 The year is 2022 and all your web development friends tell you to learn React.  To make things simple, they tell you about this thing called [Create React App](https://github.com/facebook/create-react-app).  You see that in three commands you can have a fully configured React app running and rejoice.
 
-```
+```bash
 npx create-react-app my-app
 cd my-app
 npm start
@@ -37,7 +39,7 @@ On other projects, I've seen production build times balloon to over a minute. So
 
 In the past, I've written about the importance of quick iteration times in [3 lines of code shouldn't take all day](https://devtails.xyz/3-lines-of-code-shouldnt-take-all-day).  This same principle carries over to deploying code.  Something cannot be claimed to be done until it has been fully verified in a production environment.  The slower this process is, the longer a person must wait to see if their code is working as expected.
 
-This post demonstrates how to replace the webpack bundler installed by create-react-app with the much faster esbuild bundler.
+**This post demonstrates how to replace the webpack bundler installed by create-react-app with the much faster esbuild bundler.**
 
 I've previously written about [bundling your express app using esbuild](https://devtails.xyz/bundling-your-node-js-express-app-with-esbuild), which captures some of the benefits of esbuild.  
 
@@ -47,11 +49,11 @@ I've previously written about [bundling your express app using esbuild](https://
 
 ## Update Build Script in package.json
 
-```
+```json
 // package.json
 "scripts": {
     "start": "react-scripts start",
-    "build": "esbuild src/index.js --bundle --outfile=public/js/app.js --loader:.js=jsx",
+    "build": "esbuild src/index.js --bundle --outfile=public/assets/app.js --loader:.js=jsx",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 },
@@ -69,9 +71,9 @@ With the default create-react-app application, you should see the following erro
 
 The first two errors suggest adding `--loader:.js=jsx` to the build command.  Esbuild does this by default for files with the `jsx` extension, but this is required to handle files with just the `.js` extension.
 
-```
+```json
 // package.json
-"build": "esbuild src/index.js --bundle --outfile=build/js/app.js --loader:.js=jsx"
+"build": "esbuild src/index.js --bundle --outfile=public/assets/app.js --loader:.js=jsx"
 ```
 
 ## Add Loader for SVG
@@ -82,14 +84,14 @@ The default app uses the import syntax to include an svg image.  esbuild does no
 
 In order to load the new plugin we need to change our build command to use the esbuild JavaScript API.  
 
-```
+```js
 // build.js
 const esbuild = require("esbuild");
 const inlineImage = require("esbuild-plugin-inline-image");
 
 esbuild.build({
   entryPoints: ["./src/index.js"],
-  outfile: "./public/js/app.js",
+  outfile: "./public/assets/app.js",
   minify: true,
   bundle: true,
   loader: {
@@ -99,7 +101,7 @@ esbuild.build({
 }).catch(() => process.exit(1));
 ```
 
-```
+```json
 // package.json
 "build": "node build.js"
 ```
@@ -116,7 +118,7 @@ Create React App creates a `public` folder with several files pre-poulated.  The
 
 With our new esbuild build, there is no need for this file to be a template.  Remove the references to `%PUBLIC_URL%` and add a script tag pointing to our newly built `app.js` and `app.css` bundles.
 
-```
+```html
 // public/index.html
 <!DOCTYPE html>
 <html lang="en">
@@ -142,11 +144,11 @@ With our new esbuild build, there is no need for this file to be a template.  Re
 </html>
 ```
 
-You will also likely want to add `public/js` to your `.gitignore` as you likely don't want to be checking in the production build.
+You will also likely want to add `public/assets` to your `.gitignore` as you likely don't want to be checking in the production build.
 
 ## Add serve.js Script to Automatically Rebuild Changes
 
-```
+```js
 // serve.js
 const esbuild = require("esbuild");
 const inlineImage = require("esbuild-plugin-inline-image");
@@ -159,7 +161,7 @@ esbuild
     },
     {
       entryPoints: ["./src/index.js"],
-      outfile: "./public/js/app.js",
+      outfile: "./public/assets/app.js",
       bundle: true,
       loader: {
         ".js": "jsx",
@@ -170,9 +172,18 @@ esbuild
   .catch(() => process.exit());
 ```
 
+## Add React import to top of App.js
+
+```diff
+// App.js
++ import React from "react";
+```
+
+Without this you will see an error that "React is not defined" which is because esbuild won't include it in the final bundle if it never saw it imported.
+
 ## Replace npm start with serve.js
 
-```
+```json
 // package.json
 "start": "node serve.js"
 ```

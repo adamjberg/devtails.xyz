@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "WEB 100: Intro to Web Development"
+author: adam
 permalink: /course/web/100
 tags: learntocode course web
 ---

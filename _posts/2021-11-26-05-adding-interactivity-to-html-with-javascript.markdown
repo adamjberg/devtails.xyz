@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Adding Interactivity to HTML With JavaScript"
+author: adam
 permalink: /adding-interactivity-to-html-with-javascript
 tags: learntocode assignment web js
 ---

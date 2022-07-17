@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Build a Note Taking Command Line Application With Rust: Part 1"
+author: adam
 permalink: /how-to-build-a-note-taking-command-line-application-with-rust
 image: https://cdn-images-1.medium.com/max/8064/1*4Fq7K0d07prvWsuxCG1Esg.jpeg
 description: Creating and saving notes to an sqlite database

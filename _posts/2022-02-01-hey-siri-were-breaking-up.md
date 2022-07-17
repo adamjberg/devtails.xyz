@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hey Siri, We're Breaking Up"
+author: adam
+author_rank: 2
 permalink: /breaking-up-with-apple
 image: assets/img/watchy-nokia.jpg
 description: Motivations behind switching from a smart phone to a feature phone

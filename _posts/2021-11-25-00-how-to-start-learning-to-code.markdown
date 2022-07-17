@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Start Learning to Code"
+author: adam
 permalink: /how-to-start-learning-to-code
 tags: learntocode
 ---

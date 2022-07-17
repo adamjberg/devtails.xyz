@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Building a Simple Notes Web Application With HTML, JS, and CSS"
+author: adam
 permalink: /building-a-simple-notes-web-application-with-html-js-and-css
 tags: learntocode project web
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Every Workday Should be a Hackathon"
+author: adam
 permalink: /every-workday-should-be-a-hackathon
 image: assets/1640228485813-hackathon-workday.png
 description: "Getting stuff done and having fun don't have to be mutually exclusive"

@@ -9,8 +9,12 @@ layout: default
 
   {{ content }}
 
-  {%- if page.tag -%}
+  {%- if page.author -%}
+    {% assign posts = site.posts | where_exp: "item", "item.author contains page.author" %}
+  {%- elsif page.tag -%}
     {% assign posts = site.posts | where_exp: "item", "item.tags contains page.tag" %}
+  {%- else -%}
+  {% assign posts = site.posts %}
   {%- endif -%}
   {%- if page.ascending -%}
     {% assign posts = posts | reverse %}
