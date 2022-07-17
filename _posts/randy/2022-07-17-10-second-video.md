@@ -9,7 +9,7 @@ tags: tails randy analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   source src="/assets/10-second-video-720.mp4" type="video/mp4">
+   <source src="/assets/10-second-video-720.mp4" type="video/mp4">
 </video>
 
 **VARIABLE TIMING**
