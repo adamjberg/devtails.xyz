@@ -3,6 +3,7 @@ layout: post
 title:  "Building Pong in C with SDL2 and Emscripten: Part 1"
 permalink: /@adam/building-pong-in-c-with-sdl2-and-emscripten-part-1
 image: assets/img/pong-1.png
+author: adam
 description: Simple demonstration of compiling a C SDL program to web assembly using emscripten
 tags: dev games
 ---
