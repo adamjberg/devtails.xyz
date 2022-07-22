@@ -1,13 +1,7 @@
 ---
 layout: post
 title:  "How to Build Your First HTML Page"
-author: adam
-permalink: /how-to-build-your-first-html-page
-tags: learntocode assignment web
 ---
-
-## Pre-Requisites
-[How to Setup Your Development Environment](/how-to-setup-your-development-environment)
 
 ## Intro the HTML
 
@@ -109,7 +103,9 @@ This should open the file in your default browser. If it doesn't for some reason
 
 In this assignment you have learned:
 - the basics of HTML
-- to create and modify files in VS
+- to create and modify files in VS Code
 - how to view html files in your browser
 
-In the next assignment, we will introduce JavaScript to add interactivity to the page by creating a web application that can store notes.
+## Next
+
+[Adding Interactivity to HTML With JavaScript](/learn/web/02-adding-interactivity-to-html-with-javascript)

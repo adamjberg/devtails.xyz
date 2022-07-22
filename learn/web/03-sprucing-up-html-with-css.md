@@ -1,9 +1,6 @@
 ---
 layout: post
 title:  "Sprucing up HTML With Cascading Style Sheets (CSS)"
-author: adam
-permalink: /sprucing-up-html-with-css
-tags: learntocode assignment web css
 ---
 
 ## Pre-Requisites

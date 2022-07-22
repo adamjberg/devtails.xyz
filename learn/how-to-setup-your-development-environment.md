@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "How to Setup Your Development Environment"
-author: adam
-permalink: /how-to-setup-your-development-environment
-tags: learntocode assignment
+permalink: /learn/how-to-setup-your-development-environment
 ---
 
 This post will go over the bare minimum tools to install to begin your development journey. As always there are all kinds of alternatives that could be used. This site will be opinionated and suggest specific tools to help beginners avoid the fatigue of searching for the right tool.

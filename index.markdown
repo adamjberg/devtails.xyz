@@ -32,6 +32,6 @@ image: /assets/logo-with-text.png
 </div>
 
 <div class="box">
-  <a href="/tags/learntocode"><div class="box-title">learn</div></a>
+  <a href="/learn"><div class="box-title">learn</div></a>
   <div>(Currently pre-alpha) Project based curriculum for learning web development.</div>
 </div>

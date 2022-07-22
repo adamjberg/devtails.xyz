@@ -1,9 +1,6 @@
 ---
 layout: post
 title:  "Adding Interactivity to HTML With JavaScript"
-author: adam
-permalink: /adding-interactivity-to-html-with-javascript
-tags: learntocode assignment web js
 ---
 
 ## Pre-Requisites
@@ -189,3 +186,5 @@ In this lesson you learned:
 ## Next
 
 In the next assignment, we will introduce Cascading Style Sheets (CSS) in order to make our web app slightly more visually appealing.
+
+[Sprucing up HTML with CSS](/learn/web/03-sprucing-up-html-with-css)

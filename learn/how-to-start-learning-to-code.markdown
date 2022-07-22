@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: page
 title:  "How to Start Learning to Code"
 author: adam
-permalink: /how-to-start-learning-to-code
-tags: learntocode
+permalink: /learn/how-to-start-learning-to-code
 ---
 
 There are a few common responses I get after introducing myself to people and telling them I'm a software engineer:

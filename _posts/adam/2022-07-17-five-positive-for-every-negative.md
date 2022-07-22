@@ -3,6 +3,7 @@ layout: post
 title:  "Five Positive Interactions for Every Negative One"
 permalink: /@adam/five-positive-for-every-negative
 image: assets/img/color-wars.jpeg
+author: adam
 description: One piece of leadership advice that has stuck with me is the idea that for every negative interaction you have with someone, you need to have 5 positive ones to offset every 1 negative
 tags: tails management
 ---
