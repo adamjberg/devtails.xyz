@@ -22,7 +22,7 @@ Video writers and producers of late need to pack whole shows; truncated messages
 
 **TIME FILLS SPACE KILLS TIME** 
 
-In video production circles, all runtimes - seconds and minutes are not created equal. One can get lucky capturing a happenstance clip of a [monkey smelling butt-finger](https://www.youtube.com/watch?v=t4A1tWzlJW8{:target="_blank"}), or lose a few years hiding in the jungle trying to film the sequel. Strike the jungle shoot before it starts to sound like a good idea. 
+In video production circles, all runtimes - seconds and minutes are not created equal. One can get lucky capturing a happenstance clip of a [monkey smelling butt-finger](https://www.youtube.com/watch?v=t4A1tWzlJW8){:target="_blank"}, or lose a few years hiding in the jungle trying to film the sequel. Strike the jungle shoot before it starts to sound like a good idea. 
 
 The first consideration in any project should be to **determine an achievable goal within the timeframe assigned.** Analog Sampling's video format outline dictates what goals are going to be practical within our modest project case: 
 
@@ -57,7 +57,7 @@ Because these words can be written does not mean entertaining video magic will i
 
 **HOW TO BE CONTENT** 
 
-In Part 1 of this [10-Second-Video-Takes-All-Day story](https://devtails.xyz/@randy/10-second-video-takes-all-day{:target="_blank"}), a shot list of a dozen elements within an-car-entertainment system theme was compiled. As decider and follower of my own rules, I chose media acquisition items that would not require physical movement, gasoline sniffing or covid exposure. 
+In Part 1 of this [10-Second-Video-Takes-All-Day story](https://devtails.xyz/@randy/10-second-video-takes-all-day){:target="_blank"}, a shot list of a dozen elements within an-car-entertainment system theme was compiled. As decider and follower of my own rules, I chose media acquisition items that would not require physical movement, gasoline sniffing or covid exposure. 
 
  There exists a vast set of [video post-production](https://www.youtube.com/watch?v=bH2XBvV3x7Y){:target="_blank"}resources awaiting the persistent internet wanderer. The more photography, audio and editing experience you have, the more likely it is you have acquired a library of familiar content goodies and the knowledge of where to find more. This saves time big time. 
 
