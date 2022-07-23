@@ -16,7 +16,7 @@ tags: tails randy analog-sampling
 
 It used to be that 30 seconds was the smallest video molecule that could survive in the Universe; so dictated by TV advertising executives with broadcast air time slots to sell. This runtime was reduced from the length of [60 second commercials](https://www.forbes.com/sites/toddwasserman/2020/08/10/the-30-second-tv-ad-is-history-now-what{:target="_blank"}) originally afforded on broadcast airwaves. Today, 15 and even 6 second [commercial slots](https://www.voices.com/blog/effective_length_for_tv_commercials{:target="_blank"}) are common on the television cycle powered clock. 
 
-There is no arbitrary clip length limit on the internet. Streaming services like YouTube can easily neak in short ad snacks; you are forced to watch while fumbling for the ad kill button.
+There is no arbitrary clip length limit on the internet. Streaming services like YouTube can easily neak in short ad snacks; you are forced to watch while fumbling for the ad kill button. 
 
 Video writers and producers of late need to pack whole shows; truncated messages into shorter time frames. Making things smaller is usually harder, but edit sweets will abound to fill demands of the moment - however brief. 
 
@@ -41,7 +41,7 @@ With the broadcast air of expectation slot to fill, it boils down to a matter of
 
 **CREATIVE CHICKEN – WHAT COMES FIRST?** 
 
-Writing a reasonably cohesive technology article is one skill to aspire to, but creating a short representative video clip to represent meandering words is another challenge altogether.
+Writing a reasonably cohesive technology article is one skill to aspire to, but creating a short representative video clip to represent meandering words is another challenge altogether. 
 
 Some subjects are hard to visualize – other creative treatments can hatch out of nowhere. A single picture can say a thousand words. Here we have 300 picture frames to work with - upward potential for 300,000 words communicated inside a 10 second video. 
 
@@ -65,7 +65,7 @@ You may have it all in your head but treasure can only be found if there is a ma
 
 The following project task list is an example of how much time it actually might take for executing simple steps within a short video project. The minutes listed for each item are arbitrary, loose and concurrent with the creative process. 
 
-Some time to experiment, go down rabbit holes, and change direction away from abandoned concepts is accounted for. Know that the longer proportion of time taken in the primary review and development stage, the quicker the discovery and creation tasks can be attended to. 
+Some time to experiment, go down rabbit holes, and change direction away from abandoned concepts is accounted for. Know that the longer proportion of time taken in the primary review and development stage, the quicker discovery and creation tasks can be attended to. 
 
 **POST-PRODUCTION TO POST-ONLINE TIMELINE** 
 
@@ -100,11 +100,13 @@ Some time to experiment, go down rabbit holes, and change direction away from ab
 
 As itemized, note it does not take long to burn through an 8 hour shift when poking around with creative ideas and elements. Over the course of any project, an editor might view the creative bits whole or in part dozens of times. You rarely buy the first shoes you try on - in video, everything has to be tried and tested to fit in length and style before you can walk away. 
 
-Experience will teach you not to overkill your project mission - right from the creative concept. Do the mental math up front so the equation adds up at the end of the day. Order your shot list tasks in order of importance – if you fall behind, drop non-critical elements from the timeline. If you get ahead of schedule, try a few tricks and learn new techniques that will add arrows to your skill quiver. 
+Experience will teach you not to overkill your project mission - right from the creative concept. Do the mental math up front so the equation adds up at the end of the day. Order your shot list tasks in order of importance – if you fall behind, drop non-critical elements from the timeline. If you get ahead of schedule, try a few tricks and [learn new techniques](https://www.adobe.com/creativecloud/video/discover/video-production.html{:target="_blank"}) that will add arrows to your skill quiver. 
 
-As this story crossed over the 1000 word target, the Big Idea had not yet appeared in mind for the accompanying video clip. Sometimes the hardest part about a simple 10-second video is just staring at the black screen, and it just stares back. A quick search through stock video clips triggered a couple of ideas, and the video was done before dark. 
+**INSPIRATION IS WHERE IT'S AT**
 
-For this element of surprise, perhaps we shall add a special line item to our task list: 
+As this story crossed over the 1000 word target, the Big Idea had not yet appeared in mind for the accompanying video clip. Sometimes the hardest part about a simple 10-second video is just staring at the black screen, and it just stares back. 
+
+A quick search through a few stock video clips on hand triggered a couple of ideas. With a simple outline and short shot list, the video was done in a few hours. For this element of surprise, perhaps we shall add a bonus line item to our task list: 
 
      ??:??     Search For Art-official Intelligence
 
@@ -117,8 +119,6 @@ xyz digital inc.
 ... 
 
 **VIDEO RESOURCE SAMPLER** 
-
- 
 
 PRODUCTION MUSIC 
 
