@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "How Video Takes All Day"
+title: "How Can a 10 Second Video Take All Day? Part 2"
 author: randy
 permalink: /@randy/how-video-takes-all-day
 image: "assets/img/how-video-takes-all-day.png"
 description: As video content gets shorter in step with modern attention spans, entertainment value needs to go up.  How do you figure out the creative parts and pieces in short order? Fortunately, thousands of media assets are available online, shaving eons off production time.
-tags: tails randy analog-sampling
+tags: tails analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
    <source src="/assets/how-video-takes-all-day-720.mp4" type="video/mp4">
 </video>
+
+**[CONTINUED FROM PART 1](https://devtails.xyz/@randy/10-second-video-takes-all-day)**
 
 **SHORT AND SUITE** 
 
@@ -45,7 +47,7 @@ Writing a reasonably cohesive technology article is one skill to aspire to, but 
 
 Some subjects are hard to visualize – other creative treatments can hatch out of nowhere. A single picture can say a thousand words. Here we have 300 picture frames to work with - upward potential for 300,000 words communicated inside a 10 second video. 
 
-Which of these words stand out to tell the tale in short? It helps to be the writer and have familiarity with the subject matter, but there Creative Gods can be nudged along with a few words of recollection. Thy ask: 
+Which of these words stand out to tell the tale in short visual form? It helps to be the writer and have familiarity with the subject matter, but the Creative Gods can be nudged along with a few words of focus. Thy ask: 
 
      What is the point of the story? 
      What are the keywords to focus on? 
