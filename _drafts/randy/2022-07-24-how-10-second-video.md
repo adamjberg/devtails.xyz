@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "10 Second Video Takes All Day"
+title: "How Video Takes All Day"
 author: randy
 permalink: /@randy/how-video-takes-all-day
 image: "assets/img/how-video-takes-all-day.png"
-description: Video content is getting shorter in step with modern attention spans. Fortunately, thousands of assets are available online with the click of a button, shaving eons off production time. The one-person-video-band 
+description: As video content gets shorter in step with modern attention spans, entertainment value needs to go up.  How do you figure out the creative parts and pieces in short order? Fortunately, thousands of media assets are available online, shaving eons off production time.
 tags: tails randy analog-sampling
 ---
 
@@ -14,13 +14,15 @@ tags: tails randy analog-sampling
 
 **SHORT AND SUITE** 
 
-It used to be that 30 seconds was the smallest video molecule that could survive in the Universe; so dictated by TV advertising executives with air time slots to sell. This runtime was reduced from the length of [60 second commercials](https://www.forbes.com/sites/toddwasserman/2020/08/10/the-30-second-tv-ad-is-history-now-what{:target="_blank"}) originally afforded on broadcast airwaves. Today, 15 second [commercial slots](https://www.voices.com/blog/effective_length_for_tv_commercials{:target="_blank"}) are common on television; 6 seconds an option by the air powered clock. 
+It used to be that 30 seconds was the smallest video molecule that could survive in the Universe; so dictated by TV advertising executives with broadcast air time slots to sell. This runtime was reduced from the length of [60 second commercials](https://www.forbes.com/sites/toddwasserman/2020/08/10/the-30-second-tv-ad-is-history-now-what{:target="_blank"}) originally afforded on broadcast airwaves. Today, 15 and even 6 second [commercial slots](https://www.voices.com/blog/effective_length_for_tv_commercials{:target="_blank"}) are common on the television cycle powered clock. 
 
-There is no arbitrary clip length limit on the internet. Streaming services like YouTube can sneak in 5-6 second ad snacks, so you are forced to watch while fumbling for the ad kill button. Video writers and producers of late need to pack whole shows; complete messages into shorter time frames. Edit suites abound to fill demand of the moment, however brief. 
+There is no arbitrary clip length limit on the internet. Streaming services like YouTube can easily neak in short ad snacks; you are forced to watch while fumbling for the ad kill button.
 
-**TIME FILLS SPACE** 
+Video writers and producers of late need to pack whole shows; truncated messages into shorter time frames. Making things smaller is usually harder, but edit sweets will abound to fill demands of the moment - however brief. 
 
-In video production circles, all runtimes - seconds and minutes are not created equal. One can instantly upload a happenstance live clip of a [monkey smelling butt-finger](https://www.youtube.com/watch?v=t4A1tWzlJW8{:target="_blank"}), or lose a few years hiding in the jungle trying to film the sequel.  Strike the jungle shoot before it starts to sound like a good idea. 
+**TIME FILLS SPACE KILLS TIME** 
+
+In video production circles, all runtimes - seconds and minutes are not created equal. One can get lucky capturing a happenstance clip of a [monkey smelling butt-finger](https://www.youtube.com/watch?v=t4A1tWzlJW8{:target="_blank"}), or lose a few years hiding in the jungle trying to film the sequel. Strike the jungle shoot before it starts to sound like a good idea. 
 
 The first consideration in any project should be to **determine an achievable goal within the timeframe assigned.** Analog Sampling's video format outline dictates what goals are going to be practical within our modest project case: 
 
@@ -33,37 +35,39 @@ The first consideration in any project should be to **determine an achievable go
 
      maximum completion time 1 day 
 
-With these narrow guidelines, ideal but budget-busting production teams will be forever jettisoned in favor of a one-man show. Who deserves a crew for a home-made 10 second piece? There will not be a middle-person involved to moderate this soup to nuts role. No one to share duties with but no one else to argue with (other split-personality or consciences exempted), but then no one else to blame. 
+With these narrow guidelines, ideal but budget-busting production teams will be forever jettisoned in favor of a one-head show. Who deserves a crew for a home-made 10 second piece? There will not be a middle-person involved to moderate this soup to nuts role. No one to share duties with but no one else to argue with (other split-personality or consciences exempted), but then no one else to blame. 
 
 With the broadcast air of expectation slot to fill, it boils down to a matter of time to make something that matters. 
 
 **CREATIVE CHICKEN – WHAT COMES FIRST?** 
 
-Writing a reasonably cohesive technology article is one skill to aspire to, but creating a short representative video clip to represent meandering words is another challenge altogether. Some subjects are hard to visualize – other creative treatments can hatch out of nowhere. A single picture can say a thousand words; we have 300 picture frames to work with. That is upward potential for 300,000 words communicated inside a 10 second video. 
+Writing a reasonably cohesive technology article is one skill to aspire to, but creating a short representative video clip to represent meandering words is another challenge altogether.
 
-Which of these words tell the tale in short? It helps to be the writer and have familiarity with the subject matter, but you will need to guide the Creative Gods with a few breakdown words of advice. Ask: 
+Some subjects are hard to visualize – other creative treatments can hatch out of nowhere. A single picture can say a thousand words. Here we have 300 picture frames to work with - upward potential for 300,000 words communicated inside a 10 second video. 
+
+Which of these words stand out to tell the tale in short? It helps to be the writer and have familiarity with the subject matter, but there Creative Gods can be nudged along with a few words of recollection. Thy ask: 
 
      What is the point of the story? 
      What are the keywords to focus on? 
-     What visuals support the story? 
+     What visuals support the storyline? 
      What motion images will attract attention? 
      What style will appeal to the target audience? 
 
-Because these words can be written into themes does not mean entertaining video magic will ensue from the same fingertips. The clock may run out before a good idea is fashioned or the imagining is done. Sometimes one might proceed with half-baked yolks and get egg on the face. 
+Because these words can be written does not mean entertaining video magic will instantly ensue from the same fingertips. The clock may run out before a good idea is fashioned or the imagining is done. Sometimes one will make half-baked yolks and get egg on the face, but a taste of failure will make for a better cook. 
 
-**PLAN TO BE CONTENT** 
+**HOW TO BE CONTENT** 
 
-In Part 1 of this [10-Second-Video-Takes-all-Day story](https://devtails.xyz/@randy/10-second-video-takes-all-day{:target="_blank"}), a shot list of a dozen elements within an-car-entertainment system theme was compiled. As decider and follower of my own rules, I chose media items that would not require physical movement, gasoline sniffing or covid exposure. 
+In Part 1 of this [10-Second-Video-Takes-All-Day story](https://devtails.xyz/@randy/10-second-video-takes-all-day{:target="_blank"}), a shot list of a dozen elements within an-car-entertainment system theme was compiled. As decider and follower of my own rules, I chose media acquisition items that would not require physical movement, gasoline sniffing or covid exposure. 
 
  There exists a vast set of [video post-production](https://www.youtube.com/watch?v=bH2XBvV3x7Y{:target="_blank"}) resources awaiting the persistent internet wanderer. The more photography, audio and editing experience you have, the more likely it is you have acquired a library of familiar content goodies and the knowledge of where to find more. This saves time big time. 
 
-The following project task list is an example of how much time it actually might take for executing simple steps within a short video project. Know that the longer proportion of time taken in the primary review and development stage, the quicker the discovery and creation tasks can be attended to.  
+You may have it all in your head but treasure can only be found if there is a map and you dig in the right place. It may only take a few minutes to find a sound effect that will do, but another certain element that needs to be perfect may take hours to source. 
 
-The times listed for each item are arbitrary, loose and concurrent with the creative process. Some time to experiment, go down rabbit holes, and change direction away from abandoned concepts is accounted for.
+The following project task list is an example of how much time it actually might take for executing simple steps within a short video project. The minutes listed for each item are arbitrary, loose and concurrent with the creative process. 
 
-It may only take a few minutes to find a sound effect that will do, but another certain element that needs to be perfect may take hours to source. Treasure can only be found if you have a map and dig in the right place. 
+Some time to experiment, go down rabbit holes, and change direction away from abandoned concepts is accounted for. Know that the longer proportion of time taken in the primary review and development stage, the quicker the discovery and creation tasks can be attended to. 
 
-**POST-PRODUCTION TO POST TIMELINE** 
+**POST-PRODUCTION TO POST-ONLINE TIMELINE** 
 
      TIME      PROJECT TASK 
 
@@ -89,6 +93,8 @@ It may only take a few minutes to find a sound effect that will do, but another 
      00:30     project rendering 
      00:30     project testing, QC
      00:30     Post to website and test 
+
+     07:xx     Time to completion
 
 **BURN RATE** 
 
