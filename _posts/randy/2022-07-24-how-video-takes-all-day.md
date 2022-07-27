@@ -16,7 +16,7 @@ tags: tails analog-sampling
 
 **SHORT AND SUITE** 
 
-It used to be that 30 seconds was the smallest video molecule that could survive in the Universe; so dictated by TV advertising executives with broadcast air time slots to sell. This runtime was reduced from the length of [60 second commercials](https://www.forbes.com/sites/toddwasserman/2020/08/10/the-30-second-tv-ad-is-history-now-what){:target="_blank"}originally afforded on broadcast airwaves. Today, 15 and even 6 second [commercial slots](https://www.voices.com/blog/effective_length_for_tv_commercials){:target="_blank"}are common on the television cycle powered clock. 
+It used to be that 30 seconds was the smallest video molecule that could survive in the Universe; so dictated by TV advertising executives with broadcast air time slots to sell. This runtime was reduced from the length of [60 second commercials](https://www.forbes.com/sites/toddwasserman/2020/08/10/the-30-second-tv-ad-is-history-now-what){:target="_blank"} originally afforded on broadcast airwaves. Today, 15 and even 6 second [commercial slots](https://www.voices.com/blog/effective_length_for_tv_commercials){:target="_blank"} are common on the television cycle powered clock. 
 
 There is no arbitrary clip length limit on the internet. Streaming services like YouTube can easily neak in short ad snacks; you are forced to watch while fumbling for the ad kill button. 
 
@@ -61,7 +61,7 @@ Because these words can be written does not mean entertaining video magic will i
 
 In Part 1 of this [10-Second-Video-Takes-All-Day story](https://devtails.xyz/@randy/10-second-video-takes-all-day){:target="_blank"}, a shot list of a dozen elements within an-car-entertainment system theme was compiled. As decider and follower of my own rules, I chose media acquisition items that would not require physical movement, gasoline sniffing or covid exposure. 
 
- There exists a vast set of [video post-production](https://www.youtube.com/watch?v=bH2XBvV3x7Y){:target="_blank"}resources awaiting the persistent internet wanderer. The more photography, audio and editing experience you have, the more likely it is you have acquired a library of familiar content goodies and the knowledge of where to find more. This saves time big time. 
+ There exists a vast set of [video post-production](https://www.youtube.com/watch?v=bH2XBvV3x7Y){:target="_blank"} resources awaiting the persistent internet wanderer. The more photography, audio and editing experience you have, the more likely it is you have acquired a library of familiar content goodies and the knowledge of where to find more. This saves time big time. 
 
 You may have it all in your head but treasure can only be found if there is a map and you dig in the right place. It may only take a few minutes to find a sound effect that will do, but another certain element that needs to be perfect may take hours to source. 
 
@@ -102,7 +102,7 @@ Some time to experiment, go down rabbit holes, and change direction away from ab
 
 As itemized, note it does not take long to burn through an 8 hour shift when poking around with creative ideas and elements. Over the course of any project, an editor might view the creative bits whole or in part dozens of times. You rarely buy the first shoes you try on - in video, everything has to be tried and tested to fit in length and style before you can walk away. 
 
-Experience will teach you not to overkill your project mission - right from the creative concept. Do the mental math up front so the equation adds up at the end of the day. Order your shot list tasks in order of importance – if you fall behind, drop non-critical elements from the timeline. If you get ahead of schedule, try a few tricks and [learn new techniques](https://www.adobe.com/creativecloud/video/discover/video-production.html){:target="_blank"}that will add arrows to your skill quiver. 
+Experience will teach you not to overkill your project mission - right from the creative concept. Do the mental math up front so the equation adds up at the end of the day. Order your shot list tasks in order of importance – if you fall behind, drop non-critical elements from the timeline. If you get ahead of schedule, try a few tricks and [learn new techniques](https://www.adobe.com/creativecloud/video/discover/video-production.html){:target="_blank"} that will add arrows to your skill quiver. 
 
 **INSPIRATION IS WHERE IT'S AT**
 
