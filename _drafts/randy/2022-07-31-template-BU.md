@@ -81,7 +81,7 @@ To make this Very Horrible Sideshow worthwhile, I doubled down and patiently use
 
 There are now boxes and stacks of DVD discs in place of the tape boxes, but the space footprint has been reduced by 90%. The net result was more negative time and money to build a crappy personal mountain of content that no one (including me) will ever see through. Since almost all of the content is unmarked – mystery discs of recordings from the past. 
 
-**This pile of earth history is only suitable for the presumed Voyager 4 trip to deep space – free DVD player and 250 pound HDTV included.**
+**This pile of history is suitable for the presumed Voyager 4 trip to deep space – free DVD player and 250 pound HDTV included.**
 
 Forgive me if I sound regretful about my fated investment in the past. If everything had stayed the same as it was in 1988, I would be just fine with my collection of fine programming. Who knew there was so much more new content coming down the pipe?
 
@@ -93,7 +93,7 @@ Though I've long ago transferred my VHS home movies to a digital file format, I 
 
 This final stash of VHS cassettes will then join [billions of others like it](https://legacybox.com/blogs/analog/you-wont-believe-how-many-cassette-tapes{:target="_blank"}) in Cassette Heaven. Fast forward a few million years: this generation of humanoids shall come to be known as the Tapesaurus, named after the vast and valued underground pools of dissolved Mylar infused videotape oil. 
 
-My video tapes will not endure space, time or the elements in between, but I will have made my contribution to a pile of video history. Watch for my name in the discredits. 
+My video tapes will not endure space, time or the elements in between, but I will have made my contribution to a pile of video history. Watch for my name in the credits. 
 
 ... 
 
@@ -111,7 +111,7 @@ xyz digital inc.
 
 [Is the Time Right for a VHS Comeback? - Tech Digest](https://www.techdigest.tv/2020/12/is-the-time-right-for-a-vhs-comeback.html{:target="_blank"}) 
 
-[Video Resolutions: What they are, Different Types, and their Pixel Size](https://typito.com/blog/video-resolutions{:target="_blank"})
+[Video Resolutions: What they are, Different Types, and their Pixel Size](https://typito.com/blog/video-resolutions)
 
 [Forget Streaming: Great VHS Comeback Has Begun - National Interest](https://nationalinterest.org/blog/techland/forget-streaming-great-vhs-comeback-has-begun-well-sort-185714{:target="_blank"})
 
