@@ -15,7 +15,7 @@ tags: tails management
 
 ## Residence Advising
 
-When I was a [Residence Advisor back at UBC](https://vancouver.housing.ubc.ca/jobs/) {:target="_blank"}, I received all kinds of coaching and advice about how to become a better leader. One piece of information has stuck with me ever since: the idea that **for every negative interaction you have with someone, you need to have 5 positive ones to offset the negative one**.
+When I was a [Residence Advisor back at UBC](https://vancouver.housing.ubc.ca/jobs/){:target="_blank"}, I received all kinds of coaching and advice about how to become a better leader. One piece of information has stuck with me ever since: the idea that **for every negative interaction you have with someone, you need to have 5 positive ones to offset the negative one**.
 
 As a residence advisor, it was easy to find yourself in the middle of a negative interaction.  Often they were minor infractions, "hey, don't smoke so close to the building" or "you're being too loud, please be quiet".  Occasionally they were major, requiring a proper "Incident Report" to be written up.  Regardless of the scale it was immediately noticeable that after the negative interaction, tension between you and the other person involved persisted.
 
