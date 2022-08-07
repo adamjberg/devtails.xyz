@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Switching to C Over 'Modern' Programming Languages"
-permalink: /@adam/
+permalink: /@adam/switching-to-c-over-modern-programming-languages
 image: assets/img/old-buglaria.jpeg
 author: adam
 description: In computers, we often refer to a native language as the language understood by the computer. I've recently flipped this around in my ponderings and thought more about what my personal native programming language is.
