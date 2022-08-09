@@ -4,7 +4,7 @@ title: "El Logo Loco - Design at the Five & Dime"
 author: randy
 permalink: /@randy/el-logo-loco-design
 image: "assets/img/el-logo-loco-design.png"
-description: 
+description: Logos have a long history of group, product and ideology representation. Modern logos symbolize the organizations and brands they represent, and act as an identifying trademark for entities of all types. What used to be an expensive and lengthy logo design process is now a DIY dream.
 tags: tails analog-sampling
 ---
 
