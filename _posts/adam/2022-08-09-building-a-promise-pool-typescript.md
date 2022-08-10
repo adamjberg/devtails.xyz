@@ -54,7 +54,7 @@ The main problem with the previous solution is that all promises must complete b
 ```ts
 class PromisePool {
   private concurrency: number;
-  private items: Promise<void>[];
+  private items: Promise<void>[] = [];
 
   constructor({
     concurrency
