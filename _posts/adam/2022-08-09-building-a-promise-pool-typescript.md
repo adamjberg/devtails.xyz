@@ -12,8 +12,8 @@ I have now worked with several programs that process large queues of objects. On
 
 ### Assumptions
 
-1 million users
-Sending an email takes (on average) 500ms
+- 1 million users
+- Sending an email takes (on average) 500ms
 
 ### Send One by One
 
