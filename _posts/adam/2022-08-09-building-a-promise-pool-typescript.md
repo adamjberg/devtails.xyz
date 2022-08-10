@@ -62,7 +62,7 @@ class PromisePool {
     this.concurrency = concurrency;
   }
 
-  async add(asyncTaskFn: () => void) {
+  async add(asyncTaskFn: () => Promise<void>) {
     if (this.items.length >= this.concurrency) {
       // halt execution until fastest promise fulfills
       await Promise.race(this.items);
