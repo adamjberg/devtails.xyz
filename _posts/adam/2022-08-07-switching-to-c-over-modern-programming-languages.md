@@ -16,7 +16,7 @@ tags: dev engram
 About a year ago, I decided I wanted to know more about all the Rust hype. I read the [Rust book](https://doc.rust-lang.org/book/), followed a couple tutorials, and read [Rust in Action](https://www.manning.com/books/rust-in-action).  Somewhere in between all of this, I decided I was ready to write my [first CLI notes application on my own with Rust](https://medium.com/p/b6beb9c284e0).
 
 <div class="text-center">
-<iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=535167567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3913189530/transparent=true/" seamless><a href="https://ryanwhyman.bandcamp.com/album/october">october by Ryan Whyman</a></iframe>
+<iframe style="border: 0; width: 700px;" src="https://kaizen.place/embed/track/619d9887df939345b642a812"></iframe>
 <p style="font-size: 14px">Classical music with incredible tavern-like vibes to further embed my RPG analogy</p>
 </div>
 
