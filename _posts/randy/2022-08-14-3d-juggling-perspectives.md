@@ -8,22 +8,22 @@ description: Seeing is one thing; doing is another. I have had my hands on 3D an
 tags: tails analog-sampling
 ---
 
-<video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/assets/Robot-Juggler-All -720.mp4" type="video/mp4">
+  <video width="720" height="auto" controls style="max-width: 100%">
+   <source src="/assets/Robot-Juggler-All-720.webm" type="video/mwebm">
 </video>
 
 ## CONNECTING THE DOTS
 
-My first connection to CGI was made in a little computer-game store in the middle of the world's biggest shopping mall. A small white box and color monitor sitting on an end cap display was playing a looping video. I was drawn like a moth to the flitting radiation of the monitor - mouth likely agape.
+My first connection to CGI was made in a little computer-game store in the middle of the world's biggest shopping mall. A small white box and color monitor was sitting on an endcap display, playing a looping demo video. I was drawn like a moth to the burning radiation of the monitor - mouth likely agape.
 
-Having just completed a "PC Applications" computer course, I was shopping for a "Personal Computer" to put my learning to use. The main things discovered at school were that I hated MS-DOS, Lotus, Microsoft, PCs and monochrome PC monitors. My educated choices boiled down to whether to buy green or orange on black PC display.
+Having just completed a "PC Applications" computer course, I was shopping for a "Personal Computer" to put my learning to use. The main things discovered at school were that I hated MS-DOS, Lotus, Microsoft, PCs and monochrome PC monitors. My educated choices boiled down to whether to buy green or orange on black PC text display.
 
 ![First Reflections on 512K](/assets/img/juglr016.png)
 
-There in front of my eyes was an eye-popping color blast of a robotish character. Like seeing color broadcast television for the first time, the color computer was an amazing jump in viewing experience. But there was more - this red-shirted robot was moving; a 3D animated body with moving arms and legs - juggling balls! Looking closely,there was more - the juggled balls were reflecting like chrome, showing the entire scene in their arc.
+There in front of my eyes was an eye-popping color blast of a scene. Like seeing color broadcast television for the first time, the color computer was an amazing jump in viewing experience. But there was more - this red-shirted robot was moving; a 3D animated body with moving arms and legs - juggling balls! Looking closely,there was more - the juggled balls were reflecting like chrome, showing the entire scene in their arc.
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="http://www.etwright.org/cghist/images/juggler.webm" type="video/webm">
+   <source src="/assets/juggler.webm" type="video/webm">
 </video>
 
 video source: [etwright.com](http://www.etwright.org/cghist/images/juggler.webm)
@@ -38,7 +38,7 @@ The computing unit they emanated from seemed like a cross between a computer and
 
 Just because you can buy technological power to put in your hands, does not mean your brain can catch up to your wallet. Pretty much everything digital was a new experience to everyone - learning was full time while you worked full time. My learning pace could only progress at the Amiga's 7.14 MHz computer clock speed.
 
-Note that current computers are measured at ~3.5 GHz - clock speed today is 500 times faster. 
+Note that current computers are measured at ~3.5 GHz - clock speed today is 500 times faster.
 
 While I owned the first PC 3D animation software - Aegis VideoScape 3D and 3D Modeler by Allen Hastings, it was too much mountain to get over the conceptual and dimensional hurdles. I still have the original disks and an Amiga; I will dig the program out for another look another day to see if my attitude has changed with age and experience.
 
@@ -87,11 +87,19 @@ My career path soon turned away from 3D again with DVD blowing up, but I always 
 
 Today the software is still available for $995 - upgrades from old version are $595. I am always tempted to upgrade (behind a few versions) but I need to remind myself that I have not had time to learn new features through the last few prior versions.
 
-I also need to remind myself that I don't need to spend ANY money to get capable 3D software online. Many years too late I discovered a very cool 3D program named [Blender](https://en.wikipedia.org/wiki/Blender_(software)). The Jims and Winstons of the world have made incredible animations with this tool. No excuses.
+I also need to remind myself that I don't need to spend ANY money to get capable 3D software online. Many years too late I discovered a very cool 3D program named [Blender](https://en.wikipedia.org/wiki/Blender_(software)). With financial limitation removed, the new Jims and Winstons of the world have made incredible strides with animation using this tool. No excuses for me.
+
+## EVERYTHING IN THE UNIVERSE IS CONNECTED
 
 3D modeling is about connecting lines to dots. My early connection to the technology took me to interesting spots, but my direct 3D experience is still shaded by reality.
 
-Only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**.
+The [VFX industry] has scaled enormously; now it is a cut-throat commodity, doomed to a competitive price race to the bottom. A movie can make a billion dollars, but studios use their leverage and expend great effort to save pennies from suppliers.
+
+Dare I say, but the Hollywood business model in some Marvelous quarters creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an edless supply of more willing victims.
+
+That was never me - my long-term goal to create a short 3D film made enirely with my own handiwork. Alas, only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**.
+
+My turn to connect the dots awaits.
 
 <video width="720" height="auto" controls style="max-width: 100%">
    <source src="/assets/Robot-Juggler-2022-720.mp4" type="video/mp4">
@@ -101,25 +109,23 @@ Only with in-the-box thinking and solid effort will my 3D worlds will take shape
 
 ## RECOMMENDED READING
 
+[Future was Amiga - vdoc.pub](https://vdoc.pub/documents/the-future-was-here-the-commodore-amiga-6j89vhhcg7g0)
+
 [CGI History - ETWright](http://www.etwright.org/cghist.html)
 
-[Future was Amiga](https://vdoc.pub/documents/the-future-was-here-the-commodore-amiga-6j89vhhcg7g0)
+[The Juggler Animation History - ETWright](http://www.etwright.org/cghist/juggler.html)
 
-[The Juggler - Animation History](http://www.etwright.org/cghist/juggler.html)
+[List of 3D Software - wikipedia](https://en.wikipedia.org/wiki/List_of_3D_modeling_software)
 
-[List of 3D Software](https://en.wikipedia.org/wiki/List_of_3D_modeling_software)
+[Wavefront - wikipedia](https://en.wikipedia.org/wiki/Wavefront)
 
-[Wavefront](https://en.wikipedia.org/wiki/Wavefront)
-
-[3D Software Timeline](https://www.re-thinkingthefuture.com/career-advice/a2944-a-timeline-of-3d-softwares)
+[3D Software Timeline - ReThinking the Future](https://www.re-thinkingthefuture.com/career-advice/a2944-a-timeline-of-3d-softwares)
 
 [3D Modeling Overview - CAD Crowd](https://www.cadcrowd.com/blog/3d-modeling-overview-history-industry-applications)
 
-[Alias 3D History](https://design-engine.com/a-history-lesson-on-alias-3d-software)
+[Alias 3D History - Design Engine](https://design-engine.com/a-history-lesson-on-alias-3d-software)
 
 [3D Modeling Brief History - SelfCAD](https://www.selfcad.com/blog/when-did-3d-modeling-start-a-brief-history)
-
-
 
 [History of 3D Animation - Animation Explainers](https://animationexplainers.com/the-history-of-3d-animation)
 
@@ -135,6 +141,6 @@ Only with in-the-box thinking and solid effort will my 3D worlds will take shape
 
 [Newtek.com](https://www.newtek.com)
 
-[2020 Lightwave 3D](https://www.lightwave3d.com)
+[2020 Lightwave 3D - NewTek](https://www.lightwave3d.com)
 
-[Ligthwave 3D - wikipedia](https://en.wikipedia.org/wiki/LightWave_3D)
+[Lightwave 3D - wikipedia](https://en.wikipedia.org/wiki/LightWave_3D)

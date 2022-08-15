@@ -21,7 +21,7 @@ With the Vinyl Record's newfound popularity as precedent, perhaps it is inevitab
 
 Tape recording and playback technology at home ushered in a new era in entertainment content distribution. Big Studio movies on [video tape cassettes](http://www.madehow.com/Volume-7/Videotape.html) cost big bucks when first introduced as a home entertainment packaged product. Adopted quickly by the movie retail and rental markets, videotape became a huge money printing format that spread into every neighborhood and living room in the Western Hemisphere.
 
-**THE GOOD, THE BAD AND THE FUGLY** 
+## THE GOOD, THE BAD AND THE FUGLY
 
 The success vectors of VHS rapidly changed the entertainment habits of the people; for good or for bad.
 
@@ -38,7 +38,7 @@ The success vectors of VHS rapidly changed the entertainment habits of the peopl
           non-recyclable - bad for the environment 
           large form factor needs storage 
 
-**LOW RESOLUTION BEATS NO EXPECTATION** 
+## LOW RESOLUTION BEATS NO EXPECTATIONS
 
 Given high quality film quality to start with, Hollywood movies looked pretty good on tape. VHS video cameras and VCR TV recordings did not; at any time. While the [Standard Definition Video](https://en.wikipedia.org/wiki/Standard-definition_television) format allows for 480 horizontal [lines of resolution](https://www.techgyd.com/video-resolution-difference-360p-480p-720p-1080p-videos/27912), VHS delivers a paltry 240.
 

@@ -36,7 +36,7 @@ Son Adam recently wrote an article on the tribulations of coding a big project: 
 
 I needed the opposite tack for my video slacking excuse, especially since the product was all me. No gate or wall stands in my way except "designers block" so I'd better prepare a line of reasoning to support my string of madness.
 
-## MEET YOUR MAKERSREASON FOR BEAN
+## REASON FOR BEAN
 
 I was nicely asked to write a this [weekly series](https://devtails.xyz/2022-06-newsletter) about technology experiences. Jumping into the internet ocean with just another wall of words seemed like a lonely and futile pursuit. I would need a better hook to catch anything out there.
 
@@ -44,7 +44,7 @@ Great illustrations have long been used to burnish words - what would the New Yo
 
 On the webornet, the thumbnail picture and headline is the only hope anyone has to be seen, so searching and figuring is in order. Blandly, the vast majority of online article use images that appear to be clip art or stock photographs.
 
-## MEET YOUR MAKERSPRODUCT OF MY IMAGINATION
+## PRODUCT OF MY IMAGINATION
 
 I am no artist, but I have tooled around with paint, photo, animation, and audio-video editing software. Illustrating my own words with the very technology that I speak of seems a fit.
 
@@ -52,7 +52,7 @@ I enjoy learning a wide range of creative skills, but do not have time to focus 
 
 We hope to be different than the rest, and that should help visibility out on the sea of hopefuls.
 
-## MEET YOUR MAKERSIT'S BEEN SUCH A LONG TIME (I THINK I SHOULD BE GOING)
+## IT'S BEEN SUCH A LONG TIME (I THINK I SHOULD BE GOING)
 
 Now to the part where making video can take a long time, and if somebody is paying - more money. If we are shooting a $250k per second [big name commercial](https://www.therichest.com/the-biggest/the-10-most-expensive-tv-commercials-ever-made), there is endless money and enough time for perfection.
 
