@@ -95,7 +95,7 @@ I also need to remind myself that I don't need to spend ANY money to get capable
 
 The [VFX industry] has scaled enormously; now it is a cut-throat commodity, doomed to a competitive price race to the bottom. A movie can make a billion dollars, but studios use their leverage and expend great effort to save pennies from suppliers.
 
-Dare I say, but the Hollywood business model in some Marvelous quarters creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an edless supply of more willing victims.
+Dare I say, but the Hollywood business model in some Marvelous quarters creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an endless supply of more willing victims to follow.
 
 That was never me - my long-term goal to create a short 3D film made enirely with my own handiwork. Alas, only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**.
 
