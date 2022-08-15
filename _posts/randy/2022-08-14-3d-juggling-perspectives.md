@@ -9,7 +9,7 @@ tags: tails analog-sampling
 ---
 
   <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/assets/Robot-Juggler-All-720.webm" type="video/mwebm">
+   <source src="/assets/Robot-Juggler-All-720.webm" type="video/webm">
 </video>
 
 ## CONNECTING THE DOTS
