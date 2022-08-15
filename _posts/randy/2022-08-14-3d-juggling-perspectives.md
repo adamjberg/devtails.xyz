@@ -2,7 +2,7 @@
 layout: post
 title: "3D: Juggling Perspectives"
 author: randy
-permalink: /@randy/3Djugglingperspectives
+permalink: /@randy/3D-juggling-perspectives
 image: "assets/img/JugglerVideoImage03b.png"
 description: Seeing is one thing; doing is another. I have had my hands on 3D animation software from day 1.1, but I lacked the time and willpower to slog through slow computer processor rendering. While it was fun to behold, 3D technology has changed like quicksilver. This is the story of what flowed through my hands, and slowed through my mind.
 tags: tails analog-sampling
@@ -23,7 +23,7 @@ Having just completed a "PC Applications" computer course, I was shopping for a 
 There in front of my eyes was an eye-popping color blast of a robotish character. Like seeing color broadcast television for the first time, the color computer was an amazing jump in viewing experience. But there was more - this red-shirted robot was moving; a 3D animated body with moving arms and legs - juggling balls! Looking closely,there was more - the juggled balls were reflecting like chrome, showing the entire scene in their arc.
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/http://www.etwright.org/cghist/images/juggler.webm" type="video/webm">
+   <source src="http://www.etwright.org/cghist/images/juggler.webm" type="video/webm">
 </video>
 
 video source: [etwright.com](http://www.etwright.org/cghist/images/juggler.webm)
@@ -48,7 +48,7 @@ The Amiga provided the market's next major 3D upgrade within the famous Video To
 
 **A misplaced object or bad light placement in the scene meant another day with the computer lost on rendering.**
 
-As a small business owner there seemed little possibility for training and gaining at the same time. I could not learn to animate fast enough to even pay thousand$ for continuously newer-faster processors and bigger hard drives. To make ends meet I worked on and learned other, less fun things with more immediate financial reward.
+As a small business owner, there seemed little possibility for training and gaining at the same time. I could not learn to animate fast enough to even pay thousand$ for continuously newer-faster processors and bigger hard drives. To make ends meet I worked on and learned other, less fun things with more immediate financial reward.
 
 ## AMIGOS IN AMIGA
 
@@ -60,11 +60,11 @@ Within months of the career shift though, Commodore went bankrupt - killing the 
 
 ## WHEN THE CHIPS ARE DOWN, BET BIG
 
-Insulted but undaunted, I realized starting at the bottom was not for me. My first call was to Bob Scarabelli - new President of a company in process of taking Gastown Film & Transfer from private to a public company: Rainmaker Digital Pictures Inc.
+Insulted, but undaunted, I realized starting at the bottom was not for me. My first call was to Bob Scarabelli - new President of a company in process of taking Gastown Film & Transfer from private to a public company: Rainmaker Digital Pictures Inc.
 
 As the largest film processing company in Western Canada, Rainmaker was well positioned to take advantage of the Hollywood North filming boom with new digital services. Location is everything; timing is everything else.
 
-3D compositing services were drawing big dollars from big film and televsion projects done locally due to significant cost and culture benefits. The 3D software hardware and software tools of the day were amazingly capable of creating worlds, but worldly expensive.
+3D compositing services were drawing big dollars from big film and television projects done locally due to significant cost and culture benefits. The 3D software hardware and software tools of the day were amazingly capable of creating worlds, but worldly expensive.
 
 Brand names like Alias, Wavefront, and SoftImage cost in the range of $50,000 per seat in their early days. Training on those seats was challenging and expensive, requiring refridgerator-sized computers from [Silicon Graphics Inc. (SGI)](https://en.wikipedia.org/wiki/Silicon_Graphics).
 
