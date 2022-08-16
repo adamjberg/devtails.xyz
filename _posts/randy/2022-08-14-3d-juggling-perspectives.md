@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3D: Juggling Perspectives"
+title: "3D Animation: Juggling Perspectives & Connecting Dots"
 author: randy
 permalink: /@randy/3D-juggling-perspectives
 image: "assets/img/JugglerVideoImage03b.png"
@@ -32,17 +32,19 @@ video source: [etwright.com](http://www.etwright.org/cghist/images/juggler.webm)
 
 The computing unit they emanated from seemed like a cross between a computer and a game machine. No sign of monochrome Lotus or Microsoft, and there was a very cool user interface. Best of all: there were non-computer things such as color video and stereo audio output plugs in the back. This "computer" could plug into your VCR input and thus big screen 26" RCA TV.
 
- The little white box that tilted my brain was an Commodore [Amiga 1000](https://en.wikipedia.org/wiki/Amiga_1000). [The Juggler](http://www.etwright.org/cghist/juggler.html) animation was created on the same model, featuring scene ray-tracing with just 512K RAM.
+ The little white box that tilted my brain was a Commodore [Amiga 1000](https://en.wikipedia.org/wiki/Amiga_1000). [The Juggler](http://www.etwright.org/cghist/juggler.html) animation was created on the same model, featuring scene ray-tracing with just 512K RAM.
 
- Though I had no way to pay off the debt next month, I charged up $1800 worth of hardware and software on my American Express card. No experience - no worries: **I was in business**.
+ Though I had no way to pay off the debt next month, I charged up $1800 worth of hardware and software on my American Express card. No experience; no cash; no worries: **I was in business**.
 
 ## JUGGLING TIME
 
 Just because you can buy technological power to put in your hands, does not mean your brain can catch up to your wallet. Pretty much everything digital was a new experience to everyone - learning was full time while you worked full time. My learning pace could only progress at the Amiga's 7.14 MHz computer clock speed.
 
-Note that current computers are measured at ~3.5 GHz - clock speed today is 500 times faster.
+Note current computers are measured at ~3.5 GHz - clock speed today - 500 times faster than yore.
 
-While I owned the first PC 3D animation software - Aegis VideoScape 3D and 3D Modeler by Allen Hastings, it was too much virtual mountain to get over the conceptual and dimensional hurdles. I still have the original disks and an Amiga; I will dig the program out for another look another day to see if my attitude has changed with age and experience.
+While I owned the first PC 3D animation software - Aegis VideoScape 3D and 3D Modeler coded by Allen Hastings, it was too much virtual mountain for me to get over the conceptual and dimensional hurdles.
+
+Though the manuals are flood damaged, I still have the original disks and an Amiga; I will boot up for another look another day to see if my attitude and aptitude has changed with age and experience.
 
 ## RENDER ME REACHLESS
 
@@ -101,11 +103,11 @@ I also need to remind myself that I don't need to spend ANY money to get capable
 
 The VFX industry has scaled enormously; now it is a cut-throat commodity, doomed to a competitive price race to the bottom. A movie can make a billion dollars, but studios use their leverage and expend great effort to save pennies from suppliers.
 
-Dare I say, but the Hollywood business model in some [Marvelous quarters](https://gizmodo.com/disney-marvel-movies-vfx-industry-nightmare-1849385834) creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an endless supply of willing victims to follow. That was never going to be me.
+Some say the Hollywood business model in some [Marvelous quarters](https://gizmodo.com/disney-marvel-movies-vfx-industry-nightmare-1849385834) creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an endless supply of willing wannabe victims to follow. That was never going to be me - thank goodness I wasn't smart enough.
 
-3D modeling is about connecting lines to dots. My early connection to the technology took me to interesting spots, but skill level is still shaded by reality. I can render 4K frames in seconds and minutes now.
+3D modeling is about connecting lines to dots. My early connection to the technology took me to interesting spots, but personal 3D skill level is still shaded by reality. There is ever more to learn, but I can render 4K frames in seconds and minutes now.
 
-My long-term goal to create a short 3D film made enirely with my own handiwork. Alas, only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**. My turn to connect the dots awaits.
+My lofty but long-term goal to create a short 3D film made enirely with my own handiwork. Alas, only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**. My turn to connect the dots awaits.
 
 <video width="720" height="auto" controls style="max-width: 100%">
    <source src="/assets/Robot-Juggler-2022-720.mp4" type="video/mp4">
