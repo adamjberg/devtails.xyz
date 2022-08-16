@@ -42,7 +42,7 @@ Just because you can buy technological power to put in your hands, does not mean
 
 Note that current computers are measured at ~3.5 GHz - clock speed today is 500 times faster.
 
-While I owned the first PC 3D animation software - Aegis VideoScape 3D and 3D Modeler by Allen Hastings, it was too much mountain to get over the conceptual and dimensional hurdles. I still have the original disks and an Amiga; I will dig the program out for another look another day to see if my attitude has changed with age and experience.
+While I owned the first PC 3D animation software - Aegis VideoScape 3D and 3D Modeler by Allen Hastings, it was too much virtual mountain to get over the conceptual and dimensional hurdles. I still have the original disks and an Amiga; I will dig the program out for another look another day to see if my attitude has changed with age and experience.
 
 ## RENDER ME REACHLESS
 
@@ -56,17 +56,21 @@ As a small business owner, there seemed little possibility for training and gain
 
 To learn more about the computer animation industry, I took a low-paying job at a small Commodore Amiga retail shop. I didn't know as much as the folks I was selling to, which was awkward - but very soon I had scoped out all of the video production companies in the region.
 
-Our video vfx sales company had started offering 3D rendering services and hosted Amiga User Group meetings. A couple of Lightwave 3D artists showed up and gave animation demonstrations that were unbelievably creative - jets and spaceships doing things. They were able to think in 3D and use the tools Newtek provided in Lightwave to make unreal things look real.
+Our video vfx sales company had started offering 3D rendering services and hosted Amiga User Group meetings. A couple of Lightwave 3D artists showed up and gave animation demonstrations that were unbelievably creative - jets and spaceships doing things.
+
+**They were able to think in 3D and use the tools provided in Lightwave 3D to make unreal things look real.**
 
 Within months of this career shift though, Commodore went bankrupt - killing the product line and future of the Amiga. We plodded along by buying and selling used Amiga gear, until one day I got fired for forgetting to put a user manual in a used computer shipment.
 
-Nobody used Amiga manuals - they were designed intuitively enough that you didn't need to think too hard. Perfect for lazy-brain me.
+Nobody used Amiga manuals. They were designed intuitively enough that you didn't need to think too hard; perfect for lazy-brain me. This mistake not worth getting fired for, but poined out that I was not in the right space.
 
 ## WHEN THE CHIPS ARE DOWN, BET BIG
 
-Insulted but undaunted, I realized starting at the bottom of the tank was not for me. My first call was right to the top. Bob Scarabelli was the new President of a company in process of taking Gastown Film & Transfer from private to a public company: Rainmaker Digital Pictures Inc.
+Undaunted, I realized starting small at the bottom of the ladder was not for me. My first call was right to the top. Bob Scarabelli was the new President of a company in process of taking Gastown Film & Transfer from private to a public company: Rainmaker Digital Pictures Inc.
 
-As the largest film processing company in Western Canada, Rainmaker was well positioned to take advantage of the Hollywood North filming boom with new digital services. Location is everything; timing is everything else.
+As the largest film processing company in Western Canada, Rainmaker was well positioned to take advantage of the Hollywood North filming boom with new digital services.
+
+**Location is everything; timing is everything else.**
 
 3D compositing services were drawing big dollars from big film and television projects done locally due to significant cost and culture benefits. The 3D software hardware and software tools of the day were amazingly capable of creating worlds, but worldly expensive.
 
@@ -95,11 +99,13 @@ I also need to remind myself that I don't need to spend ANY money to get capable
 
 ## EVERYTHING IN THE UNIVERSE IS CONNECTED
 
-The [VFX industry] has scaled enormously; now it is a cut-throat commodity, doomed to a competitive price race to the bottom. A movie can make a billion dollars, but studios use their leverage and expend great effort to save pennies from suppliers. Dare I say, but the Hollywood business model in some Marvelous quarters creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an endless supply of more willing victims to follow.
+The VFX industry has scaled enormously; now it is a cut-throat commodity, doomed to a competitive price race to the bottom. A movie can make a billion dollars, but studios use their leverage and expend great effort to save pennies from suppliers.
 
-That was never going to be me - my long-term goal to create a short 3D film made enirely with my own handiwork. Alas, only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**.
+Dare I say, but the Hollywood business model in some [Marvelous quarters](https://gizmodo.com/disney-marvel-movies-vfx-industry-nightmare-1849385834) creates chaos for artists and creative companies alike. The blood-from-a-rock mentality works good people to death; unfortunately there is an endless supply of willing victims to follow. That was never going to be me.
 
-3D modeling is about connecting lines to dots. My early connection to the technology took me to interesting spots, but skill level is still shaded by reality. I can render 4K frames in seconds and minutes now... my turn to connect the dots awaits.
+3D modeling is about connecting lines to dots. My early connection to the technology took me to interesting spots, but skill level is still shaded by reality. I can render 4K frames in seconds and minutes now.
+
+My long-term goal to create a short 3D film made enirely with my own handiwork. Alas, only with in-the-box thinking and solid effort will my 3D worlds will take shape on their own dimension: in **TIME**. My turn to connect the dots awaits.
 
 <video width="720" height="auto" controls style="max-width: 100%">
    <source src="/assets/Robot-Juggler-2022-720.mp4" type="video/mp4">
@@ -107,7 +113,7 @@ That was never going to be me - my long-term goal to create a short 3D film made
 
 ### VIDEO: ROBOT TIE CHEE
 
-*I never really thanked [Bob Scarabelli](https://www.imdb.com/name/nm1032522/bio?ref_=nm_ov_bio_sm) enough for picking me off the corner and hiring me to help turn analog film ino digital pictures. "Shaping the image" was his message, which shaped the whole city of Vancouver into a film destination. Bob passed away in 2004 while riding a bicycle in the park. I will have to pay my thanks forward.
+{*I never really thanked [Bob Scarabelli](https://www.imdb.com/name/nm1032522/bio?ref_=nm_ov_bio_sm) enough for picking me off the corner and hiring me to help turn analog film ino digital pictures. "Shaping the image" was his message, which shaped the whole city of Vancouver into a film destination. Bob passed away in 2004 while riding a bicycle in the park. RIP; will have to pay my thanks forward.}
 
 ## RECOMMENDED READING
 
