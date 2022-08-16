@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3D: Juggling Perspectives"
+title: "3D Animation: Juggling Perspectives & Connecting Dots"
 author: randy
 permalink: /@randy/3D-juggling-perspectives
 image: "assets/img/JugglerVideoImage03b.png"
