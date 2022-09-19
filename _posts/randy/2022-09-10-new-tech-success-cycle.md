@@ -9,7 +9,7 @@ tags: tails analog-sampling
 ---
 
 <video width="720" height="auto" controls style="max-width: 100%">
-   <source src="/assets/video/clown-juggling-words.webm.webm" type="video/webm">
+   <source src="/assets/video/clown-juggling-words.webm" type="video/webm">
 </video>
 
 <audio controls="controls">
