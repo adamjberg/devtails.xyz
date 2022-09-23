@@ -8,15 +8,20 @@ description:  Creativity and filmography seems to run in the family. My immigran
 tags: tails analog-sampling
 ---
 
-   <video width="720" height="auto" controls style="max-width: 100%">
+<video width="720" height="auto" controls style="max-width: 100%">
    <source src="/assets/video/home-movie-magic.webm.webm" type="video/webm">
-   </video>
+</video>
+
+<audio controls="controls">
+  <source type="audio/mp3" src="{{"/assets/audio/Hip-Hop-Rhyme-Slayer-1.1.mp3" | relative_url}}"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ## FIRST LOOK DEAL
 
-The first creative activity I recall witnessing as a child was that of my grandfather sitting alone at home in front of a [Moviola](https://moviola.com)-type 8mm film editing system. Home movies were a new thing – we didn't know many other folks with [movie cameras](https://en.wikipedia.org/wiki/8_mm_film), let alone edit machines in our small town.
+The first creative activity I recall witnessing as a child was that of my grandfather sitting alone at home in front of a [Moviola](https://moviola.com)-type 8mm film editing system. Home movies were a new thing – we didn't know many other folks with [movie cameras](https://en.wikipedia.org/wiki/8_mm_film), let alone edit machines on the prairies.
 
-He showed me how to cue up the small plastic reels - watch the scenes he had shot, back and forth to make notes and judgements. Next step was to slice (with a razor blade in a diagonal guide) the strips minus all the unworthy shots. He would then splice the shortened strip onto the end of the big master reel – thus in chronological order.
+He showed me how to cue up the small plastic reels - watch the scenes he had shot, shuttling back and forth to make notes and judgements. Next step was to slice the strips (with a razor blade in a diagonal guide) minus all the unworthy shots. He would then splice the shortened strip onto the end of the big master reel – thus in chronological order.
 
 How could this poor old German refugee be so advanced in his interest and knowledge about making movies? He was technology studious – could build or fix anything, but then how could he also be creative?
 
@@ -78,7 +83,7 @@ A more cost and time-effective plan would be to purchase a consumer [film to dig
 
 The near real-time digital conversion will be (by far) the fastest part of the restoration process. Once the picture is in digital form though, all the modern video play tools come in to play. As with all motion picture projects, many x multiples of the video runtime will be needed to complete a full makeover.
 
-One hour of content will take from a 0.5:1 to 20:1 time ratio to each line item of the of the possible restoration services:
+Taken to an entertainment extreme, a restoration project could take forever. One hour of content might take from a 0.5:1 to 20:1 time ratio to each line item of the possible restoration services:
 
       Scan Film, Digitize
       File Management
