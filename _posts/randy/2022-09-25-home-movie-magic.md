@@ -4,7 +4,7 @@ title: "Creating New From Old – Home Movie Magic"
 author: randy
 permalink: /@randy/home-movie-magic
 image: "assets/img/home-movie-magic.png"
-description:  Creativity and filmography seems to run in the family. My regugee grandfather was an avid home movie camera  before 
+description:  Creativity and filmography seems to run in the family. My refugee grandfather was an avid home movie enthusiast before anyone else we knew. His inspiration kicked off three generations of Creative Types, but his life's work sits hidden away in a film can. It is time for that to change - and time to teach MY grandkids producing home movies, right from the beginning.
 tags: tails analog-sampling
 ---
 
