@@ -121,7 +121,7 @@ Our 50-70 year old film reels awaits a reunion with light to reveal several hour
 
 The ultimate plan is to teach MY grandchildren how to do this creative video restoration work, based on MY grandfather's original creative work. If they want to be "YouTubers" it is going to helpful to know things if they want to be the best.
 
-7-9 year-olds can do some of this with guidance and focus - perhaps they may also develop a personal connection to the family content they helped recreate. Who knows what they will be able to learn in their lifetime and pass on to[] THEIR grandchildren upon their turn.
+7-9 year-olds can do some of this with guidance and focus - perhaps they may also develop a personal connection to the family content they helped recreate. Who knows what they will be able to learn in their lifetime and pass on to THEIR grandchildren upon their turn.
 
 Now if I can just pry their little fingers off the game controllers and big eyes off the Tallyvision, we can start this conversion conversation before another generation passes.
 
