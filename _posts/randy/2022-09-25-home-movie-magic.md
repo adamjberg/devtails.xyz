@@ -140,6 +140,8 @@ xyz digital inc.
 
 [How to Organize, Preserve and Digitize Home Movies - Family Tree Magazine](https://familytreemagazine.com/preservation/digitize-old-home-movies)
 
+[8mm Film Transfer Guide - Street Directory](https://www.streetdirectory.com/travel_guide/159094/technology/8mm_film_transfer_guide_what_you_need_to_know.html)
+
 [Kodak Digitizing Box - Service](https://kodakdigitizing.com)
 
 [Restoring Old Home Movies - Unalome Photography](https://unalomephotography.com/restoring-old-8mm-home-movies)
