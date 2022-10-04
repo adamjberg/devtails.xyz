@@ -65,7 +65,7 @@ The worse half of the micro-production job is all the tagging, linking, hashtagg
 
 The good news for some is the Walled-Gardens are throwing tons of cash at CREATIVES to produce for their flower demographics, hoping their platform is chosen flavor-of-the-month one day. That success will pay very well for that month, but until then there is no end of investment capital to chase after the content Golden Land.
 
-Social media outlets like [Snapchat](https://variety.com/2021/digital/news/snapchat-creator-payout-250-million-1235132541), [Pinterest](https://www.engadget.com/pinterest-creator-fund-creator-code-150013929.html) and many [needy Walled-Gardens](https://www.shopify.com/blog/creator-fund) have been throwing million$ in SCRATCH at the CREATIVE ITCH, knowing the next wave of content CREATOR apps may leave them beached and abandoned. 
+Social media outlets like [Snapchat](https://variety.com/2021/digital/news/snapchat-creator-payout-250-million-1235132541), [Pinterest](https://www.engadget.com/pinterest-creator-fund-creator-code-150013929.html) and many [needy Walled-Gardens](https://www.shopify.com/blog/creator-fund) have been throwing million$ in SCRATCH at the CREATIVE ITCH, knowing the next wave of content CREATOR apps may leave them beached and abandoned.
 
 Throwing around pretend money (so they can pretend they are a player) is the high-tech corporate version of socialism – a bribe offered to people with the money made off same peoples' backs. $250 million can't buy you one professional baseball player - maybe we are all playing the wrong game.
 
@@ -90,7 +90,7 @@ xyz digital inc.
 
 ...
 
-## NAB AMPLIFY – AMPLIFICATION 
+## NAB AMPLIFY – AMPLIFICATION
 
       PRO 
 
