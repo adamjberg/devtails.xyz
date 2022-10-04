@@ -4,7 +4,7 @@ title: "We Are All Creative Now"
 author: randy
 permalink: /@randy/we-are-all-creative-now
 image: "assets/img/all-creative-now.png"
-description: The socio-economic status of creators has risen and fallen for all the millennia. Creators used to be rare because it took ages to learn the skills, and community support was needed. Now anyone with a phone can access tools and resources to help many creative eendeavors. This has led to a monstrous volume of content, making it near impossible to compete with without paying heed to some form of walled-garden rules.  
+description: The socio-economic status of creators has risen and fallen for all the millennia. Creators used to be rare because it took ages to learn the skills. Now anyone with a phone can access tools and resources to help many creative endeavors. This has led to a monstrous volume of content, making it near impossible to compete  without paying heed to walled-garden rules.  
 tags: tails analog-sampling
 ---
 
@@ -23,7 +23,7 @@ tags: tails analog-sampling
 
 ## DRAWING THE LINES
 
-In the beginning, there was only one creator – woever, whatever dialed in the FORCE that energized the universe. Long story short, there came a reason for being. A little later, CREATIVE TYPES of human debuted with [cave paintings](https://www.atlasobscura.com/articles/cosquer-cave-art-underwater), leaving messages on walls that lasted longer than their being. Some of these priceless artifacts will outlive us all, but none will survive to the end of the universe.
+In the beginning, there was only one creator – whoever or whatever dialed in the FORCE that energized the universe. Long story short, there came a reason for being. A little later, CREATIVE TYPES of human debuted with [cave paintings](https://www.atlasobscura.com/articles/cosquer-cave-art-underwater), leaving messages on walls that lasted longer than their being. Some of these priceless artifacts will outlive us all, but none will survive to the end of the universe.
 
 CREATIVES have been capturing and coding the world for eons. There was always a storyteller, as there was and is always a story to tell. When hunting and gathering was critical to our tribes, the CREATIVE BEING would have been very unique – assuming they still had to hunt and/or gather for a living.
 
@@ -51,9 +51,9 @@ I was mostly concerned with hopelessly fixing my dirt-jumped 10-speed bicycle at
 
 ## NOT YOUR-TUBE: QUALITY of PRODUCT vs. QUANTITY of REVENUE
 
-As with any success curve, highly successful CREATORS are rare  but soak up an overabundance of revenue. There are many good "YouTubers" (97% YT earn <minimum wage) but a few have figured out how to game the system. It is all about the "algorithm" - the secret recommendation formula which is rarely even understand by the algorithmers, let alone algorithmees.
+As with any success curve, highly successful CREATORS are rare  but soak up an overabundance of revenue. There are many good "YouTubers" (97% YT earn less than minimum wage) but a few have figured out how to game the system. It is all about the "algorithm" - the secret recommendation formulas which are rarely even understand by the algorithmers, let alone algorithmees.
 
-Google/Facebook/Apple/Etc is in the business of making money – and they have to make all the money or they take their marbles and go to the next hustle. They do not care twit if content is good; they just care if you pay for play or keep clicking on the boxed shit they put in front of your face. Free is fantastic, but if you are not a paying customer, you are the product being sold. All the ads mindlessly endured in dead ends make for a lot of billionaires at the head end.
+Google/Facebook/Apple/Etc is in the business of making money – and they have to make all the money or they take their marbles and go to the next hustle. They do not care a bit if content is good; they just care if you pay for play or keep clicking on the boxed shit they put in front of your face. Free is fantastic, but if you are not a paying customer, you are the product being sold. All the ads mindlessly endured in dead ends make for a lot of billionaires at the head end.
 
 Breaking through on the daily 300,000 videos (YT alone) is akin to winning the lottery, except the next ticket buyer will study and copy exactly what was done to gain algorithmic favor. The other 299,999 videos will be watched only by close relatives or by accident. Get loud, mean or radicalized if you want to rise above the sour cream.
 
@@ -69,28 +69,7 @@ Social media outlets like [Snapchat](https://variety.com/2021/digital/news/snapc
 
 Throwing around pretend money (so they can pretend they are a player) is the high-tech corporate version of socialism – a bribe offered to people with the money made off same peoples' backs. $250 million can't buy you one professional baseball player - maybe we are all playing the wrong game.
 
-CREATIVITY, however difficult - has never been so popular, both from a consumption and a delivery standpoint. While there are many more opportunities than ever before, these new digital markets are overwhelmed with many more micro-competitors.
-
-Flip through the online design for hire site [fiverr](www.fiverr.com) for fiverr minutes be dually amazed: 1) there are so many custom project designers for hire so cheaply, and 2) you have been replaced by the internet and have no chance. Why would anyone pay thousands to you face when they can pay hundreds to someone far away? On the other hand, how does anyone that wants to get rich get there at $5 or $100 and up?
-
-There will be various descriptions of the coming ages, eras or economies since the Information Age is old aged by now. A new BUZZWORD developing is in recognition of the expected CREATIVE ECONOMY. Already 25% of the US workforce toils in what is considered a CREATIVE ROLE.
-
-## TURN ON, TUNE IN – DON'T DROP OUT
-
-Our youth are not shy and will do very well with phones on face and faces on phone. Hopefully they will discover phones can also take some pictures and videos horizontally, where viewers can see fewer skies and bellies, the whole group in the "selfie" shot, and wide format landscapes. We can say it was their invention - we can be dazzled as they rotate +/- 90 degrees.
-
-Rather than be turned away by naysayers, people of all ages should embrace the technologies in our hands and in our faces. Accept your fate, and turn on your devices – get ready to learn. It will take days, months and years to figure out the "RITHYM" and the "RHYME" of your CREATIVE STREAK, but you have a few. Do not worry that you will fall behind, as that already happened again while his sentence was being  composed.
-
-The best players at any game are the most talented players that never give up. If all odds are against the SELF-STARTER, the payoff for a win is going to be pretty big. The attraction to be a CREATOR, an INFLUENCER, a CREATOR, may secretly be a FORCE within a lot of us.
-
-...
-
-Randy Berg
-xyz digital inc.
-
-...
-
-## NAB AMPLIFY – AMPLIFICATION
+## SOCIAL MEDIA MEATHOOKS
 
       PRO 
 
@@ -100,15 +79,39 @@ xyz digital inc.
 
       In social media, creators maintain programming power over what gets seen and when. But in recommendation media, the platform is always in control. Since a platform is in control of what content gets served to who and when, there’s no expectation that a creator’s social network is guaranteed to see their content. Therefore, platforms can also choose what not to program, and there’s little creators can do or say to counteract this.
 
-[Connect the New Social in Social Media](https://amplify.nabshow.com/articles/connect-the-new-social-in-social-media)
+Source: [Connect the New Social in Social Media](https://amplify.nabshow.com/articles/connect-the-new-social-in-social-media)
+
+## THEN THERE WAS LIGHTNING
+
+CREATIVITY, however difficult - has never been so popular, both from a consumption and a delivery standpoint. While there are many more opportunities than ever before, these new digital markets are overwhelmed with many more micro-competitors.
+
+Flip through the online design for hire site [fiverr](www.fiverr.com) for fiverr minutes be dually amazed: 1) there are so many custom project designers for hire so cheaply, and 2) you have been replaced by the internet and have no chance. Why would anyone pay thousands to your face when they can pay hundreds to someone far away? On the other hand, how does anyone that wants to get rich get there at $5 or $100 and up?
+
+There will be various descriptions of the coming ages, eras or economies since the Information Age is old aged by now. A new BUZZWORD developing is in recognition of the expected CREATIVE ECONOMY. Already 25% of the US workforce toils in what is considered a CREATIVE ROLE.
+
+## TURN ON, TUNE IN – DON'T DROP OUT
+
+Our youth are not shy and will do very well with phones on face and faces on phone. Hopefully they will discover phones can also take some pictures and videos horizontally, where viewers can see fewer skies and bellies, the whole group in the "selfie" shot, and wide format landscapes. We can say it was their invention - we can be dazzled as they rotate +/- 90 degrees.
+
+Rather than be turned away by naysayers, people of all ages should embrace the technologies in our hands and in our faces. Accept your fate, and turn on your devices – get ready to learn. It will take days, months and years to figure out the "'RITHYM" and the "RHYME" of your CREATIVE STREAK, but you may have a few. Do not worry that you will fall behind, as that already happened again while his sentence was being  composed.
+
+The best players at any game are the most talented players that never give up. If all odds are against the SELF-STARTER, the payoff for a win is going to be pretty big. The attraction to be a CREATOR, an INFLUENCER, a CREATOR, may secretly be a guiding FORCE within a lot of us.
+
+...
+
+Randy Berg
+
+xyz digital inc.
+
+...
+
+## RECOMMENDED READING
 
 [Capitalize the Economy Part of the Creator Economy – NAB Show](https://amplify.nabshow.com/articles/capitalize-the-economy-part-of-the-creator-economy)
 
 [1 in 4 are Content Creators – Here's Why That is Awesome and Actionable – NAB Show](https://amplify.nabshow.com/articles/create-one-in-four-people-are-content-creators-heres-why-thats-awesome-and-actionable)
 
 [Developers Role In Building the Creator Economy is More Important Than You Think – NAB Show](https://amplify.nabshow.com/articles/the-developers-role-in-building-the-creator-economy-is-more-important-than-you-think)
-
-## RECOMMENDED READING
 
 [Virginia Woolf on the Courage To Create – The Marginalian](https://www.themarginalian.org/2022/09/16/virginia-woolf-self-doubt)
 
