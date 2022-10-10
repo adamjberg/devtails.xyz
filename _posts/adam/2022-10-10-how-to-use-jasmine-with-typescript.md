@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to Use Jasmine With TypeScript"
-permalink: /@adam/how-to-use-jasmine-with-typescript
-image: assets/img/how-to-use-jasmine-with-typescript.png
+title:  "How to Unit Test Using Jasmine and TypeScript"
+permalink: /@adam/how-to-unit-test-using-jasmine-and-typescript
+image: assets/img/how-to-unit-test-using-jasmine-and-typescript.png
 author: adam
-description: Step by step instructions to add jasmine testing to your TypeScript node project
+description: Step by step instructions to add jasmine testing to your TypeScript project
 tags: dev
 ---
 

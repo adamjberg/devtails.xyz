@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 W, H = (1200,630)
 img = Image.new('RGB', (W, H), color = (0, 0, 0))
  
-msg = "How to Use Jasmine\n With TypeScript"
+msg = "How to Unit Test Using\nJasmine and TypeScript"
 font = ImageFont.truetype('Silkscreen-Regular.ttf', 72)
 d = ImageDraw.Draw(img)
 _, _, w, h = d.textbbox((0, 0), msg, font=font)
