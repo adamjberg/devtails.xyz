@@ -5,10 +5,11 @@ from PIL import Image, ImageDraw, ImageFont
 W, H = (1200,630)
 img = Image.new('RGB', (W, H), color = (0, 0, 0))
  
-msg = "How to Unit Test Using\nJasmine and TypeScript"
 font = ImageFont.truetype('Silkscreen-Regular.ttf', 72)
+
+msg1 = "Jasmine + TypeScript"
 d = ImageDraw.Draw(img)
-_, _, w, h = d.textbbox((0, 0), msg, font=font)
-d.text(((W-w)/2,(H-h)/2), msg, font=font, fill=(255, 255, 255))
- 
+_, _, w, h = d.textbbox((0, 0), msg1, font=font)
+d.text(((W-w)/2,(H-h)/2), msg1, font=font, fill=(255, 255, 255))
+
 img.save('pil_text_font.png')
