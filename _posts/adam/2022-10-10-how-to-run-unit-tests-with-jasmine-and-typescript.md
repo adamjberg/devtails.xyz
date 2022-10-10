@@ -8,6 +8,8 @@ description: Step by step instructions to add jasmine testing to your TypeScript
 tags: dev
 ---
 
+![](/assets/img/jasmine-typescript.png)
+
 See [source code on Github](https://github.com/adamjberg/jasmine-with-typescript)
 
 This post describes how to write and run jasmine tests in node when using TypeScript.  The general approach used here is to compile all TypeScript files to a `build` folder and then run jasmine out of the build folder.
