@@ -12,7 +12,7 @@ tag: dev
 
 ## How Did We Get Here?
 
-When I first started building Kaizen, I decided to try out Auth0.  I have built user authentication before, but I really didn’t want to start there, I simply wanted to build an application.  From the variety of articles I read in the realm of user authentication, most tended to suggest just using some pre-built solution to avoid the hassle. I also wanted the ability to Sign in with Google, and this appeared to mostly come for free with the Auth0 integration.
+When I first started building [Kaizen](https://kaizen.place), I decided to try out Auth0.  I have built user authentication before, but I really didn’t want to start there, I simply wanted to build an application.  From the variety of articles I read in the realm of user authentication, most tended to suggest just using some pre-built solution to avoid the hassle. I also wanted the ability to Sign in with Google, and this appeared to mostly come for free with the Auth0 integration.
 
 ### Confusing Setup
 
