@@ -34,18 +34,42 @@ tag: dev
 
 ![image](https://user-images.githubusercontent.com/1812989/198689956-b46fcb33-e3ce-4e74-a7ad-ce9817dc0538.png)
 
-![image](https://user-images.githubusercontent.com/1812989/198690206-0634641e-a816-4148-a39b-5619df658fce.png)
 
-![image](https://user-images.githubusercontent.com/1812989/198690277-e747a6b9-d7af-468c-9a49-31adfb90e2a9.png)
+## Create Search Index Using JSON Editor
 
-![image](https://user-images.githubusercontent.com/1812989/198690322-3cba2123-9ce9-4b8b-bdd4-500147e17b6f.png)
+![image](https://user-images.githubusercontent.com/1812989/198694092-a547723d-1d69-43ef-9ae4-726df596bf3c.png)
 
-![image](https://user-images.githubusercontent.com/1812989/198690421-4289bc37-2778-40fb-872a-8d4414ea518b.png)
+![image](https://user-images.githubusercontent.com/1812989/198694451-6f82f696-32ae-4204-8b3e-b4763b4c614b.png)
 
-![image](https://user-images.githubusercontent.com/1812989/198690515-46b94c89-1d20-47ce-a29b-a941103f630f.png)
+```json
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "body": {
+        "analyzer": "htmlStrippingAnalyzer",
+        "searchAnalyzer": "htmlStrippingAnalyzer",
+        "type": "string"
+      }
+    }
+  },
+  "analyzers": [
+    {
+      "charFilters": [
+        {
+          "type": "htmlStrip"
+        }
+      ],
+      "name": "htmlStrippingAnalyzer",
+      "tokenFilters": [],
+      "tokenizer": {
+        "type": "standard"
+      }
+    }
+  ]
+}
+```
 
+![image](https://user-images.githubusercontent.com/1812989/198694807-a76ac6ea-c651-4afa-a6e0-f279925db19d.png)
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/1812989/198694853-d604637a-e15b-4e52-83f2-b7bf15eada03.png)
