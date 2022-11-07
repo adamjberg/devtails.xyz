@@ -732,5 +732,6 @@ function deleteOne(socket, { collection, filter }) {
 run();
 ```
 
-## Conclusion
+## Wrap Up
 
+I have toyed around with the idea of building a database for many years.  I've started and stopped these projects a few times now.  I think the only way to really dive deep into it is to just start using it in a real application.  From here I will be converting my existing [engram](https://github.com/engramhq/engram) application to use this database instead of it's current mongodb.  I'm hoping that doing so will naturally introduce some of the challenges that exist when building a database so I can better learn what's really happening behind the scenes.
