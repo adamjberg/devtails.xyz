@@ -5,7 +5,7 @@ author: adam
 permalink: /@adam/building-a-simple-database-in-javascript
 image: 
 description: 
-tag: dev engram
+tags: dev javascript engram
 ---
 
 I have been using [MongoDB](https://www.mongodb.com/atlas/database) since about 2015.  I have enjoyed the flexibility of not defining schemas and constantly running migrations.  Particularly when it comes to prototyping and experimenting.  
