@@ -3,10 +3,12 @@ layout: post
 title:  "Building a Simple Database in Javascript"
 author: adam
 permalink: /@adam/building-a-simple-database-in-javascript
-image: 
-description: 
+image: assets/img/building-a-simple-database-in-javascript.png
+description: Tutorial for building a MongoDB like database in Javascript
 tags: dev javascript engram
 ---
+
+![](/assets/img/building-a-simple-database-in-javascript.png)
 
 I have been using [MongoDB](https://www.mongodb.com/atlas/database) since about 2015.  I have enjoyed the flexibility of not defining schemas and constantly running migrations.  Particularly when it comes to prototyping and experimenting.  
 
