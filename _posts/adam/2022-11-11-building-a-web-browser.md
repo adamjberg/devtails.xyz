@@ -3,12 +3,14 @@ layout: post
 title:  "Building a Web Browser With SDL in C++"
 author: adam
 permalink: /@adam/building-a-web-browser-with-sdl-in-c++
-image: 
+image: assets/img/engram-browser-0.0.1.png
 description: An early demo of a web browser and reasons why to even build it in the first place
 tags: dev browser
 ---
 
-You can see the current progress and even read this article using the [engram browser](https://browser.engramhq.xyz/) from your browser.  That's right, this browser has been compiled with emscripten to wasm so you can run a browser in a browser.  This post is the first post in likely a series of posts along this journey.  If you are interested in following its progress, you can subscribe to the dev/tails mailing list (sign up at bottom of page) or follow on [Github @engramhq/browser](https://github.com/engramhq/browser).
+![engram browser](/assets/img/engram-browser-0.0.1.png)
+
+You can see the current progress and even read this article using the [engram browser](https://browser.engramhq.xyz/) from your browser.  That's right, **this browser has been compiled with emscripten to wasm so you can run a browser in a browser**.  This post is the first post in likely a series of posts along this journey.  If you are interested in following its progress, you can subscribe to the dev/tails mailing list (sign up at bottom of page) or follow on [Github @engramhq/browser](https://github.com/engramhq/browser).
 
 ## Where it's at now
 
@@ -24,11 +26,11 @@ This question has haunted me for so long.  It has prevented me from truly commit
 
 ### A Learning Experience
 
-A browser combines pretty much all aspects of programming into one.  This seems like a good opportunity to stretch my current knowledge and stumble on new challenges that I haven't yet experienced. This is probably the number one reason for me at the moment.
+**A browser combines pretty much all aspects of programming into one.**  This seems like a good opportunity to stretch my current knowledge and stumble on new challenges that I haven't yet experienced. This is probably the number one reason for me at the moment.
 
 ### People Think It's Incredibly Difficult
 
-Building a browser that has comparative functionality and stability to modern browsers would be a massive undertaking.  However, I would like to prove that the basics of what a browser is doing is within the grasp of what any programmer could (and arguably, should) understand.  At the end of the day, a browser reads some text over a network and then renders it.  That is it.
+Building a browser that has comparative functionality and stability to modern browsers would be a massive undertaking.  However, I would like to prove that the **basics of what a browser is doing is within the grasp of what any programmer could (and arguably, should) understand**.  At the end of the day, a browser reads some text over a network and then renders it.  **That is it.**
 
 ### I Do Not Like That Apple Limits iOS to Using Safari
 
@@ -38,19 +40,21 @@ This project will remain open source as it evolves, which means as it picks up e
 
 ### The Modern Browsing Experience is Frustrating
 
-Back when Steve Jobs killed Flash, he helped position browsers as the way to move forward. This position shifted as Apple realized they could gouge the crap out of everyone on their app store leading them to drag their feet on supporting new browser functionality (*cough* push notifications).
+Back when Steve Jobs killed Flash, he helped position browsers as the way to move forward. This position shifted as Apple realized they could **gouge everyone on their app store** leading them to drag their feet on supporting new browser functionalities (*cough* push notifications).
 
 It has taken us almost a decade, but feels like we've come full circle.  Browsers are now capable of doing everything that Flash was doing decades ago.  Companies, users, and pretty much everyone expects that their "apps" will work in a browser and be fully interactive.  
 
-Unfortunately, much like the early days of flash on the web, these "flashy" web pages lack substance. There are large swaths of people like me simply looking to read what other people are writing.  But, our current society tries to convince us that we should only be finding this information through Instagram, Twitter, Facebook, or whatever other platform springs up.  
+Unfortunately, much like the days of flash on the web, these "flashy" web pages lack substance and while they might be "secure" by some peoples defintions, I do not feel safe browsing due to the aggressive tactics many websites have taken to. There are large swaths of people like me simply looking to read what other people are writing.  But, our current society tries to convince us that we should only be finding this information through Instagram, TikTok, Twitter, Facebook, or whatever other platform springs up.  
 
-| Browsing the internet has become a game.  Unfortunately for us, not the fun kind.  
+### Browsing the internet has become a game.
+
+Unfortunately for us, not the fun kind.  
 
 After searching for something on Google I first have to scroll down a full page length to avoid paid advertisements. Then I click a link that seems like should have what I'm looking for.  This page takes several seconds to load because there's a mountain of JavaScript and images to load.  Meanwhile the page jankily pulls itself together.  Every half second the layout completely readjusts itself.  
 
 I have learned not to bother attempting to scroll at this point, because this is all some wicked way to get people to accidentally clicking on ads.  Google ads slowly fill up nearly 60% of my screen.  Something that I recently learned is essentially their recommended setup when setting up ads.  
 
-Next is the "all important" cookie notice, that now blocks all interaction with the site.  In most cases, the site has already added their cookie and begun their tracking.  When are we going to re-assess how terrible this legislation was?  I can't imagine this helping anyone, but now adds at least one click and a massive distraction to most external link clicks.
+Next is the "all important" cookie notice, that now blocks all interaction with the site.  In most cases, the site has already added their cookie and begun their tracking.  When are we going to **re-assess how terrible this legislation** was?  I can't imagine this helping anyone, but now adds at least one click and a massive distraction to most website visits.
 
 I sell my soul away and click the "Allow Cookies" button.  Lord knows how many more hoops I need to jump through to disable the "non essential ones."  I minimize the horrendous google ad that pops up at the bottom of the screen and finally start reading.  I nervously start to scroll as I get further along. My brain fighting the incredibly distracting colorful video ad.  I've made it through about a paragraph by now.  And then it happens.  The page darkens and a modal pops up.  "Subscribe to our newsletter." Shortly after, the page requests access to send me notifications.  
 
@@ -58,7 +62,7 @@ By this point I'm ready to throw my computer out the window. I really wish this 
 
 So how does building a browser help with this?  On its own, it probably doesn't.  But my hope is to use this time exploring what life would be like with a browser without JavaScript support.  I realize that this is possible to enable on current browsers, but there is still a good chunk of my workflow that is tied to web applications that require it.  Perhaps have a secondary browser that I use exclusively for casual browsing and reading could help.
 
-I would be interested in exploring creating a search engine that explicitly rejects any websites that don't conform with the simple basic "reader mode" that this browser will effectively support.
+In the future, I would be interested in exploring creating a search engine that explicitly rejects any websites that don't conform with the simple basic "reader mode" that this browser will effectively support.  Thereby creating a smaller web that is a bit more enjoyable to navigate.
 
 ### Electron is a total Resource Hog
 
@@ -72,13 +76,13 @@ I am a strong proponent of bringing back desktop applications.  Chrome Web Apps 
 
 This is somewhat contradictory to my statements about JavaScript above, but I think I would be interested in exploring anyway. "Modern" web development has pretty well settled on TypeScript as the default language to use.  We previously were stuck dealing with the shockingly slow typescript compiler to get ourselves a final bundle that could be shipped.  New challengers have arrived like esbuild showing how just transpilation could significantly speed up this bundling process.  I'm a fan of this, but I can't help but think that all of this becomes obsolete when browsers finally embrace TypeScript.  
 
-The browser already has some JavaSript parsing engine.  All it needs to add on top of this, is the ability to ignore TypeScript types.  I suspect that there are a few trickier TypeScript features that would require on the fly transpilation.  For my own needs and exploration, I would be curious to explore some in between blend that is more of Typed JavaScript.  The typing syntax would be the same as TypeScript to ensure all of that tooling continues to work, but this should make the parsing process much simpler.
+The browser already has a JavaSript parsing engine.  All it needs to add on top of this, is the ability to ignore TypeScript types.  I suspect that there are a few trickier TypeScript features that would require on the fly transpilation.  For my own needs and exploration, I would be curious to explore an in between blend that is more of Typed JavaScript.  The typing syntax would be the same as TypeScript to ensure all of that tooling continues to work, but this should make the parsing process much simpler.
 
 The ultimate dream is that we can teach new web developers types from the beginning.  Despite my love of typing, I still often start JS projects without it to avoid the nuisance of pulling in a bundler.  Being able to immediately start with types and no build system would be a great place to end up. And also conveniently gives me an excuse to play around with a JavaScript parser :). 
 
 ## What's Next
 
-The most likely next step is to add an address bar.  For simple blog posts, the current implementation should mostly succeed in rendering the page in a text-only manner.  Having an address bar means I could paste different URLs in and see how different sites perform with it's limited html parsing.
+The most likely next step is to add an address bar to the browser.  For simple blog posts, the current implementation should mostly succeed in rendering the page in a text-only manner.  Having an address bar means I could paste different URLs in and see how different sites perform with it's limited html parsing.
 
 Rendering links would be next on the list.  Once this is available, it becomes possible to actually "browse".  Which is important as this is the entire purpose of a browser.  
 
