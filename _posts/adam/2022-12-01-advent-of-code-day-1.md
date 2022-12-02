@@ -325,12 +325,81 @@ In part two, I got the correct answer with flawed code.  This is just yet anothe
 
 I'm already seeing how this Advent of Code is a great oppurtunity to incrementally build some helper functions and data structures as they become useful.  Thankfully, I was able to avoid them here and keep things pretty plain C.  I have been wanting to build a Vector in C and also a HashMap, both of which will probably be quite useful in future coding challenges.
 
-## Addendum
+## Addendum: Performance
 
-I probably eventually want to clean this next bit up a bit and explore further, but out of curiousity I wanted to compare runtime performance of different solutions. C might be "fast", but for problems like this one, usually it's the algorithm you choose that is most important.  
+I probably eventually want to clean this next bit up a bit and explore further, but out of curiousity I wanted to compare runtime performance of different solutions. C might be "fast", but for problems like this one, usually it's the algorithm you choose that is most important.
+
+### JavaScript
 
 I wasn't sure what I expected to see when comparing my basic C solution to a JS solution that I pulled off the [Reddit submissions megathread](https://www.reddit.com/r/adventofcode/comments/z9ezjb/comment/iyh1ocu/?utm_source=share&utm_medium=web2x&context=3).  
 
-I'd like to a more thorough deep dive, but the short version is that the following Node.js version came in at 565 microseconds vs. ~734 microseconds from my c program.  Interestingly, the Node.js timings seems quite consistent, whereas the c ones varied from 384 up to 2000, but generally hovered in the 700 ms range.
+I'd like to a more thorough deep dive, but the short version is that the following Node.js version came in at 565 microseconds vs. ~734 microseconds from my c program.  Interestingly, the Node.js timings seems quite consistent, whereas the C ones varied from 384 up to 2000, but generally hovered in the 700 ms range.
 
 This most likely identifies that the file reading logic is inefficient.  It reads a single character at a time and then performs a small amount of processing whereas the JS version loads the entire file into memory first and then operates on it.  
+
+```js
+// Adapted from https://www.reddit.com/r/adventofcode/comments/z9ezjb/comment/iyh1ocu/?utm_source=share&utm_medium=web2x&context=3
+const fs = require('fs');
+
+const start = process.hrtime.bigint();
+
+const data = fs.readFileSync('input.txt');
+
+let [first, second, third] = String(data).replace(/(.*)(\r\n|\n|\r)/gm, '$1,').split(',,').map(elf => {
+  return elf.split(',').reduce((prev, next) => prev + Number(next), 0)
+}).sort((a,b) => b -a);
+
+const end = process.hrtime.bigint();
+
+// 571958n
+console.log(end - start);
+
+console.log(first + second + third);
+```
+
+### Rust
+
+When I first saw the solution below I thought the `include_str!` was going to be severe cheating.  If I'm understanding correctly, this tells the compiler to embed the string in the output.  I figured most of the time delay was actually just reading the file from the file system.  When this still clocked in around 700 microseconds, I was puzzled.  
+
+However, I suspected that `cargo run` was not running a release build.  Switching to `cargo build --release` brought me closer to what I expected.  64-120 microseconds.  For simplicity sake, I'll say that is is 5 times faster than the JavaScript implementation.  Unfortunately, as mentioned above, it's certainly cheating to not have to read the file from disk.  
+
+```rust
+// https://www.reddit.com/r/adventofcode/comments/z9ezjb/comment/iyk2rga/?utm_source=share&utm_medium=web2x&context=3
+use std::time::{SystemTime, UNIX_EPOCH};
+
+fn main() {
+  let start = SystemTime::now();
+
+  let mut input: Vec<usize> = include_str!("input.txt")
+      .split("\n\n")
+      .map(|b|
+          b.lines()
+              .map(|i| i.parse::<usize>().unwrap())
+              .sum()
+      )
+      .collect();
+      
+  input.sort();
+  input.reverse();
+  input.truncate(3);
+  let sum:usize = input.iter().sum();
+
+  let since_the_epoch = SystemTime::now()
+    .duration_since(start)
+    .expect("Time went backwards");
+  
+  println!("{:?}", since_the_epoch);
+
+  println!("sum {}", sum);
+}
+```
+
+#### Rust Read From Disk
+
+After updating the above code to read from disk, I ended up with a 160-180 microsecond run time, or a roughly 3 times speed up from the Node.JS version.
+
+Conceptually speaking, the Rust code and JavaScript code are manipulating the data pretty similarly.  I'm sure there's room to optimize both, but I feel like this it seems reasonably fair to claim that for this solution Rust is running roughly 3x as fast as the JavaScript one.
+
+### Performance Takeaways
+
+My main takeaway for tomorrow's challenge is that I need to improve my file reading.  I intentionally avoided reading the entire file at once for this one because this requires generating a buffer with enough space allocated.  Higher level languages abstract these concepts away, but I find it interesting to have more direct access to how the file loading is actually performed.
