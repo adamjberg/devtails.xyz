@@ -200,7 +200,7 @@ int main() {
       if (pos != 0) {
         int calories;
         sscanf(buffer, "%d", &calories);
-+       memset(buffer, 0, 6);
++       memset(buffer, 0, sizeof(buffer));
 
         currentElfCalories += calories;
 
