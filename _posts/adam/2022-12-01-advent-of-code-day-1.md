@@ -327,7 +327,103 @@ I'm already seeing how this Advent of Code is a great oppurtunity to incremental
 
 ## Addendum: Performance
 
-I probably eventually want to clean this next bit up a bit and explore further, but out of curiousity I wanted to compare runtime performance of different solutions. C might be "fast", but for problems like this one, usually it's the algorithm you choose that is most important.
+Out of curiousity I wanted to compare runtime performance of different solutions. C might be "fast", but for problems like this one, usually it's the algorithm you choose that is most important. I compared my programs runtime with a JS one and a Rust one. The JS and Rust ones were not written by me, so it would be interesting to write these ones out following roughly the same algorithm to make this more of a fair comparison.
+
+### C Changes
+
+The JS solution ended up having a faster runtime than my C program which I knew meant something obvious was slowing my program down.  I ended up rewriting the file reading code as I suspected this was the issue.  I believe this still helped, but the final culprit ended up be `sscanf`.  Once I made these couple of changes my average run time dropped to around 120 microseconds.
+
+There's likely a few more tricks that could be employed to speed things up further, but I like that the code is pretty straightforward C code.  
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/time.h>
+
+struct String {
+  char *data;
+  int length;
+  int size;
+} typedef String;
+
+int main() {
+  struct timeval st, et;
+
+  gettimeofday(&st,NULL);
+
+  FILE * fp = fopen ("input.txt", "r");
+
+  String contents;
+
+  contents.length = 0;
+  contents.size = 10375;
+  contents.data = malloc(contents.size);
+
+  int num_read = fread(contents.data, 1, contents.size - contents.length, fp);
+  contents.length = num_read;
+
+  printf("%d\n", contents.length);
+
+  gettimeofday(&et,NULL);
+  int elapsed = ((et.tv_sec - st.tv_sec) * 1000000) + (et.tv_usec - st.tv_usec);
+  printf("Read: %d micro seconds\n", elapsed);
+
+  int total_elapsed = elapsed;
+
+  gettimeofday(&st,NULL);
+
+  char buffer[6];
+  int pos = 0;
+
+  int max1 = 0;
+  int max2 = 0;
+  int max3 = 0;
+
+  int currentElfCalories = 0;
+  for (int i = 0; i < contents.length; i++)
+  {
+    char ch = contents.data[i];
+
+    if (ch == '\n') {
+      if (pos != 0) {
+        buffer[pos] = 0;
+        int calories = atoi(buffer);
+
+        currentElfCalories += calories;
+
+        pos = 0;
+      } else {
+        if (currentElfCalories > max1) {
+          max2 = max1;
+          max1 = currentElfCalories;
+        } else if (currentElfCalories > max2) {
+          max3 = max2;
+          max2 = currentElfCalories;
+        } else if (currentElfCalories > max3) {
+          max3 = currentElfCalories;
+        }
+        currentElfCalories = 0;
+      }
+      
+    } else {
+      buffer[pos] = ch;
+      pos++;
+    }
+  }
+
+  gettimeofday(&et,NULL);
+  elapsed = ((et.tv_sec - st.tv_sec) * 1000000) + (et.tv_usec - st.tv_usec);
+  printf("Part 2: %d micro seconds\n",elapsed);
+
+  total_elapsed += elapsed;
+  printf("Total: %d micro seconds\n", total_elapsed);
+
+  printf("%d", max1 + max2 + max3);
+  
+  return 0;
+}
+```
 
 ### JavaScript
 
