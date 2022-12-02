@@ -324,3 +324,13 @@ The C-haters will take this as evidence that C is bad, but let's keep in mind th
 In part two, I got the correct answer with flawed code.  This is just yet another example of how deceiving any code can be.  Languages and tools can help us, but I would argue we need to remain vigilant and alert at all times while coding.  This error here is non-critical as it is part of just programming for fun, but perhaps this was the code that determined the top 3 winners and automatically deposited funds to the detected winners.  A potential rightful winner may have been missed due to this error.
 
 I'm already seeing how this Advent of Code is a great oppurtunity to incrementally build some helper functions and data structures as they become useful.  Thankfully, I was able to avoid them here and keep things pretty plain C.  I have been wanting to build a Vector in C and also a HashMap, both of which will probably be quite useful in future coding challenges.
+
+## Addendum
+
+I probably eventually want to clean this next bit up a bit and explore further, but out of curiousity I wanted to compare runtime performance of different solutions. C might be "fast", but for problems like this one, usually it's the algorithm you choose that is most important.  
+
+I wasn't sure what I expected to see when comparing my basic C solution to a JS solution that I pulled off the [Reddit submissions megathread](https://www.reddit.com/r/adventofcode/comments/z9ezjb/comment/iyh1ocu/?utm_source=share&utm_medium=web2x&context=3).  
+
+I'd like to a more thorough deep dive, but the short version is that the following Node.js version came in at 565 microseconds vs. ~734 microseconds from my c program.  Interestingly, the Node.js timings seems quite consistent, whereas the c ones varied from 384 up to 2000, but generally hovered in the 700 ms range.
+
+This most likely identifies that the file reading logic is inefficient.  It reads a single character at a time and then performs a small amount of processing whereas the JS version loads the entire file into memory first and then operates on it.  
