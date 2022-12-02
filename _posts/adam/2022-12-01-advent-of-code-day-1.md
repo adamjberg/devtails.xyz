@@ -34,9 +34,11 @@ This has been a long prologue to the actual code.  I mention it, because as part
 
 ## --- Day 1: Calorie Counting ---
 
+### Part One
+
 I didn't really intend to write an article tonight.  But the articles above stirred my brain a bit.  I wrote up my first iteration and submitted my answer.  I intentionally didn't review my code to thoroughly and just blindly submitted what was spit out.
 
-### Iteration 1
+#### Iteration 1
 
 My first answer came out as `82670259`.  I immediately felt like this sounded way too big, but I submitted nonetheless.  See below to see if you can spot the error.
 
@@ -81,7 +83,7 @@ int main() {
 }
 ```
 
-### Iteration 2
+#### Iteration 2
 
 I forgot to reset the `currentElfCalories` to 0 when reading a new block of calories, so that total was the sum of all numbers in the input file.  I made the quick fix and then submitted my new answer `707682`. This still felt pretty large, but it seemed like my file reading logic was sound so I went ahead an submitted.  Wrong again, still too large according to the submission page.
 
@@ -127,7 +129,7 @@ int main() {
 }
 ```
 
-### Iteration 3
+#### Iteration 3
 
 I re-read my code line by line and wasn't really seeing anything.  I decided to run through the debugger and see if anything stood out.
 
@@ -224,10 +226,101 @@ int main() {
 }
 ```
 
+### Part Two
+
+I almost stopped here because I figured I'd need some kind of sort algorithm to do this nicely.  Sometimes my favorite part of writing C code is it forces you to be a bit scrappier.  Since we only need the top 3, it's not unreasonable to just manually handle the sorting algorithm.  When a new sum is calculated for an elf, we compare it against `max1` to see if this new sum is the largest we've seen yet.  If it is, we swap the existing `max1` to `max2` and set `max1` to the new max.
+
+The code below managed to work for the submission, but is actually not 100% correct.  Walking through the following example we can see why:
+
+```
+1
+
+2
+
+3
+
+4
+```
+
+```
+max1: 1
+max2: 0
+max3: 0
+
+max1: 2
+max2: 1
+max3: 0
+
+max1: 3
+max2: 2
+max3: 0
+
+max1: 4
+max2: 3
+max3: 0
+```
+
+The max1 conditional fails to swap `max2` with `max3`.  I don't feel like walking through the test data to see why the code below works, but I imagine the top 3 sums happen to appear in just the right order to ensure this problem is averted.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+  FILE * fp = fopen ("input.txt", "r");
+
+  char ch;
+  char buffer[6];
+  int pos = 0;
+
+  int max1 = 0;
+  int max2 = 0;
+  int max3 = 0;
+
+  int currentElfCalories = 0;
+  while((ch = getc(fp)) != EOF)
+  {
+    if (ch == '\n') {
+      if (pos != 0) {
+        int calories;
+        sscanf(buffer, "%d", &calories);
+        memset(buffer, 0, sizeof(buffer));
+
+        currentElfCalories += calories;
+
+        pos = 0;
+      } else {
+        if (currentElfCalories > max1) {
+          max2 = max1;
+          max1 = currentElfCalories;
+        } else if (currentElfCalories > max2) {
+          max3 = max2;
+          max2 = currentElfCalories;
+        } else if (currentElfCalories > max3) {
+          max3 = currentElfCalories;
+        }
+        currentElfCalories = 0;
+      }
+      
+    } else {
+      buffer[pos] = ch;
+      pos++;
+    }
+  } 
+
+  printf("%d", max1 + max2 + max3);
+  
+  return 0;
+}
+```
+
 ## Closing Thoughts
 
-Despite trying to intentionally set myself up for a pretty classic C buffer failure, I managed to accidentally land on a separate C string issue.  
+Despite trying to intentionally set myself up for a pretty classic C buffer failure in part one, I managed to accidentally land on a separate C string issue.
 
 The C-haters will take this as evidence that C is bad, but let's keep in mind that I am by no means a professional C programmer.  Throughout this advent of code, I'd like to see if reflecting on these kinds of errors and learning from them can lead to coding patterns that eliminates these altogether.
 
-I'm already seeing how this Advent of Code is a great oppurtunity to incrementally build some helper functions and data structures as they become useful.  I have been wanting to build a Vector in C and also a HashMap, both of which will probably be quite useful in future coding challenges.
+In part two, I got the correct answer with flawed code.  This is just yet another example of how deceiving any code can be.  Languages and tools can help us, but I would argue we need to remain vigilant and alert at all times while coding.  This error here is non-critical as it is part of just programming for fun, but perhaps this was the code that determined the top 3 winners and automatically deposited funds to the detected winners.  A potential rightful winner may have been missed due to this error.
+
+I'm already seeing how this Advent of Code is a great oppurtunity to incrementally build some helper functions and data structures as they become useful.  Thankfully, I was able to avoid them here and keep things pretty plain C.  I have been wanting to build a Vector in C and also a HashMap, both of which will probably be quite useful in future coding challenges.
