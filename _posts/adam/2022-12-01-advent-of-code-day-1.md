@@ -5,7 +5,7 @@ permalink: /@adam/advent-of-code/2022/day/1
 image: 
 author: adam
 description:
-tags: dev
+tags: dev advent-of-code-2022
 ---
 
 Repo can be found [here](https://github.com/adamjberg/advent-of-code-2022)
