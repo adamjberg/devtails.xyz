@@ -8,8 +8,6 @@ description: In this post I will explore the problems that come with standard Re
 tags: dev js react
 ---
 
-# Am I Overreacting? Or is React Over-Reacting?
-
 When I first started doing web development, it was primarily with Python/Django.  Everything was server side rendered and not once did I ever think about "rendering performance".  10 years later and with computers at least twice as fast, rendering performance is now more of an issue than it ever has been.  Single Page Apps (SPAs) and frontend libraries like React have encouraged and enabled highly dynamic web pages.  Unfortunately, in my experience, the default recommended way to write React code does not actually support highly dynamic pages very well.  
 
 In this post I will explore the problems that come with standard React code, the recommended options for improving React performance, and finally counter these with examples in vanilla JS.
