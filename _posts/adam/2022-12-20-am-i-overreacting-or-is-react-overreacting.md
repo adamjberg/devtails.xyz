@@ -10,13 +10,13 @@ tags: dev js react
 
 # Am I Overreacting? Or is React Over-Reacting?
 
-When I first started doing web development, it was primarily with Python/Django.  Everything was server side rendered and not once did I ever think about "rendering performance".  10 years later and with computers at least twice as fast, rendering performance is now more of an issue than it ever has been.  Single Page Apps (SPAs) and frontend libraries like React have taken over and encouraged and enabled highly dynamic web pages.  Unfortunately, in my experience, the default recommended way to write React code does not actually support this very well.  
+When I first started doing web development, it was primarily with Python/Django.  Everything was server side rendered and not once did I ever think about "rendering performance".  10 years later and with computers at least twice as fast, rendering performance is now more of an issue than it ever has been.  Single Page Apps (SPAs) and frontend libraries like React have encouraged and enabled highly dynamic web pages.  Unfortunately, in my experience, the default recommended way to write React code does not actually support highly dynamic pages very well.  
 
-After several years of fighting with React, I'm pretty ready to throw in the towel.  In this post I will explore the problems that come with standard React code, the recommended options for improving React performance, and finally counter these with examples in vanilla JS.
+In this post I will explore the problems that come with standard React code, the recommended options for improving React performance, and finally counter these with examples in vanilla JS.
 
 ## What We're Building
 
-Coming up with a succinct example is difficult as it is really the complexities of a real project that better demonstrate how everything comes together.  This post will walk through a basic "dynamic" example that highlights how React performs when state is constantly changing.  The example is 500 text divs that have their background color updated when one of the elements is hovered over.  After each set of changes I will include screenshots of the profiler to show how much time React is spending rendering.
+Coming up with a succinct example is difficult as it is really the complexities of a real project that better demonstrate how everything comes together.  This post will walk through a basic "dynamic" example that highlights how React performs when state is frequently changing.  The example is 500 text divs that have their background color updated when one of the elements is hovered over.  After each set of changes I will include the source code and screenshots of the profiler to show how much time React is spending rendering.
 
 ## Initialize project using Create React App
 
@@ -161,8 +161,6 @@ First we pull the inner element into it's own React component in order to benefi
 ![](/assets/img/react-separate-component.png)
 
 The code above **still triggers a full render every time the hovered element id changes.**  This is because we are passing in the `hoveredElementId` to the element and therefore each child's props are changing every time the hovered element changes triggering full re-renders for everything.
-
-
 
 ### Use `React.memo` with `propsAreEqual` callback
 
