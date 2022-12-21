@@ -47,7 +47,7 @@ function App() {
     elements.push(
       <div 
         key={i}
-        style={{ marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" }}
+        style={ { marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" } }
         onMouseEnter={() => {
           setHoveredElementId(elementId);
         }}
@@ -75,6 +75,16 @@ export default App;
 On an M1 Macbook Pro **a single render clocks in at between 3ms and 9ms.**  You can also see that every time a new element is hovered a new render is triggered.  If you're thinking under 10ms sounds pretty fast, please remember that the M1 chip is one of the fastest single threaded performing CPUs currently available.  It's easy to imagine that there would be older devices that could be at least twice as slow.  This is also all with the simplest text element.  Even just a few more elements inside the repeated element would start tacking on additional milliseconds of rendering time.
 
 I would like to acknowledge that there should be "some" overhead from using the development build, but I wouldn't expect turning on production mode would have a substantial impact on this example.
+
+**Update:**
+
+I tried a few different methods to profile in production, but each came to the same conclusion.  The fairest apples to apples comparison to my final example at the end of this article is a full production build (`yarn build`) and the Chrome Performance tab.  
+
+### Chrome Performance Tab
+
+Below you can see that the numbers without any additional React development overhead look quite similar to what the React Dev Tools are showing.
+
+![](/assets/img/react-prod-chrome-perf-naive.png)
 
 I come from a game development background where it is ingrained in you that your frame needs to complete all processing in under 16ms in order to maintain 60 frames per second.  With just 500 elements I have nearly passed this threshold already with React.  Once a frame takes more than 16ms, the stutter becomes noticeable and renders get queued up leading to a horrendous user experience.
 
@@ -106,7 +116,7 @@ function Div(props: ElementProps) {
 
   return (
     <div
-      style={{ marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" }}
+      style={ { marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" } }
       onMouseEnter={() => {
         props.onMouseEnter(props.id);
       }}
@@ -183,7 +193,7 @@ function Element(props: ElementProps) {
 
   return (
     <div
-      style={{ marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" }}
+      style={ { marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" } }
       onMouseEnter={() => {
         props.onMouseEnter(props.id);
       }}
@@ -273,7 +283,7 @@ function Element(props: ElementProps) {
 
   return (
     <div
-      style={{ marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" }}
+      style={ { marginBottom: 8, backgroundColor: isHovered ? "#eee" : "" } }
       onMouseEnter={() => {
         props.onMouseEnter(props.id);
       }}
