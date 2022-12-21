@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Am I Overreacting or is React Over-Reacting"
+title:  "Am I Overreacting? Or is React Over-Reacting?"
 permalink: /@adam/am-i-overreacting-or-is-react-over-reacting
 image: 
 author: adam
