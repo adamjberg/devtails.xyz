@@ -1,16 +1,18 @@
 ---
 layout: post
-title:  "Sprucing up HTML With Cascading Style Sheets (CSS)"
+title: "Sprucing up HTML With Cascading Style Sheets (CSS)"
 ---
 
 ## Pre-Requisites
-- [Adding Interactivity to HTML With JavaScript](/adding-interactivity-to-html-with-javascript)
+
+- [Adding Interactivity to HTML With JavaScript](/learn/web/02-adding-interactivity-to-html-with-javascript)
 
 ## Assignment Summary
 
 So far, you have created an application that allows the user to input a note and displays all past notes. There has been very little focus on the design of the user interface. In this assignment, you will use CSS to make the application more visually appealing and functional.
 
 In this assignment you will:
+
 - Learn what Cascading Style Sheets are
 - Add a header
 - Load an Image
@@ -22,12 +24,11 @@ The final webpage will look like this:
 
 ![](/assets/img/css-intro/css-intro-00.png)
 
-
 ## Intro to Cascading Style Sheets
 
 This is a topic better covered on places like [w3schools](https://www.w3schools.com/css/css_intro.asp) and [MDN Wed Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS). It's worth giving those a quick read if you are unfamiliar with CSS. Put very simply, CSS styles allow you to control how elements on a page are displayed. Page layout, colors, fonts, sizing, and many more can be modified using CSS.
 
-There is a lot of depth to CSS. This assignment will focus solely on creating specific designs. I highly recommend learning the different properties available in CSS as you realize you need them - instead of attempting to memorize everything available.  You will quickly see which ones are re-used often and spend more time working with those.
+There is a lot of depth to CSS. This assignment will focus solely on creating specific designs. I highly recommend learning the different properties available in CSS as you realize you need them - instead of attempting to memorize everything available. You will quickly see which ones are re-used often and spend more time working with those.
 
 Final side note before we begin: I am not a designer nor a CSS master. The final user interface (UI) of this assignment is mostly used to introduce and demonstrate key concepts. In doing so, you will see some of the most common CSS properties and how they work. You are welcome and encouraged to vary the styling from what you see presented here.
 
@@ -74,11 +75,11 @@ It is common for websites and applications to have a header bar that helps brand
 &lt;/html&gt;
 </pre>
 
-The [`<style>` tag](https://www.w3schools.com/tags/tag_style.asp) allows you to define the CSS for the current document. 
+The [`<style>` tag](https://www.w3schools.com/tags/tag_style.asp) allows you to define the CSS for the current document.
 
 The `header` part specifies that the text between the `{` and the `}` should be applied to all element tags called `header`.
 
-`background-color` sets the background color of the element. CSS allows [several ways to specify colors](https://www.w3schools.com/colors/default.asp). Until you need the others, I recommend sticking with "hexadecimal" colors. 
+`background-color` sets the background color of the element. CSS allows [several ways to specify colors](https://www.w3schools.com/colors/default.asp). Until you need the others, I recommend sticking with "hexadecimal" colors.
 
 `height` allows you to specify how many pixels tall the element should be.
 
@@ -86,7 +87,7 @@ The `header` part specifies that the text between the `{` and the `}` should be 
 
 ### Fixing Default Browser Styles
 
-You should now see that the header isn't at the top of the page and doesn't expand fully to the left and right edges.  This is due to browsers having a "user agent stylesheet".
+You should now see that the header isn't at the top of the page and doesn't expand fully to the left and right edges. This is due to browsers having a "user agent stylesheet".
 
 ![](/assets/img/css-intro/css-intro-02.png)
 
@@ -112,7 +113,7 @@ This removes any margins from the body element and then you can see it looks as 
 
 ### Adding an Image to the Page
 
-Images are one of the fundamental building blocks of a web site. Adding one is as simple as using the [`<img>` tag](https://www.w3schools.com/tags/tag_img.asp). 
+Images are one of the fundamental building blocks of a web site. Adding one is as simple as using the [`<img>` tag](https://www.w3schools.com/tags/tag_img.asp).
 
 The image we will be adding is a logo in the center of the header. Below is the current engram logo that you can right click and download, or you can use any other image you like.
 
@@ -126,9 +127,9 @@ The image we will be adding is a logo in the center of the header. Below is the 
 
 ![](/assets/img/css-intro/css-intro-04.png)
 
-Our logo now shows up inside the header with a height and width of 48px.  Unfortunately, it's postioned incorrectly.
+Our logo now shows up inside the header with a height and width of 48px. Unfortunately, it's postioned incorrectly.
 
-HTML Elements, by default, are positioned from top to bottom and left to right. 
+HTML Elements, by default, are positioned from top to bottom and left to right.
 
 In order to center it, we will use the [CSS Flexbox Module](https://www.w3schools.com/css/css3_flexbox.asp). This is a very powerful layout tool within CSS. It is worth giving that entire chapter a read to get introduced to some of the different kinds of things flexbox allows you to do.
 
@@ -197,10 +198,10 @@ Now that we have introduced the `display: flex`, we will use it again to split t
 
 The `#` is used to select an element by id in CSS. `#app` will thus tell the browser to apply the contained styles to the element with id `app`. `flex-direction: column;` specifies to render the component in a column (from to bottom) instead of the row default (left to right). `height: 100%;` makes it fill the entire available space.
 
-The `flex-grow: 1;` for `#content` specifies that the #content element should grow to fill the remaining space between the header and the footer. 
-
+The `flex-grow: 1;` for `#content` specifies that the #content element should grow to fill the remaining space between the header and the footer.
 
 ![](/assets/img/css-intro/css-intro-06.png)
+
 <figcaption>Text Input Now at Bottom of Page</figcaption>
 
 ## Styling the Text Input
@@ -276,15 +277,15 @@ The `flex-grow: 1;` for `#content` specifies that the #content element should gr
 
 `.input-wrapper` demonstrates a common HTML/CSS pattern where you "wrap" some inner elements in an additional div to provide some styling. In this case we add `display: flex` which will allow us to make the input take up as much horizontal space as possible.
 
-`#bottom-bar input` is a new type of selector. These styles will only affect input elements that are a child of the element with an id of "bottom-bar".   `flex-grow: 1` causes it to grow horinzontally to fill in is `.input-wrapper` parent. `background-color: transparent` removes the default white background on the input field, making it blend in more with the background.  `border: none` removes the default border added all around input elements. `border-bottom: 1px white solid` adds a solid white border to just the bottom of the element with 1px thickness. `color: white` modifies the text so that the text a user inputs displays as white.
+`#bottom-bar input` is a new type of selector. These styles will only affect input elements that are a child of the element with an id of "bottom-bar". `flex-grow: 1` causes it to grow horinzontally to fill in is `.input-wrapper` parent. `background-color: transparent` removes the default white background on the input field, making it blend in more with the background. `border: none` removes the default border added all around input elements. `border-bottom: 1px white solid` adds a solid white border to just the bottom of the element with 1px thickness. `color: white` modifies the text so that the text a user inputs displays as white.
 
-`#bottom-bar input:focus-visible` introduces one more concept with selectors: [psuedo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp). Psuedo-classes are used to define a special state of an element. In this case, the psuedo-class is "focus-visible".  This is a special state the browser assigns to an element when the user has "focused" on it. By default, this is often a blue border around an element. In this example we use it to change the color of the bottom border. `border-bottom: 1px #3f51b5 solid` specifies a solid 1px wide bottom border with the hex color #3f51b5. It's important to note that this style will override the border-bottom that was already set on this element in the previous selector. 
+`#bottom-bar input:focus-visible` introduces one more concept with selectors: [psuedo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp). Psuedo-classes are used to define a special state of an element. In this case, the psuedo-class is "focus-visible". This is a special state the browser assigns to an element when the user has "focused" on it. By default, this is often a blue border around an element. In this example we use it to change the color of the bottom border. `border-bottom: 1px #3f51b5 solid` specifies a solid 1px wide bottom border with the hex color #3f51b5. It's important to note that this style will override the border-bottom that was already set on this element in the previous selector.
 
 ![](/assets/img/css-intro/css-intro-08.png)
 
-In the image above you can see that the developer tools shows the first `border-bottom` property stricken through. A single property can only be set once in CSS and if multiple selectors match an element the "most specific" selector will be used.  In this case the pseudo-class selector is more specific.
+In the image above you can see that the developer tools shows the first `border-bottom` property stricken through. A single property can only be set once in CSS and if multiple selectors match an element the "most specific" selector will be used. In this case the pseudo-class selector is more specific.
 
-`outline: none` removes the default blue outline that should around focused elements. And with that, try out the input and see how it changes color when clicking on it and away from it (you can also use tab to focus on it). 
+`outline: none` removes the default blue outline that should around focused elements. And with that, try out the input and see how it changes color when clicking on it and away from it (you can also use tab to focus on it).
 
 ## Styling the Button
 
@@ -314,7 +315,7 @@ button:active {
 
 `button:active` is yet another pseudo-class the selects the element when it is actively by pressed.
 
-The combination of the hover and active gives the user visual feedback that this button is interactive in some way. 
+The combination of the hover and active gives the user visual feedback that this button is interactive in some way.
 
 ## Styling the Main Content
 
@@ -447,10 +448,10 @@ The combination of the hover and active gives the user visual feedback that this
 &lt;/html>
 </pre>
 
-`div.setAttribute("class", "note");` is the way to dynamically add a class to the div we created in the previous assignment.  This is necessary so we can properly apply styles to these dynamic elements.
+`div.setAttribute("class", "note");` is the way to dynamically add a class to the div we created in the previous assignment. This is necessary so we can properly apply styles to these dynamic elements.
 
 For these final style changes, have a read through each new line of code. With what you have learned so far, it should be possible to understand what each one is doing. If one doesn't make sense try deleting it and refreshing the page to see what happens. If you want to know more about what's possible for a specific property just google the name of the property plus "CSS" and you should find some decent resources.
 
 ## Conclusion
 
-This has been my least favorite post so far. CSS is an incredibly broad topic and it's difficult to know what needs more explanation and what is self-explanatory.  More than any other concept so far, learning CSS is best done through experimentation. The goal of this assignment was to give a rough sense of how CSS can be used to achieve a specific design.  Try coming up with your own designs and seeing if you can use CSS to make it happen.
+This has been my least favorite post so far. CSS is an incredibly broad topic and it's difficult to know what needs more explanation and what is self-explanatory. More than any other concept so far, learning CSS is best done through experimentation. The goal of this assignment was to give a rough sense of how CSS can be used to achieve a specific design. Try coming up with your own designs and seeing if you can use CSS to make it happen.
