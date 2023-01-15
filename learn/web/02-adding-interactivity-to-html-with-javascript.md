@@ -5,7 +5,7 @@ title: "Adding Interactivity to HTML With JavaScript"
 
 ## Pre-Requisites
 
-- [How to Build Your First HTML Page](/learn/web/01-how-to-build-your-first-html-page)
+[How to Build Your First HTML Page](/learn/web/01-how-to-build-first-html-page)
 
 ## Summary
 

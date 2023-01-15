@@ -16,10 +16,6 @@ Before jumping in, have a look at [how to start learning to code](/learn/how-to-
 # Web Development (HTML, JavaScript, CSS)
 
 1. [Project] [Building a Notes Web App](/learn/web/00-building-a-notes-web-app)
-   1. [Assignment] [How to Build Your First HTML Page](/learn/web/01-how-to-build-first-html-page)
-   1. [Assignment] [Adding Interactivity to HTML With JavaScript](/learn/web/02-adding-interactivity-to-html-with-javascript)
-   1. [Assignment] [Sprucing up HTML with CSS](/learn/web/03-sprucing-up-html-with-css)
-   1. [Assignment] [Persisting Data With a REST API](/learn/web/04-persisting-data-with-a-rest-api)
 
 # Game Development (C)
 

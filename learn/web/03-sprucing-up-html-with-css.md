@@ -5,7 +5,7 @@ title: "Sprucing up HTML With Cascading Style Sheets (CSS)"
 
 ## Pre-Requisites
 
-- [Adding Interactivity to HTML With JavaScript](/learn/web/02-adding-interactivity-to-html-with-javascript)
+[Adding Interactivity to HTML With JavaScript](/learn/web/02-adding-interactivity-to-html-with-javascript)
 
 ## Assignment Summary
 
