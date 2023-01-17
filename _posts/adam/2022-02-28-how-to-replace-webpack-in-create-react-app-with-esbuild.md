@@ -63,7 +63,11 @@ I've previously written about [bundling your express app using esbuild](https://
 
 `npm run build`
 
-With the default create-react-app application, you should see the following errors:
+With the default create-react-app application, you should see the following error:
+
+```
+the esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse jsx syntax. you can use "loader: { '.js': 'jsx' }" to do that.
+```
 
 ![esbuild errors](/assets/img/esbuild-errors.png)
 
