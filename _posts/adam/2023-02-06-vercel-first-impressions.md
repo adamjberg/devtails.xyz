@@ -60,7 +60,7 @@ I was already set up in GCP, so I simply moved the Vercel serverless location cl
 
 ## What Does an Alternative Look Like?
 
-I struggle a bit to understand what kind of developer Vercel is for.  It seems to force a frontend developer to learn multiple DevOps related things while getting the way of an experienced DevOps developer.  Judging by their amount of funding and landing page, I would guess that they're focus has shifted towards big corporations (their home page lists Adobe, ebay, loop, and The Washington Post) as some of the companies using Vercel.
+I struggle a bit to understand what kind of developer Vercel is for.  It seems to force a frontend developer to learn multiple DevOps related things while getting in the way of an experienced DevOps developer.  Judging by their amount of funding and landing page, I would guess that they're focus has shifted towards big corporations (their home page lists Adobe, ebay, loop, and The Washington Post) as some of the companies using Vercel.
 
 For these mega-corps, 20 seconds to deploy is probably lightning fast relative to the pace of change within the company.  However, when you scale this down to a single developer or a small team, all of a sudden 20-40 seconds is a lifetime.  I'll catch a bug from a deployment and have the fix made in a second, but with Vercel it would be nearly a full minute before that fix actually goes live.
 
