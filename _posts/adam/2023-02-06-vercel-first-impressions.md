@@ -52,7 +52,7 @@ Very early on, it became clear that our application would need some form of data
 
 This [Using Databases with Vercel](https://vercel.com/guides/using-databases-with-vercel) page would have most junior frontend developer headed for the hills.  As a "platform for frontend developers", I find it unacceptable to call it quits at the database layer.  If you have reached for a framework like Next.js, there is a near 100% chance you have a database of some kind.
 
-I have plenty of experience in this realm and still ended up having multiple problems along the process of connecting my Vercel app to a databaase.  I decided to try Cloud SQL in Google Cloud Platform.  Where I accidentally picked a database instance that was far more expensive than I intended.  Then I had to figure out how to expose this database to all IPs, a security practice not recommended by Google (though [Vercel downplays this](https://vercel.com/guides/how-to-allowlist-deployment-ip-address)).  Finally, I managed to have it all working.
+I have plenty of experience in this realm and still ended up having multiple problems along the process of connecting my Vercel app to a database.  I decided to try Cloud SQL in Google Cloud Platform.  Where I accidentally picked a database instance that was far more expensive than I intended.  Then I had to figure out how to expose this database to all IPs, a security practice not recommended by Google (though [Vercel downplays this](https://vercel.com/guides/how-to-allowlist-deployment-ip-address)).  Finally, I managed to have it all working.
 
 Except now I was seeing page load times of 300 - 500 ms.  It took a while to clue in to the fact that this was latency from Edge Functions to the database.  Mostly because we were only making a couple of queries, which even if in the functions and database were in different locations should not have caused that much latency.
 
@@ -60,12 +60,12 @@ I was already set up in GCP, so I simply moved the Vercel serverless location cl
 
 ## What Does an Alternative Look Like?
 
-I struggle a bit to understand what kind of developer Vercel is for.  It seems to force a frontend developer to learn multiple DevOps related things while getting in the way of an experienced DevOps developer.  Judging by their amount of funding and landing page, I would guess that they're focus has shifted towards big corporations (their home page lists Adobe, ebay, loop, and The Washington Post) as some of the companies using Vercel.
+I struggle a bit to understand what kind of developer Vercel is for.  It seems to force a frontend developer to learn multiple DevOps related things while getting in the way of an experienced DevOps developer.  Judging by their amount of funding and landing page, I would guess that their focus has shifted towards big corporations (their home page lists Adobe, ebay, loop, and The Washington Post) as some of the companies using Vercel.
 
 For these mega-corps, 20 seconds to deploy is probably lightning fast relative to the pace of change within the company.  However, when you scale this down to a single developer or a small team, all of a sudden 20-40 seconds is a lifetime.  I'll catch a bug from a deployment and have the fix made in a second, but with Vercel it would be nearly a full minute before that fix actually goes live.
 
 Over the last couple of years, I have witnessed the bloat of JavaScript packages/frameworks reach unsustainable territory.  I believe that the future isn't growing layers of complexity, but instead stripping down to only what is required.  The most efficient and easy to use system should be incredibly simple.
 
-My current version of [engram](https://engramhq.xyz/) is already able to deploy any of my applications in less than a second.  With future optimizations, I believe the local development environment can be replaced entirely by a faster and more collaborative cloud based system.  I've already seen the current version transform and accelerate my building of new applications and look forward to making further improvments.
+My current version of [engram](https://engramhq.xyz/) is already able to deploy any of my applications in less than a second.  With future optimizations, I believe the local development environment can be replaced entirely by a faster and more collaborative cloud based system.  I've already seen the current version transform and accelerate my building of new applications and look forward to making further improvements.
 
 At this point, it's safe to say I'm not looking back.  I know I can build a better, more accessible deployment platform and that's what I'm going to do.  As usual, I'll share my learnings along the way.
