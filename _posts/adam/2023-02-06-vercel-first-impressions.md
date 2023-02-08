@@ -3,10 +3,14 @@ layout: post
 title:  "Why I am Struggling to get Behind Next.js and Vercel"
 author: adam
 permalink: /@adam/why-i-am-struggling-to-get-behind-nextjs-and-vercel
-image: 
+image: assets/img/sunk-boat.jpg
 description: In this article I lay out concerns I have with Next.js and Vercel that stop me from committing to either
 tags: dev js engram
 ---
+
+![](/assets/img/sunk-boat.jpg)
+
+<figcaption>Sometimes a little floaty is more effective than a big boat</figcaption>
 
 I've written enough articles about JavaScript to have had plenty of people tell me I should just use Next.js instead of learning how to do things myself.  I finally had some time to dive in to Next.js and Vercel and this article will lay out some of the concerns I have that stop me from committing to either.  
 
