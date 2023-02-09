@@ -39,23 +39,23 @@ At different point thresholds I was awarded new things.  A pencil, stickers, an 
 ![](/assets/img/accelerated-reader-rewards.png)
 <figcaption>Not my actual rewards program, but similar concept</figcaption>
 
-It’s difficult to remember how many books I was actually reading (or even which books), but I eventually reached the top award they had planned for.  Eventually at different thresholds they would just invite me to their room of goodies and say that I could pick anything I wanted.
+It is difficult to remember how many books I was actually reading (or even which books), but I eventually reached the top award they had planned for.  Eventually at different thresholds they would just invite me to their room of goodies and say that I could pick anything I wanted.
 
 The more I read, the more I figured out how to game the system.  Non-fiction books were considered “more valuable” because they contained real information, and I guess most people preferred to read fiction.  But as soon as I found the point to page ratio for non-fiction was higher I honed in my book selection in that direction.  
 
 I must have exhausted the selection of non-fiction books (or got bored of this tactic) because I eventually saught out a new challenge.  I logged into the system one day and sorted by most points for a book.  I can’t recall a single book I’ve read during this multi-year reading binge, but I still remember the book at the top of that list: “Uncle Tom’s Cabin."
 
-According to [this site]([https://www.booksource.com/products/uncle-toms-cabin__0486440281.aspx](https://www.booksource.com/products/uncle-toms-cabin__0486440281.aspx)), Uncle Tom’s Cabin is 384 pages long, rated for grades 9 and above, and a whopping 32 Accelerated Reader points.  This was 4 grade levels above what I was “supposed” to be reading as a 5th grader.  The challenge was too alluring for me though.  I’m pretty sure I had to ask my mom to buy the book because our elementary school library didn’t bother holding a copy of a book no one was ever going to read.
+According to [booksource]([https://www.booksource.com/products/uncle-toms-cabin__0486440281.aspx](https://www.booksource.com/products/uncle-toms-cabin__0486440281.aspx)), Uncle Tom’s Cabin is 384 pages long, rated for grades 9 and above, and a whopping 32 Accelerated Reader points.  This was 4 grade levels above what I was “supposed” to be reading as a 5th grader.  The challenge was too alluring for me though.  I am pretty sure I had to ask my mom to buy the book because our elementary school library didn’t bother holding a copy of a book no one was ever going to read.
 
-It still pains me to reflect on what happened next.  **I failed.** I was riding high on all of my Accelerated Reader points, but I hit a total wall with Uncle Tom’s Cabin.  Maybe a chapter or two in I couldn’t make it any further.  **I didn’t understand what the book was about** and it was incredibly unenjoyable.  
+It still pains me to reflect on what happened next.  **I failed.**  I was riding high on all of my Accelerated Reader points, but I hit a total wall with Uncle Tom’s Cabin.  I ws Maybe a chapter or two in I couldn’t make it any further.  **I did not understand what the book was about** and it was incredibly unenjoyable.  
 
-I employed a technique that I had learned earlier where you simply take the quiz with the book nearby as a reference.  There were usually only 10 or so questions, so it was usually possible to pass without having fully read a book.  Whether I got the points or not on this one didn’t matter.  I was ashamed of myself and told myself I wasn’t a good reader.
+I employed a technique I had learned earlier, where you simply take the quiz with the book nearby as a reference.  There were usually only 10 or so questions, so it was usually possible to pass without having fully read a book.  Whether I got the points or not on this one didn’t matter.  I was ashamed and told myself I wasn’t a good reader.
 
 My memory is fuzzy, but I don’t remember paying much attention to reading or scoring points after this failure.  I continued to read for classes and for leisure, but I **lost my drive to be the best reader I could be.**
 
 ## Reflections From the Other Side
 
-Without the help of the Accelerated Reader program, I don’t think I would be nearly as successful as I’ve been.  Without realizing it, I was quickly accelerating the pace at which I could consume books.  Even though I took my foot off the accelerator towards the end, I still had the benefits of what was likely an above average reading speed.  
+Without the help of the Accelerated Reader program, I don’t think I would be nearly as successful as I have been.  Without realizing it, I was quickly accelerating the pace at which I could consume books.  Even though I took my foot off the accelerator towards the end, I still had gained the benefits of what was likely an above average reading speed.  
 
 Higher reading speed and comprehension led to reading becoming a more enjoyable experience, ultimately reinforcing the activity as something I enjoy doing.  The “hack” to focus on non-fiction books ended up being additionally helpful.  I have remained much more interested in reading non-fiction, which makes it a lot easier to pick up (and complete) self-help or software development books.
 
@@ -63,8 +63,10 @@ Reading has had compounding returns over my life so far.  It would be hard to qu
 
 My final thought in this realm is that **computer literacy should have at least equal value as language literacy**.  This appears to be well understood from the school curriculum side of things (at least in Canada).  However, I would urge those already out of K-12 to recognize the importance of these skills and put in the effort to learn them.  
 
-**This doesn’t have to mean a career change.** I’m not a professional reader because I know how to read.  Simply having a functional understanding of it is enough to help you out.
+**This does not have to mean a career change.** I am not a professional reader because I know how to read.  Simply having a functional understanding of computer literacy is enough to help you out.
 
-The Egyptians had a writing system as early as 3000 BC, but [it took until 1820 AD before even 12% of the world population could read and write]([https://ourworldindata.org/literacy](https://ourworldindata.org/literacy#:~:text=While%20only%2012%25%20of%20the,1960%20to%2086%25%20in%202015)).   There is a commonly quoted number that only [<0.5% of the world population knows how to code]([https://blog.stephsmith.io/learning-to-code-apps/#:~:text=There's also a misconception that,world knows how to code](https://blog.stephsmith.io/learning-to-code-apps/#:~:text=There's%20also%20a%20misconception%20that,world%20knows%20how%20to%20code)). 
+The Egyptians had a writing system as early as 3000 BC, but [it took until 1820 AD before even 12% of the world population could read and write]([https://ourworldindata.org/literacy](https://ourworldindata.org/literacy#:~:text=While%20only%2012%25%20of%20the,1960%20to%2086%25%20in%202015)).
 
-**Let’s not make the same mistake and wait several millennia before programming becomes ubiquitous.**
+There is a commonly quoted number that [only <0.5% of the world population knows how to code]([https://ourworldindata.org/literacy]). There is also a [misconception that learning how to code is hard,world knows how to code](https://blog.stephsmith.io/learning-to-code-apps/#:~:text=There's%20also%20a%20misconception%20that,world%20knows%20how%20to%20code). 
+
+**Let’s not make the same mistake and wait several millennia before computer programming becomes ubiquitous.**
