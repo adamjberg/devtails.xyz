@@ -47,7 +47,7 @@ I must have exhausted the selection of non-fiction books (or got bored of this t
 
 According to [booksource]([https://www.booksource.com/products/uncle-toms-cabin__0486440281.aspx](https://www.booksource.com/products/uncle-toms-cabin__0486440281.aspx)), Uncle Tom’s Cabin is 384 pages long, rated for grades 9 and above, and a whopping 32 Accelerated Reader points.  This was 4 grade levels above what I was “supposed” to be reading as a 5th grader.  The challenge was too alluring for me though.  I am pretty sure I had to ask my mom to buy the book because our elementary school library didn’t bother holding a copy of a book no one was ever going to read.
 
-It still pains me to reflect on what happened next.  **I failed.**  I was riding high on all of my Accelerated Reader points, but I hit a total wall with Uncle Tom’s Cabin.  I ws Maybe a chapter or two in I couldn’t make it any further.  **I did not understand what the book was about** and it was incredibly unenjoyable.  
+It still pains me to reflect on what happened next.  **I failed.**  I was riding high on all of my Accelerated Reader points, but I hit a total wall with Uncle Tom’s Cabin.  Maybe a chapter or two in I couldn’t make it any further.  **I did not understand what the book was about** and it was incredibly unenjoyable.  
 
 I employed a technique I had learned earlier, where you simply take the quiz with the book nearby as a reference.  There were usually only 10 or so questions, so it was usually possible to pass without having fully read a book.  Whether I got the points or not on this one didn’t matter.  I was ashamed and told myself I wasn’t a good reader.
 
