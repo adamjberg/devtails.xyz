@@ -18,3 +18,9 @@ figcaption {
 iframe {
     border-style: none;
 }
+
+// TODO: Figure out why non-errors are showing as errors
+.highlight .err {
+    color: inherit;
+    background-color: inherit;
+}
