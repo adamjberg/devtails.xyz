@@ -2,7 +2,7 @@
 layout: post
 title:  "Tutorial: How to Build a Blog in Rust - Static File Server"
 permalink: /@adam/how-to-build-a-blog-in-rust
-image: 
+image: assets/img/blog-in-rust-static-file-server.png
 author: adam
 description: Step by step instructions for implementing an http server in rust that serves up static files
 tags: dev rust
@@ -10,7 +10,7 @@ tags: dev rust
 
 ## Video Walkthrough
 
-<iframe width="100%" src="https://www.youtube.com/embed/9uAy8skUVsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/9uAy8skUVsc" title="How to Build a Blog in Rust" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Initialize Project
 
