@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "Tutorial: How to Build a Blog in Rust"
+title:  "Tutorial: How to Build a Blog in Rust - Static File Server"
 permalink: /@adam/how-to-build-a-blog-in-rust
 image: 
 author: adam
 description: Step by step instructions for implementing an http server in rust that serves up static files
 tags: dev rust
 ---
+
+## Video Walkthrough
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9uAy8skUVsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Initialize Project
 
@@ -155,10 +159,12 @@ fn handle_connection(mut stream: TcpStream) {
 +       filename = &pathname[1..];
 +   }
 
-    let status_line = "HTTP/1.1 404 NOT FOUND";
-    let contents = String::new();
+-   let status_line = "HTTP/1.1 404 NOT FOUND";
+-   let contents = String::new();
++   let mut status_line = "HTTP/1.1 404 NOT FOUND";
++   let mut contents = String::new();
 
-+   let full_file_path = format!("{}{}{}", "static/", filename);
++   let full_file_path = format!("{}{}", "static/", filename);
 +   if Path::new(&full_file_path).exists() {
 +       status_line = "HTTP/1.1 200 OK";
 +       contents = fs::read_to_string(&full_file_path).unwrap();
