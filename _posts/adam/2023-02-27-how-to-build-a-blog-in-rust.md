@@ -77,7 +77,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-+regex = "1"
++ regex = "1"
 ```
 
 ```diff
@@ -87,7 +87,7 @@ use std::{
 +   io::{prelude::*, BufReader},
     net::{TcpListener, TcpStream},
 };
-+use regex::Regex;
++ use regex::Regex;
 
 fn main() {
     let listener = TcpListener::bind("[::]:8000").unwrap();
