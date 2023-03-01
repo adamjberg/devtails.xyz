@@ -2,7 +2,7 @@
 layout: post
 title:  "Tutorial: How to Setup Web Push Notifications in iOS Safari"
 permalink: /@adam/how-to-setup-web-push-notifications-in-ios-safari
-image: /assets/img/ios-notification.jpeg
+image: assets/img/ios-notification.jpeg
 author: adam
 description: Step by step instructions for creating your first web push notification in iOS Safari
 tags: dev js
