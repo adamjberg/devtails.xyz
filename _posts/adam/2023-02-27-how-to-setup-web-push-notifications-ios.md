@@ -2,11 +2,13 @@
 layout: post
 title:  "Tutorial: How to Setup Web Push Notifications in iOS Safari"
 permalink: /@adam/how-to-setup-web-push-notifications-in-ios-safari
-image: 
+image: /assets/img/ios-notification.jpeg
 author: adam
 description: Step by step instructions for creating your first web push notification in iOS Safari
 tags: dev js
 ---
+
+![iOS Notification](/assets/img/ios-notification.jpeg)
 
 The day is finally here. [Web push for web apps on iOS and iPadOS](https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/) will be made available in iOS 16.4. If you are impatient like me, you can get access to the iOS 16.4 Beta by signing up for the [Apple Beta Software Program](https://beta.apple.com/sp/betaprogram).  iOS 16.4 is expected to be released in March 2023, so you shouldn't have to wait much longer to get access to this newly added functionality.
 
