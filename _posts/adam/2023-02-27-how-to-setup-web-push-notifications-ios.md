@@ -12,11 +12,11 @@ tags: dev js
 
 The day is finally here. [Web push for web apps on iOS and iPadOS](https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/) will be made available in iOS 16.4. If you are impatient like me, you can get access to the iOS 16.4 Beta by signing up for the [Apple Beta Software Program](https://beta.apple.com/sp/betaprogram).  iOS 16.4 is expected to be released in March 2023, so you shouldn't have to wait much longer to get access to this newly added functionality.
 
-Apple's didn't provide a whole lot of information as to how to actually get this working, so I've gone through the effort of figuring out how to get this to work and have put together the smallest example possible to get you going.  The example we will cover will just be for creating a notification using the Notification API exclusively from the client side.  I will likely follow up with a separate post on how to use web-push to trigger notifications from your backend.
+Apple didn't provide a whole lot of information as to how to actually get this working, so I've gone through the effort of figuring it out put together the smallest example possible to get going.  The example will cover creating a notification using the Notification API exclusively from the client side.  I will likely follow up with a separate post on how to use web-push to trigger notifications from your backend.
 
 ## index.html
 
-We start with a very basic html page to load up our script and manifest files.  Then we add a simple button that we will use to trigger the notification permission request. Safari requires user interaction in order to request this permission.
+We start with a very basic html page to load up our script and manifest files and a button that will trigger the notification permission request. Safari requires user interaction in order to request this permission.
 
 ```html
 <html lang="en">
@@ -50,7 +50,7 @@ The notifications only work when your website is added to a user's home screen. 
 
 ## index.js
 
-Next we register a service worker, this is required by iOS Safari.  Then we setup a click listener on the subscribe button. On click we request permission to send the user notifications.  If the user grants access we can immediately test the notification by calling `registration.showNotification`.
+First we register a service worker (this is required by iOS Safari to send notifications).  Then we set up a click listener on the subscribe button. On click, we request permission to send the user notifications.  If the user grants access, we can immediately test the notification by calling `registration.showNotification`.
 
 ```js
 async function run() {
@@ -84,7 +84,7 @@ run();
 
 ## Testing This on Your Device
 
-### Enabling the Notifications Feature in Safari
+### Enabling the Notifications Feature in iOS 16.4 Safari Beta
 
 I struggled for a while to figure out why these notifications weren't working.  While this is in beta, it seems like Notifications are turned off in Safari by default.  You can enable them by going to Settings > Safari > Advanced > Experimental Features.  Scroll down to "Notifications" and turn the toggle to on if it is not already on.  I suspect this will be defaulted to on when iOS 16.4 is officially released, but if you are trying this out with the beta, it is likely you will need to perform this step.
 
@@ -92,8 +92,8 @@ I struggled for a while to figure out why these notifications weren't working.  
 
 Testing this on a real device requires an https connection.  You will need to deploy your code in some way that allows it to be accessed from your phone with an https connection.
 
-You can find a live example running [here](https://notification-adam.cloud.engramhq.xyz/).  Pressing the subscribe button won't do anything if you just have the page opened from your browser.  You will first need to click the share button and then "Add to Home Screen".  Open the app that now shows on your home screen and pressing the subscribe button should ask for permission to send notifications and once granted immediately send the test notification.
+You can find a live example running [here](https://notification-adam.cloud.engramhq.xyz/).  Pressing the subscribe button won't do anything if you just have the page opened from your browser.  You will first need to click the share button and then "Add to Home Screen".  Open the app that now shows on your home screen and press the subscribe button. The app will ask for permission to send notifications and once granted immediately send the test notification.
 
 ## Wrap-up
 
-This announcement is a big step for PWAs on iOS.  Notifications were probably the number one cited reason companies reached for a native application.  Despite the plethora of news articles about this announcement, I couldn't find a single up to date resource on how to actually implement this.  So hopefully the time I spent putting this together saves you some time on the topic.  
+This announcement is a big step for Progressive Web Apps (PWAs) on iOS.  Notifications were probably the number one cited reason companies reached for a native application.  Despite the plethora of news articles about this announcement, I couldn't find a single up to date resource on how to actually implement this.  So hopefully the time I spent putting this together saves you some time on the topic.
