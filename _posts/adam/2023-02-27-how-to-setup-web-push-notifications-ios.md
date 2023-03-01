@@ -94,3 +94,4 @@ You can find a live example running [here](https://notification-adam.cloud.engra
 
 ## Wrap-up
 
+This announcement is a big step for PWAs on iOS.  Notifications were probably the number one cited reason companies reached for a native application.  Despite the plethora of news articles about this announcement, I couldn't find a single up to date resource on how to actually implement this.  So hopefully the time I spent putting this together saves you some time on the topic.  
