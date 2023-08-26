@@ -2,7 +2,7 @@
 layout: post
 title:  "Reviving My Debut Game: How Ruffle.rs Breathed New Life Into My First Gaming Creation"
 permalink: /@adam/reviving-isolated-with-ruffle
-image: assets/img/i_solate-preview.png
+image: assets/img/i_solated-preview.jpeg
 author: adam
 description: A year ago I couldn't even compile my flash game. Now it's available to play online thanks to ruffle.rs
 tags: dev games
