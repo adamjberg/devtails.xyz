@@ -1,6 +1,6 @@
 ---
 layout: home
-image: /assets/logo-with-text.png
+image: /assets/img/fox-logo.png
 ---
 
 <div class="text-center fs-1">dev / tails</div>
