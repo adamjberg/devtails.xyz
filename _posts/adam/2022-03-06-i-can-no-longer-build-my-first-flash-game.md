@@ -5,7 +5,7 @@ author: adam
 permalink: /i-can-no-longer-compile-my-first-flash-game
 image: assets/1641668778541-i_solated.jpeg
 description: A tale about game development and techonlogy obsolescence
-tags: tails flash
+tags: tails games
 ---
 
 **Update**
