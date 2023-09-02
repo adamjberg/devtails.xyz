@@ -2,7 +2,7 @@
 layout: post
 title:  "I Paid For an Award to Prove the Internet 2.0 Conference is a Scam: Part Two"
 permalink: /@adam/i-paid-for-an-award-to-prove-the-internet-2-0-conference-is-a-scam-part-two
-image: assets/img/internet-2-0-adam.jpg
+image: assets/img/internet-2-0-adam.JPG
 author: adam
 description: What does a pay to play conference actually look like?
 tags: tails
