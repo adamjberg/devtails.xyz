@@ -45,7 +45,7 @@ I was dressed in a short sleeve floral button up and shorts because it is Vegas 
 There's some more confusion on the stage as they try to sort out what they're doing and then proceed to start the recognition session. All of a sudden I start hearing the blurb I wrote up about myself and realize that I'm going to be the first person to receive an award.  I'm unclear what's happening, but wonder if maybe they would just power through everyone and then the time I scheduled for tomorrow would be when I'm given an opportunity to speak.  I go up and have my photo taken with my award and then take my seat.
 
 <div style="text-align: center">
-  <img src="/assets/img/internet-2-0-adam.jpg" height="500px">
+  <img src="/assets/img/internet-2-0-adam.JPG" height="500px">
 </div>
 
 A couple more people are called up.  I catch some more surprised expressions from recipients, but I also start seeing the organizers racing back and forth trying to sort something out. After quite a bit of fuss, all of a sudden someone new is the person presenting the awards.  Then randomly one of the people is given the opportunity to speak.  They call several more names and many of them are not in the room (presumably expecting to have received on a different day).  When the list is completed, there's more kerfuffle and then they ask if anyone that received an award would like to come back up to say something.  
