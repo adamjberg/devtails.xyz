@@ -40,4 +40,4 @@ I give the payment one more go and miraculously it goes through.  The next few p
 
 ### What's Next
 
-In my next post, I'll dive into what the actual conference was like.  **Spoiler alert: don't waste your time and money.**
+In my [next post](/@adam/i-paid-for-an-award-to-prove-the-internet-2-0-conference-is-a-scam-part-two), I'll dive into what the actual conference was like.
