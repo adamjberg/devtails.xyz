@@ -4,8 +4,8 @@ title:  "Tutorial: Deploy a React Server Side Rendered Application Using Bun on 
 permalink: /@adam/deploy-react-ssr-bun-engram
 image: assets/img/bun-engram.png
 author: adam
-description: 
-tags: dev javascript
+description: In this post, we will create a server side rendered (SSR) React application that is run with the bun runtime (buntime) and finally deploy to Engram
+tags: dev js
 ---
 
 ![](/assets/img/bun-engram.png)
@@ -139,7 +139,7 @@ Engram supports autodetects and supports Bun out of the box.  All you need to do
 
 ## Deploy!
 
-You can find this sample application deployed at [bun-react-ssr-main.engram.sh](https://bun-react-ssr-main.engram.sh).
+Engram automatically builds and deploys once you connect your repository. You can find this sample application deployed at [bun-react-ssr-main.engram.sh](https://bun-react-ssr-main.engram.sh).
 
 ![](/assets/img/engram-bun-deployed.png)
 
