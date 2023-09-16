@@ -12,6 +12,10 @@ tags: dev js react
 
 In this post, we’re going to take a look at creating a React app from scratch that uses React Server Components.  This follows an [example from the react team](https://github.com/reactjs/server-components-demo), but I have stripped out as much as possible and will walk through actually writing the code to show how this all comes together.  By the end of the we will be able to create asynchronous server components and use the `use client` syntax to specify that a component is a client component.
 
+## Live Demo
+
+The following example can be seen running at [https://react-server-components-main.engram.sh/](https://react-server-components-main.engram.sh/).
+
 ## Create index.html
 
 This will be the main shell that loads our React application.
@@ -336,8 +340,14 @@ node scripts/build.js
 
 ## Run Server
 
+Note the `--conditions react-server`, this must be used in order to have this run.  Otherwise you will see the following errorL
+
+```
+Error: The React Server Writer cannot be used outside a react-server environment. You must configure Node.js using the `--conditions react-server` flag.
+```
+
 ```bash
-node server/server.js
+node --conditions react-server server/server.js
 ```
 
 ## Try Out Your Changes
