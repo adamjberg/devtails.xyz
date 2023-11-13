@@ -1,11 +1,8 @@
 import fs from "fs";
 import { createCanvas, registerFont } from "canvas";
 
-const title = process.argv[2];
-
-const lowercaseTitle = title.toLowerCase();
-
-const formattedTitle = lowercaseTitle.replace(/\s+/g, "-");
+let title = process.argv[2];
+title = title.replace(/\\n/g, "\n");
 
 if (title) {
   registerFont("Silkscreen-Regular.ttf", { family: "Silkscreen" });
@@ -26,8 +23,20 @@ if (title) {
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
 
-  ctx.fillText(title, stageWidth * 0.5, stageHeight * 0.5);
+  const measured = ctx.measureText(title);
+  console.log(measured);
+
+  ctx.fillText(
+    title,
+    stageWidth * 0.5,
+    (stageHeight - measured.emHeightDescent) * 0.5
+  );
 
   const png = canvas.toBuffer("image/png", { compressionLevel: 3 });
+
+  const formattedTitle = title
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/\n/g, "-");
   fs.writeFileSync(`${formattedTitle}.png`, png);
 }

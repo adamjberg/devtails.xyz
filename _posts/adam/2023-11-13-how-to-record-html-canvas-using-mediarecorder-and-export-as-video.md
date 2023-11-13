@@ -2,6 +2,7 @@
 layout: post
 title:  "How to Record HTML Canvas using MediaRecorder and Export as Video"
 permalink: /@adam/how-to-record-html-canvas-using-mediarecorder-and-export-as-video
+image: assets/img/how-to-record-html-canvas-using-mediarecorder-and-export-as-video
 author: adam
 description: This post demonstrates how to create a basic animation on an HTML Canvas and export it to a video file
 tags: dev js
