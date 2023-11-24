@@ -8,7 +8,7 @@ description: This post explores Git/Github concepts and how they apply to music
 tags: dev
 ---
 
-A few years ago this question entered my brain.  It led to the creation of [https://kaizen.place](https://kaizen.place/?filter=newest) where we are actively exploring this.  In this post, I’d like to run through the parellels between software and Github, what corresponding concepts might look like for music and how they currently work in Kaizen.
+A few years ago this question entered my brain.  It led to the creation of [kaizen.place](https://kaizen.place/?filter=newest) where we are actively exploring this.  In this post, I’d like to run through the parellels between software and Github, what corresponding concepts might look like for music and how they currently work in Kaizen.
 
 ## Repository
 
@@ -24,7 +24,7 @@ I can see the value of bringing something like this to the music creation proces
 
 Much like with code, I think it’s more of a personal preference what you define as a commit.  Say you try something with your track and want to remember what it sounds like, that might indicate a good time to take a snapshot.
 
-It’s not perfect, but with Kaizen currently you can capture a version at these “checkpoints”.  Right now, these would be bounced to a single mp3, meaning you couldn’t really go back to the state of things in you Digital Audio Workstation (DAW). I’m unclear how much value there would be to bringing this kind of granualrity to things.  As long as you are still working within the same session, you should be able to undo/redo yourself back to where you’d like to be.
+It’s not perfect, but with Kaizen currently you can capture a version at these “checkpoints”.  Right now, these would be bounced to a single mp3, meaning you couldn’t really go back to the state of things in your Digital Audio Workstation (DAW). I’m unclear how much value there would be to bringing this kind of granualrity to things.  As long as you are still working within the same session, you should be able to undo/redo yourself back to where you’d like to be.
 
 ## Push
 
@@ -32,7 +32,7 @@ I would argue that the “push” is currently where Kaizen enters the picture. 
 
 ## Release
 
-Currently uploading a track and relasing it are nearly synonymous.  I could see this changing in the future to better identify something as a “release” vs. just an update.  In software, you could make several changes to your project over weeks, but only once they were all in together would you compile that into a release.  I think the same would be mostly true for music.
+Currently uploading a track and releasing it are nearly synonymous.  I could see this changing in the future to better identify something as a “release” vs. just an update.  In software, you could make several changes to your project over weeks, but only once they were all in together would you compile that into a release.  I think the same would be mostly true for music.
 
 ## Pull
 
