@@ -4,7 +4,7 @@ title:  "Tutorial: How to Write a Wav File in C"
 permalink: /@adam/how-to-write-a-wav-file-in-c
 image: assets/img/how-to-write-a-wav-file-in-c.png
 author: adam
-description: 
+description: Step by step instructions to create a wav file and write it to disk using C code
 tags: dev music
 ---
 
