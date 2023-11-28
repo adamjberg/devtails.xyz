@@ -8,7 +8,7 @@ description: Step by step instructions to create a wav file and write it to disk
 tags: dev music
 ---
 
-TODO: Insert link to Youtube Video
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/8nOi-0kBv2Y?si=ue-nRqbxMUK5Vrpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Wav File Format
 
