@@ -10,6 +10,10 @@ tags: dev music
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/8nOi-0kBv2Y?si=ue-nRqbxMUK5Vrpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Intro
+
+This is part of a [project](https://kaizen.place/music-tails/4-chords-630150ea1b3ccbc86a636770) I have started to see if I can create a full song using just code.
+
 ## Wav File Format
 
 Head [here](https://docs.fileformat.com/audio/wav/) for a breakdown of the WAV File Format
