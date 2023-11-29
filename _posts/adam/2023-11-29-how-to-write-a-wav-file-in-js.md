@@ -60,7 +60,9 @@ writer.uint32(dataLength);
 
 for (let i = 0; i < dataLength / 2; i++) {
   const t = i / sampleRate;
-  const val = Math.sin(2 * Math.PI * 256 * t) * 0.6;
+  const frequency = 256;
+  const volume = 0.6;
+  const val = Math.sin(2 * Math.PI * 256 * t) * volume;
   writer.pcm16s(val);
 }
 
@@ -137,7 +139,9 @@ writer.uint32(dataLength);
 
 for (let i = 0; i < dataLength / 2; i++) {
   const t = i / sampleRate;
-  const val = Math.sin(2 * Math.PI * 256 * t) * 0.6;
+  const frequency = 256;
+  const volume = 0.6;
+  const val = Math.sin(2 * Math.PI * 256 * t) * volume;
   writer.pcm16s(val);
 }
 
