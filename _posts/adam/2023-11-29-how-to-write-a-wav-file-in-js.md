@@ -4,7 +4,7 @@ title:  "Tutorial: How to Write a Wav File in JavaScript"
 permalink: /@adam/how-to-write-a-wav-file-in-javascript
 image: assets/img/how-to-write-a-wav-file-in-javascript.png
 author: adam
-description: Step by step instructions to create a wav file and write it to disk using JavaScript
+description: Step by step example to create a wav file using JavaScript
 tags: dev js music
 ---
 
