@@ -38,5 +38,5 @@ if (title) {
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/\n/g, "-");
-  fs.writeFileSync(`${formattedTitle}.png`, png);
+  fs.writeFileSync(`../../assets/img/${formattedTitle}.png`, png);
 }
