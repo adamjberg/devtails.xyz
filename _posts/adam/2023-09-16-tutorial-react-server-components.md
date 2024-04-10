@@ -14,7 +14,7 @@ In this post, we’re going to take a look at creating a React app from scratch 
 
 ## Live Demo
 
-The following example can be seen running at [https://react-server-components-main.engram.sh/](https://react-server-components-main.engram.sh/).
+The following example can be seen running at [https://react-server-components-main-adamjberg.engram.sh/](https://react-server-components-main-adamjberg.engram.sh/).
 
 ## Create index.html
 
