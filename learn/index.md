@@ -2,7 +2,7 @@
 layout: page
 title: Learn to Code
 permalink: /learn
-show_in_header: true
+# show_in_header: true
 ---
 
 | (Currently pre-alpha) Project based curriculum for learning

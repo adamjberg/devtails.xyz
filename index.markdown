@@ -30,8 +30,3 @@ image: /assets/img/fox-logo.png
   <a href="/tags/tails"><div class="box-title">tails</div></a>
   <div>Tales from the tech sector and reflections on the use of technology in society.</div>
 </div>
-
-<div class="box">
-  <a href="/learn"><div class="box-title">learn</div></a>
-  <div>(Currently pre-alpha) Project based curriculum for learning web development.</div>
-</div>
