@@ -213,22 +213,6 @@ iframe {
   background-color: rgba(0, 255, 0, 0.35);
 }
 
-#mc_embed_signup {
-  margin-top: 2rem;
-}
-
-#mc_embed_signup input.email {
-  width: 100%;
-  padding: 0.5rem;
-  font: inherit;
-}
-
-#mc_embed_signup .button {
-  margin-top: 0.75rem;
-  font: inherit;
-  padding: 0.4rem 0.8rem;
-}
-
 table {
   border-collapse: collapse;
   width: 100%;
