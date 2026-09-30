@@ -1,17 +1,16 @@
-import { readdirSync, readFileSync } from "fs";
-import { dirname, join } from "path";
+import { readFileSync } from "fs";
+import { dirname, join, relative } from "path";
 import matter from "gray-matter";
 import { root } from "./config";
-import { exists, isFile, walk } from "./fs";
+import { exists, walk } from "./fs";
 import { renderMarkdown } from "./markdown";
 import type { Layout, Page, Post, SourceDoc } from "./types";
 import { pageUrl } from "./urls";
 
 function siblingAssets({ dir }: { dir: string }): string[] {
-  return readdirSync(dir).filter((name) => {
-    if (name.endsWith(".md") || name.endsWith(".markdown")) return false;
-    return isFile({ path: join(dir, name) });
-  });
+  return walk({ dir })
+    .filter((filePath) => !filePath.endsWith(".md") && !filePath.endsWith(".markdown"))
+    .map((filePath) => relative(dir, filePath).replaceAll("\\", "/"));
 }
 
 function readTags({ data }: { data: Record<string, unknown> }): string[] {

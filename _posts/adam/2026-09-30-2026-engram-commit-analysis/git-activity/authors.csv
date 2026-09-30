@@ -1,0 +1,3 @@
+author_name,author_email,commits,additions,deletions,diff_size,files_changed,ai_commits,avg_additions_per_commit,median_additions_per_commit,avg_deletions_per_commit,median_deletions_per_commit,avg_diff_per_commit,median_diff_per_commit
+Adam Berg,adam@xyzdigital.com,2704,244812,70892,315704,6778,2427,90.54,19,26.22,4,116.75,32
+Adam,adam@xyzdigital.com,7,41,0,41,1,1,5.86,0,0,0,5.86,0

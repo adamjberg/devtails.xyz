@@ -1,4 +1,5 @@
-import { join } from "path";
+import { mkdirSync } from "fs";
+import { dirname, join } from "path";
 import { dist, root } from "./config";
 import { cpSync, exists, isFile } from "./fs";
 import type { Post } from "./types";
@@ -7,7 +8,9 @@ export function copyPostAssets({ post }: { post: Post }) {
   if (!post.assets.length || !post.url.startsWith("/")) return;
   const outDir = join(dist, post.url.slice(1));
   for (const name of post.assets) {
-    cpSync(join(post.dir, name), join(outDir, name));
+    const dest = join(outDir, name);
+    mkdirSync(dirname(dest), { recursive: true });
+    cpSync(join(post.dir, name), dest);
   }
 }
 
