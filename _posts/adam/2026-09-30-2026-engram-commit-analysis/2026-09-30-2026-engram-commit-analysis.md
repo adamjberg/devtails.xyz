@@ -8,7 +8,47 @@ image:
 tags: dev engram
 ---
 
-This covers **853 files** and **121,000 lines of code**, from **23 Dec 2025** through **30 Sep 2026**.
+I was lucky to start 2026 with pretty much a brand new code repository for (the current iteration of) engram.  It began as an experiment as to whether coding agents could write all of the code.
+
+It's not in the charts below, but ~90% of my commits were 100% authored by AI agents. Anecdotally, the commits where I didn't use AI were usually small fixes that involved less typing than prompting the AI to make the change.  Granted there were many times it would have been faster to write the code change, but I used an agent because it also handled committing the code with a nice message.
+
+The software world is changing dramatically.  I needed a real web application to learn and capture how I used agents in real circumstances.
+
+As I take a [step back from commercializing the software](https://www.instagram.com/p/DdosLKomw-T), I'm better able to reflect on this whole experience.
+
+The timing of this seems important as it feels like we are approaching the plateau of productivity.
+
+<img 
+  src="/2026-engram-commit-analysis/gartner-hype-cycle.png" 
+  alt="Gartner Hype Cycle illustrating the phases of technology adoption" 
+  style="max-width: 100%; height: auto; display: block; margin: 1.5rem auto;"
+/>
+
+While there are certain prompts I write that cause my agent to go off the rails, as long as I rewrite my prompt I'm basically able to achieve my goals 100% of the time from just a prompt.
+
+I still believe there are some pretty major improvements to come in the near future, but the radical shift if from writing code to writing prompts.
+
+There are people now hyping up Loops and parallelizing use of agents.  I can see the potential value here and am open to it, but if I reflect on my ideal usage of coding agents I always come back to wanting to sit in the pilot seat synchronously working with an agent.
+
+Loops and parallelizing agents seems like a intermediate solution to the fact that our agents have ballooned in time to complete task.
+
+Don't get me wrong, they are absolutely solving more complex problems more consistently.
+
+However, there is a limit to this.  Meanwhile, we have Cerebras proving that >1500 tokens / second (roughly 8 times faster than most current models).  And [Taalas](https://taalas.com/), recently acquired by AMD, demonstrating that 17,000 tokens per second is theoretically possible (>100x faster than current frontier models).
+
+My belief and goal is to be able to write my prompt and have an immediate response from my coding assistant.  Ignoring more complex long horizon tasks, right now a small task is about 30 seconds, medium is 60s, large 120s.
+
+At 100x speedup, these durations drop to under 1 second, becoming instantaneous.
+
+**This speedup is inevitable.**
+
+I don't know when it happens, but it is obvious that we will be able to achieve it.
+
+This post is a starting look at my output metrics through the lens of git commits.  From the beginning of the process, a single prompt to accepted solution generally correlates with a single commit.
+
+I wanted a better understanding of my own pace, how many lines of code were truly achievable while working on a real web application.
+
+The current codebase is **853 files** and **121,000 lines of code** (excluding one off scripts and other code unrelated to core application) and this data is from the first commit on **23 Dec 2025** through today **30 Sep 2026**.
 
 ## Commits per day
 
