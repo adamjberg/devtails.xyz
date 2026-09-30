@@ -44,7 +44,6 @@ export function loadPosts(): Post[] {
       url: pageUrl({ permalink, filePath: source.filePath }),
       author: source.data.author ? String(source.data.author) : "adam",
       tags: readTags({ data: source.data }),
-      authorRank: Number(source.data.author_rank ?? 0),
       html: "",
     };
   });

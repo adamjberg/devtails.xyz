@@ -22,7 +22,7 @@ export function build({ production }: { production: boolean }) {
       title: `${post.title} | ${site.title}`,
       description,
       canonical: absoluteUrl({ url: post.url }),
-      body: renderPost({ post, posts }),
+      body: renderPost({ post }),
       pages,
       production,
     });

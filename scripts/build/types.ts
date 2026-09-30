@@ -7,7 +7,6 @@ export type Post = {
   url: string;
   author: string;
   tags: string[];
-  authorRank: number;
   html: string;
 };
 
