@@ -61,7 +61,6 @@ video {
 .site-header-home {
   grid-column: 1;
   justify-self: start;
-  font-weight: 700;
   white-space: nowrap;
 }
 
