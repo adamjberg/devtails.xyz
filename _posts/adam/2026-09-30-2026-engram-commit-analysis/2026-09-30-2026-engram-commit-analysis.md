@@ -18,6 +18,10 @@ This covers **853 files** and **121,000 lines of code**, from **23 Dec 2025** th
 
 <div class="commit-chart"><canvas id="weekly-lines"></canvas></div>
 
+## Monthly diffs
+
+<div class="commit-chart"><canvas id="monthly-diffs"></canvas></div>
+
 ## Weekday commits
 
 <div class="commit-chart"><canvas id="weekday-commits"></canvas></div>
@@ -134,6 +138,19 @@ function lineChart({ id, labels, values, yTitle }) {
   });
 }
 
+function monthlyDiffs({ daily }) {
+  const totals = new Map();
+  for (const row of daily) {
+    const month = row.date.slice(0, 7);
+    totals.set(month, (totals.get(month) ?? 0) + Number(row.diff_size));
+  }
+  const names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return [...totals.entries()].map(([month, diff]) => {
+    const [year, monthIndex] = month.split("-");
+    return { label: `${names[Number(monthIndex) - 1]} ${year}`, diff };
+  });
+}
+
 function histogram({ values, width }) {
   const max = Math.max(...values);
   const bins = [];
@@ -177,6 +194,14 @@ lineChart({
   labels: weekly.map((row) => row.week),
   values: weekly.map((row) => Number(row.avg_diff_per_commit)),
   yTitle: "Avg lines changed",
+});
+
+const months = monthlyDiffs({ daily });
+barChart({
+  id: "monthly-diffs",
+  labels: months.map((month) => month.label),
+  values: months.map((month) => month.diff),
+  yTitle: "Lines changed",
 });
 
 barChart({
