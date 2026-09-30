@@ -58,6 +58,13 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.site-header-home {
+  grid-column: 1;
+  justify-self: start;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .site-brand {
   grid-column: 2;
   font-weight: 700;

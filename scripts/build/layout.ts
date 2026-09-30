@@ -54,7 +54,8 @@ export function layout({
 <body>
   <header class="site-header">
     <div class="wrapper site-header-inner">
-      <div class="site-brand">/<a href="/">home</a>/<a href="/tags/dev">dev</a>/<a href="/tags/tails">tails</a></div>
+      <div class="site-header-home"><a href="/">/home</a></div>
+      <div class="site-brand"><a href="/tags/dev">dev</a> / <a href="/tags/tails">tails</a></div>
       <nav class="site-nav">${nav}</nav>
     </div>
   </header>
