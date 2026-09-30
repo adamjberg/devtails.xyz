@@ -7,7 +7,9 @@ export function renderPageBody({ page, posts }: { page: Page; posts: Post[] }): 
   if (page.layout === "default") return page.html;
 
   if (page.layout === "home") {
-    const title = page.title ? `<h1 class="page-heading">${escapeHtml({ value: page.title })}</h1>` : "";
+    const isTagPage = Boolean(page.tag);
+    const title = page.title && !isTagPage ? `<h1 class="page-heading">${escapeHtml({ value: page.title })}</h1>` : "";
+    const intro = isTagPage ? "" : page.html;
     const list = postsForPage({ page, posts });
     const isHome = page.url === "/";
     const filter = isHome
@@ -20,7 +22,7 @@ export function renderPageBody({ page, posts }: { page: Page; posts: Post[] }): 
       list.length > 0
         ? `${filter}<ul class="post-list" id="home-post-list">${list.map((post) => postPreview({ post })).join("\n")}</ul>${isHome ? '\n<script type="module" src="/assets/post-filter.js"></script>' : ""}`
         : filter;
-    return `<div class="home">${title}${page.html}${listHtml}</div>`;
+    return `<div class="home">${title}${intro}${listHtml}</div>`;
   }
 
   if (page.layout === "post") {

@@ -1,6 +1,14 @@
 import { site } from "./config";
 import { escapeHtml } from "./html";
+import type { ActiveNav } from "./nav";
 import type { Page } from "./types";
+
+function navItem({ href, label, active }: { href: string; label: string; active: boolean }): string {
+  if (active) {
+    return `<span class="site-nav-active" aria-current="page">${escapeHtml({ value: label })}</span>`;
+  }
+  return `<a href="${href}">${escapeHtml({ value: label })}</a>`;
+}
 
 export function layout({
   title,
@@ -9,6 +17,7 @@ export function layout({
   body,
   pages,
   production,
+  activeNav,
 }: {
   title: string;
   description: string;
@@ -16,10 +25,17 @@ export function layout({
   body: string;
   pages: Page[];
   production: boolean;
+  activeNav?: ActiveNav;
 }): string {
-  const nav = pages
+  const headerNav = pages
     .filter((page) => page.showInHeader && page.title)
-    .map((page) => `<a href="${page.url}">${escapeHtml({ value: page.title })}</a>`)
+    .map((page) =>
+      navItem({
+        href: page.url,
+        label: page.title,
+        active: activeNav === "about" && (page.url === "/about" || page.url === "/about/"),
+      }),
+    )
     .join("");
   const analytics = production
     ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${site.googleAnalytics}"></script>
@@ -54,9 +70,9 @@ export function layout({
 <body>
   <header class="site-header">
     <div class="wrapper site-header-inner">
-      <div class="site-header-home"><a href="/">/home</a></div>
-      <div class="site-brand"><a href="/tags/dev">dev</a> / <a href="/tags/tails">tails</a></div>
-      <nav class="site-nav">${nav}</nav>
+      <div class="site-header-home">${navItem({ href: "/", label: "/home", active: activeNav === "home" })}</div>
+      <div class="site-brand">${navItem({ href: "/tags/dev", label: "dev", active: activeNav === "dev" })} / ${navItem({ href: "/tags/tails", label: "tails", active: activeNav === "tails" })}</div>
+      <nav class="site-nav">${headerNav}</nav>
     </div>
   </header>
   <main>

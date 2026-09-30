@@ -71,6 +71,15 @@ video {
   white-space: nowrap;
 }
 
+.site-nav-active {
+  color: var(--text);
+  cursor: default;
+}
+
+.site-header-home .site-nav-active {
+  font-weight: inherit;
+}
+
 .site-nav {
   grid-column: 3;
   justify-self: end;

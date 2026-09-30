@@ -1,7 +1,5 @@
 ---
 layout: home
-title: Dev
+title: dev
 tag: dev
 ---
-
-### Independent posts on how to use different technologies and tools.

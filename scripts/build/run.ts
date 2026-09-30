@@ -4,6 +4,7 @@ import { loadPages, loadPosts } from "./content";
 import { writeFeed, writeSitemap } from "./feed";
 import { writeHtml } from "./fs";
 import { layout } from "./layout";
+import { activeNavFromUrl } from "./nav";
 import { renderPageBody } from "./render-page";
 import { renderPost } from "./render-post";
 import { copyStatic } from "./static";
@@ -26,6 +27,7 @@ export async function build({ production }: { production: boolean }) {
       body: renderPost({ post }),
       pages,
       production,
+      activeNav: activeNavFromUrl({ url: post.url }),
     });
     writeHtml({ filePath: outputFile({ url: post.url }), html });
   }
@@ -39,6 +41,7 @@ export async function build({ production }: { production: boolean }) {
       body: renderPageBody({ page, posts }),
       pages,
       production,
+      activeNav: activeNavFromUrl({ url: page.url }),
     });
     writeHtml({ filePath: outputFile({ url: page.url }), html });
   }

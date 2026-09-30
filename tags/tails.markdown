@@ -1,7 +1,5 @@
 ---
 layout: home
-title: Tails
+title: tails
 tag: tails
 ---
-
-### Tales from the tech sector and reflections on the use of technology in society.
