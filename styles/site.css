@@ -26,6 +26,7 @@ body {
 
 a {
   color: var(--link);
+  text-decoration: none;
 }
 
 img,
@@ -74,8 +75,6 @@ video {
   color: var(--text);
   cursor: default;
   font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
 }
 
 .site-nav {
