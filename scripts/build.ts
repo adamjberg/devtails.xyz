@@ -187,11 +187,7 @@ function postPreview({ post }: { post: Post }): string {
     <a class="post-link" href="${post.url}">${escapeHtml({ value: post.title })}</a>
   </h3>
   <span class="post-meta">
-    <span>${post.date}</span>
-    ·
-    <a href="/authors/${escapeHtml({ value: post.author })}">${escapeHtml({ value: post.author })}</a>
-    ·
-    ${tags}
+    <span>${post.date}</span>${tags ? `\n    ·\n    ${tags}` : ""}
   </span>
   ${description}
 </li>`;
