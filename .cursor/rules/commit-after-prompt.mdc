@@ -1,0 +1,34 @@
+---
+description: Create a git commit after completing each user prompt when there are changes
+alwaysApply: true
+---
+
+# Commit after every prompt
+
+When you finish the work requested in a user message, **create a git commit** if the repository has any changes to commit (modified, added, or deleted tracked files, or relevant untracked files that belong in the repo).
+
+Do this at the end of the turn, after the task is done—not before verifying the change works when verification was part of the request.
+
+## When not to commit
+
+- No file changes resulted from the prompt (question-only, review-only, or purely informational replies).
+- The only changes are build artifacts that should stay ignored (e.g. `dist/`, `node_modules/`).
+- Files likely contain secrets (`.env`, credentials); never commit those—warn the user instead.
+- The user explicitly says not to commit in that message.
+
+## How to commit
+
+Follow the repository **Git Safety Protocol** from user rules:
+
+- Never update git config; no destructive git commands unless explicitly requested.
+- Run `git status`, `git diff`, and `git log -1` (or recent log) to draft an accurate message.
+- Stage only files related to the work; do not commit ignored generated output unless the user asked to track it.
+- Use a concise 1–2 sentence message focused on **why**.
+- On Windows PowerShell, pass the message safely (e.g. `git commit -m "message"` or a here-string)—do not use interactive git flags.
+- After commit, run `git status` to confirm success.
+- If a pre-commit hook fails, fix the issue and create a **new** commit; do not amend unless user rules allow it.
+- Do **not** push unless the user asks.
+
+## Scope
+
+One prompt → at most one commit summarizing that prompt’s changes. Do not batch unrelated prior uncommitted work into the same commit unless it was all part of the same user request.
