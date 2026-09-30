@@ -24,7 +24,7 @@ export function renderPageBody({ page, posts }: { page: Page; posts: Post[] }): 
     return `<div class="search-page">
   ${title}
   <label class="search-label" for="search-input">Search posts</label>
-  <input type="search" id="search-input" class="search-input" autocomplete="off" spellcheck="false" placeholder="Title, tags, or content…" autofocus>
+  <input type="search" id="search-input" class="search-input" autocomplete="off" spellcheck="false" placeholder="Title or description…" autofocus>
   <p id="search-status" class="search-status" aria-live="polite"></p>
   <div id="search-results"></div>
   <script type="module" src="/assets/search.js"></script>
