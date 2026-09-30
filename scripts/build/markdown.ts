@@ -73,8 +73,8 @@ function postPreview({ post }: { post: Post }): string {
     .map((tag) => `<span><a href="/tags/${tag}">${escapeHtml({ value: tag })}</a></span>`)
     .join("\n");
   const description = post.description ? `<p>${escapeHtml({ value: post.description })}</p>` : "";
-  return `<hr>
-<li>
+  return `<li class="post-list-item" data-title="${escapeHtml({ value: post.title })}" data-description="${escapeHtml({ value: post.description })}">
+  <hr>
   <h3 class="mb-0.5">
     <a class="post-link" href="${post.url}">${escapeHtml({ value: post.title })}</a>
   </h3>

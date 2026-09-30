@@ -7,7 +7,7 @@ import { layout } from "./layout";
 import { renderPageBody } from "./render-page";
 import { renderPost } from "./render-post";
 import { copyStatic } from "./static";
-import { bundleSearchClient, writeSearchIndex } from "./search-index";
+import { bundleClientScripts } from "./client-scripts";
 import { absoluteUrl, outputFile } from "./urls";
 
 export async function build({ production }: { production: boolean }) {
@@ -50,7 +50,6 @@ export async function build({ production }: { production: boolean }) {
     ),
   });
   copyStatic();
-  writeSearchIndex({ posts });
-  await bundleSearchClient();
+  await bundleClientScripts();
   console.log(`Built ${posts.length} posts and ${pages.length} pages into dist/`);
 }

@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import { root } from "./config";
 import { exists, walk } from "./fs";
 import { renderMarkdown } from "./markdown";
-import { markdownToSearchText } from "./search-text";
 import type { Layout, Page, Post, SourceDoc } from "./types";
 import { pageUrl } from "./urls";
 
@@ -45,7 +44,6 @@ export function loadPosts(): Post[] {
       url: pageUrl({ permalink, filePath: source.filePath }),
       author: source.data.author ? String(source.data.author) : "adam",
       tags: readTags({ data: source.data }),
-      searchText: "",
       html: "",
     };
   });
@@ -54,7 +52,6 @@ export function loadPosts(): Post[] {
     const post = posts[index];
     if (!post) continue;
     post.html = renderMarkdown({ markdown: source.content, posts });
-    post.searchText = markdownToSearchText({ markdown: source.content });
   }
 
   return posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
@@ -64,7 +61,6 @@ export function loadPages({ posts }: { posts: Post[] }): Page[] {
   const pageFiles = [
     join(root, "index.markdown"),
     join(root, "about.markdown"),
-    join(root, "search.markdown"),
     join(root, "course.markdown"),
     join(root, "404.html"),
     ...walk({ dir: join(root, "learn") }),

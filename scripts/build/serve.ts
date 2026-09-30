@@ -38,7 +38,7 @@ export function watchAndRebuild() {
     const path = join(root, dir);
     if (exists({ path })) watch(path, { recursive: true }, rebuild);
   }
-  for (const file of ["index.markdown", "about.markdown", "search.markdown", "course.markdown", "404.html"]) {
+  for (const file of ["index.markdown", "about.markdown", "course.markdown", "404.html"]) {
     watch(join(root, file), rebuild);
   }
 }

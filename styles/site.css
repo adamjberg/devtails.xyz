@@ -132,6 +132,10 @@ video {
   border-radius: 3px;
 }
 
+.post-list-filter {
+  margin: 2rem 0 1rem;
+}
+
 .post-list {
   list-style: none;
   padding: 0;
