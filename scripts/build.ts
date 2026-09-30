@@ -350,7 +350,7 @@ function relatedPosts({ post, posts }: { post: Post; posts: Post[] }): string {
 
 function renderPost({ post, posts }: { post: Post; posts: Post[] }): string {
   const tags = post.tags
-    .map((tag) => `<span class="mr-1"><a href="/tags/${tag}">#${escapeHtml({ value: tag })}</a></span>`)
+    .map((tag) => `<span class="mr-1"><a href="/tags/${tag}">${escapeHtml({ value: tag })}</a></span>`)
     .join("");
   const subscribe = post.tags.includes("tails") || post.tags.includes("dev");
   return `<article class="post h-entry">
