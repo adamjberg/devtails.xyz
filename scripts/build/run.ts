@@ -7,7 +7,7 @@ import { layout } from "./layout";
 import { activeNavFromUrl } from "./nav";
 import { renderPageBody } from "./render-page";
 import { renderPost } from "./render-post";
-import { copyStatic } from "./static";
+import { copyPostAssets, copyStatic } from "./static";
 import { bundleClientScripts } from "./client-scripts";
 import { absoluteUrl, outputFile } from "./urls";
 
@@ -30,6 +30,7 @@ export async function build({ production }: { production: boolean }) {
       activeNav: activeNavFromUrl({ url: post.url }),
     });
     writeHtml({ filePath: outputFile({ url: post.url }), html });
+    copyPostAssets({ post });
   }
 
   for (const page of pages) {

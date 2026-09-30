@@ -8,6 +8,8 @@ export type Post = {
   author: string;
   tags: string[];
   html: string;
+  dir: string;
+  assets: string[];
 };
 
 export type Page = {

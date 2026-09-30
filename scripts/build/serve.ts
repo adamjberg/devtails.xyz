@@ -34,7 +34,7 @@ export function watchAndRebuild() {
       });
     }, 100);
   };
-  for (const dir of ["_posts", "learn", "tags", "authors", "styles", "assets"]) {
+  for (const dir of ["_posts", "tags", "authors", "styles", "assets"]) {
     const path = join(root, dir);
     if (exists({ path })) watch(path, { recursive: true }, rebuild);
   }

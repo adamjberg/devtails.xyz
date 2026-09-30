@@ -85,6 +85,54 @@ function postPreview({ post }: { post: Post }): string {
 </li>`;
 }
 
+function escapeRegExp({ value }: { value: string }): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function rewriteOutsideFences({ markdown, rewrite }: { markdown: string; rewrite: (segment: string) => string }): string {
+  const parts: string[] = [];
+  const re = /```[\s\S]*?```/g;
+  let last = 0;
+  for (const match of markdown.matchAll(re)) {
+    const index = match.index ?? 0;
+    if (index > last) parts.push(rewrite(markdown.slice(last, index)));
+    parts.push(match[0]);
+    last = index + match[0].length;
+  }
+  if (last < markdown.length) parts.push(rewrite(markdown.slice(last)));
+  return parts.join("");
+}
+
+function rewriteLocalAssets({
+  markdown,
+  names,
+  postUrl,
+}: {
+  markdown: string;
+  names: string[];
+  postUrl: string;
+}): string {
+  if (!names.length) return markdown;
+  const ordered = [...names].sort((a, b) => b.length - a.length);
+  return rewriteOutsideFences({
+    markdown,
+    rewrite: (segment) => {
+      let result = segment;
+      for (const name of ordered) {
+        const published = `${postUrl}/${name}`;
+        const escaped = escapeRegExp({ value: name });
+        result = result.replace(new RegExp(`(!\\[[^\\]]*\\]\\()(?:\\./)?${escaped}(\\))`, "g"), `$1${published}$2`);
+        result = result.replace(
+          new RegExp(`((?:src|href|poster)\\s*=\\s*["'])(?:\\./)?${escaped}(["'])`, "gi"),
+          `$1${published}$2`,
+        );
+        result = result.replace(new RegExp(`(["'])${escaped}\\1`, "g"), `$1${published}$1`);
+      }
+      return result;
+    },
+  });
+}
+
 function prepareMarkdown({ markdown, posts }: { markdown: string; posts: Post[] }): string {
   const withAssets = markdown.replace(
     /\{\{\s*["']([^"']+)["']\s*\|\s*relative_url\s*\}\}/g,
@@ -106,8 +154,20 @@ function prepareMarkdown({ markdown, posts }: { markdown: string; posts: Post[] 
   );
 }
 
-export function renderMarkdown({ markdown, posts }: { markdown: string; posts: Post[] }): string {
-  return marked.parse(prepareMarkdown({ markdown, posts }), { async: false }) as string;
+export function renderMarkdown({
+  markdown,
+  posts,
+  assets,
+}: {
+  markdown: string;
+  posts: Post[];
+  assets?: { names: string[]; postUrl: string };
+}): string {
+  const prepared = prepareMarkdown({ markdown, posts });
+  const withAssets = assets
+    ? rewriteLocalAssets({ markdown: prepared, names: assets.names, postUrl: assets.postUrl })
+    : prepared;
+  return marked.parse(withAssets, { async: false }) as string;
 }
 
 export { postPreview };

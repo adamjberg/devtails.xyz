@@ -1,11 +1,18 @@
-import { readFileSync } from "fs";
-import { join } from "path";
+import { readdirSync, readFileSync } from "fs";
+import { dirname, join } from "path";
 import matter from "gray-matter";
 import { root } from "./config";
-import { exists, walk } from "./fs";
+import { exists, isFile, walk } from "./fs";
 import { renderMarkdown } from "./markdown";
 import type { Layout, Page, Post, SourceDoc } from "./types";
 import { pageUrl } from "./urls";
+
+function siblingAssets({ dir }: { dir: string }): string[] {
+  return readdirSync(dir).filter((name) => {
+    if (name.endsWith(".md") || name.endsWith(".markdown")) return false;
+    return isFile({ path: join(dir, name) });
+  });
+}
 
 function readTags({ data }: { data: Record<string, unknown> }): string[] {
   const raw = data.tags ?? data.tag;
@@ -37,6 +44,7 @@ export function loadPosts(): Post[] {
   const posts: Post[] = sources.map((source) => {
     const dateMatch = source.filePath.match(/(\d{4}-\d{2}-\d{2})/);
     const permalink = source.data.permalink ? String(source.data.permalink) : undefined;
+    const dir = dirname(source.filePath);
     return {
       title: source.data.title ? String(source.data.title) : "Untitled",
       description: source.data.description ? String(source.data.description).trim() : "",
@@ -45,13 +53,19 @@ export function loadPosts(): Post[] {
       author: source.data.author ? String(source.data.author) : "adam",
       tags: readTags({ data: source.data }),
       html: "",
+      dir,
+      assets: siblingAssets({ dir }),
     };
   });
 
   for (const [index, source] of sources.entries()) {
     const post = posts[index];
     if (!post) continue;
-    post.html = renderMarkdown({ markdown: source.content, posts });
+    post.html = renderMarkdown({
+      markdown: source.content,
+      posts,
+      assets: { names: post.assets, postUrl: post.url },
+    });
   }
 
   return posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
@@ -63,7 +77,6 @@ export function loadPages({ posts }: { posts: Post[] }): Page[] {
     join(root, "about.markdown"),
     join(root, "course.markdown"),
     join(root, "404.html"),
-    ...walk({ dir: join(root, "learn") }),
     ...walk({ dir: join(root, "tags") }),
     ...walk({ dir: join(root, "authors") }),
   ].filter(
