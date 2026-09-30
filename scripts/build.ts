@@ -178,7 +178,7 @@ function outputFile({ url }: { url: string }): string {
 
 function postPreview({ post }: { post: Post }): string {
   const tags = post.tags
-    .map((tag) => `<span><a href="/tags/${tag}">#${escapeHtml({ value: tag })}</a></span>`)
+    .map((tag) => `<span><a href="/tags/${tag}">${escapeHtml({ value: tag })}</a></span>`)
     .join("\n");
   const description = post.description ? `<p>${escapeHtml({ value: post.description })}</p>` : "";
   return `<hr>
