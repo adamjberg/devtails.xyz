@@ -12,8 +12,7 @@ export function renderPageBody({ page, posts }: { page: Page; posts: Post[] }): 
     const isHome = page.url === "/";
     const filter = isHome
       ? `<div class="post-list-filter">
-  <label class="search-label" for="post-filter">Filter posts</label>
-  <input type="search" id="post-filter" class="search-input" autocomplete="off" spellcheck="false" placeholder="Filter by title or description…">
+  <input type="search" id="post-filter" class="search-input" autocomplete="off" spellcheck="false" placeholder="Filter by title or description…" aria-label="Filter posts">
   <p id="post-filter-status" class="search-status" aria-live="polite"></p>
 </div>`
       : "";

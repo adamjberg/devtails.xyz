@@ -149,7 +149,17 @@ video {
 }
 
 .post-list-filter {
-  margin: 2rem 0 1rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.post-list-filter .search-status {
+  margin: 0.35rem 0 0;
+  min-height: 1.2rem;
+}
+
+.post-list-filter .search-input {
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
 }
 
 .post-list {
