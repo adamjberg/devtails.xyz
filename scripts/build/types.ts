@@ -1,4 +1,4 @@
-export type Layout = "home" | "page" | "post" | "default";
+export type Layout = "home" | "page" | "post" | "default" | "search";
 
 export type Post = {
   title: string;
@@ -7,6 +7,7 @@ export type Post = {
   url: string;
   author: string;
   tags: string[];
+  searchText: string;
   html: string;
 };
 

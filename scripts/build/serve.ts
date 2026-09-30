@@ -29,18 +29,16 @@ export function watchAndRebuild() {
   const rebuild = () => {
     if (timer) clearTimeout(timer);
     timer = setTimeout(() => {
-      try {
-        build({ production: false });
-      } catch (error) {
+      void build({ production: false }).catch((error) => {
         console.error(error);
-      }
+      });
     }, 100);
   };
   for (const dir of ["_posts", "learn", "tags", "authors", "styles", "assets"]) {
     const path = join(root, dir);
     if (exists({ path })) watch(path, { recursive: true }, rebuild);
   }
-  for (const file of ["index.markdown", "about.markdown", "course.markdown", "404.html"]) {
+  for (const file of ["index.markdown", "about.markdown", "search.markdown", "course.markdown", "404.html"]) {
     watch(join(root, file), rebuild);
   }
 }

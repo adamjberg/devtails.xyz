@@ -19,6 +19,18 @@ export function renderPageBody({ page, posts }: { page: Page; posts: Post[] }): 
     return `<article class="post"><header class="post-header">${title}</header><div class="post-content">${page.html}</div></article>`;
   }
 
+  if (page.layout === "search") {
+    const title = page.title ? `<h1 class="post-title">${escapeHtml({ value: page.title })}</h1>` : "";
+    return `<div class="search-page">
+  ${title}
+  <label class="search-label" for="search-input">Search posts</label>
+  <input type="search" id="search-input" class="search-input" autocomplete="off" spellcheck="false" placeholder="Title, tags, or content…" autofocus>
+  <p id="search-status" class="search-status" aria-live="polite"></p>
+  <div id="search-results"></div>
+  <script type="module" src="/assets/search.js"></script>
+</div>`;
+  }
+
   const title = page.title ? `<h1 class="post-title">${escapeHtml({ value: page.title })}</h1>` : "";
   return `<article class="post"><header class="post-header">${title}</header><div class="page-content">${page.html}</div></article>`;
 }
