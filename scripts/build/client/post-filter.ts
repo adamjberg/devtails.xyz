@@ -26,11 +26,16 @@ if (input && status && list) {
     ignoreLocation: true,
   });
 
+  function setStatus({ message }: { message: string }) {
+    status.textContent = message;
+    status.hidden = message.length === 0;
+  }
+
   function applyFilter() {
     const query = input.value.trim();
     if (!query) {
       for (const item of items) item.element.hidden = false;
-      status.textContent = "";
+      setStatus({ message: "" });
       return;
     }
     const matches = new Set(fuse.search(query).map((match) => match.item.element));
@@ -38,8 +43,13 @@ if (input && status && list) {
       item.element.hidden = !matches.has(item.element);
     }
     const visible = matches.size;
-    status.textContent = `${visible} result${visible === 1 ? "" : "s"} for “${query}”`;
+    if (visible === 0) {
+      setStatus({ message: "" });
+      return;
+    }
+    setStatus({ message: `${visible} result${visible === 1 ? "" : "s"} for “${query}”` });
   }
 
+  setStatus({ message: "" });
   input.addEventListener("input", applyFilter);
 }
