@@ -58,7 +58,7 @@ function runSearch() {
   const query = input.value.trim();
   if (!query) {
     results.innerHTML = "";
-    status.textContent = `Search ${indexedCount} posts by title, description, tags, or content.`;
+    status.textContent = `Search ${indexedCount} posts by title or description.`;
     return;
   }
   const matches = fuse.search(query, { limit: 50 });
@@ -73,15 +73,13 @@ async function init() {
   indexedCount = entries.length;
   fuse = new Fuse(entries, {
     keys: [
-      { name: "title", weight: 0.35 },
-      { name: "description", weight: 0.25 },
-      { name: "tags", weight: 0.2 },
-      { name: "text", weight: 0.2 },
+      { name: "title", weight: 0.8 },
+      { name: "description", weight: 0.2 },
     ],
     threshold: 0.38,
     ignoreLocation: true,
   });
-  status.textContent = `Search ${indexedCount} posts by title, description, tags, or content.`;
+  status.textContent = `Search ${indexedCount} posts by title or description.`;
 }
 
 input.addEventListener("input", runSearch);
