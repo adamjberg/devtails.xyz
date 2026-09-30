@@ -3,10 +3,6 @@ layout: home
 image: /assets/img/fox-logo.png
 ---
 
-<div class="text-center fs-1">dev / tails</div>
-
-![dev/tails](/assets/img/fox-logo.png)
-
 <style>
   .box {
     border: 1px solid black;
