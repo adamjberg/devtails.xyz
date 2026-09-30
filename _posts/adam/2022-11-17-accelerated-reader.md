@@ -14,7 +14,7 @@ This post is the beginning of a series of posts about my journey to becoming a s
 
 This part of the story covers my early childhood with a focus on the Accelerated Reader program, which was my first non-gaming use of a computer.  This experience still stands out as one of my favorite examples of gamification.  However, it also highlights how quickly something can turn from fun to not fun when biting off more than you can chew.
 
-I was born in Edmonton Alberta, though my family soon after moved to the slightly warmer climate of Vancouver, British Columbia.  A few years later, my family followed my dad (also an [author here](/authors/randy)) down to Burbank California where he worked in the film industry. This is where my journey begins: starting elementary school in a new country.
+I was born in Edmonton Alberta, though my family soon after moved to the slightly warmer climate of Vancouver, British Columbia.  A few years later, my family followed my dad down to Burbank California where he worked in the film industry. This is where my journey begins: starting elementary school in a new country.
 
 ## Jay Leno Show
 
