@@ -356,7 +356,7 @@ function renderPost({ post, posts }: { post: Post; posts: Post[] }): string {
   return `<article class="post h-entry">
   <header class="post-header">
     <h1 class="post-title">${escapeHtml({ value: post.title })}</h1>
-    <span class="post-meta">${tags}</span>
+    <span class="post-meta"><span>${post.date}</span>${tags ? ` · ${tags}` : ""}</span>
   </header>
   <div class="post-content">${post.html}</div>
   ${subscribe ? mailchimp() : ""}
