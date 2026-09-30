@@ -21,7 +21,7 @@ Who writes **tales**
 
 ## Why dev/tails?
 
-I want to share what I build ([dev](/dev)), but I still wanted the freedom to write a tale ([tails](/tails)) about pretty much anything.
+I want to share what I build ([dev](/tags/dev)), but I still wanted the freedom to write a tale ([tails](/tags/tails)) about pretty much anything.
 
 When I was a kid, I loved playing Sonic the Hedgehog 2 on the Sega Genesis. 
 
