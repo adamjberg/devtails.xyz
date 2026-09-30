@@ -66,7 +66,6 @@ video {
 
 .site-brand {
   grid-column: 2;
-  font-weight: 700;
   text-align: center;
   white-space: nowrap;
 }
@@ -74,10 +73,9 @@ video {
 .site-nav-active {
   color: var(--text);
   cursor: default;
-}
-
-.site-header-home .site-nav-active {
-  font-weight: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .site-nav {

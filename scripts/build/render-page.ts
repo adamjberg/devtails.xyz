@@ -30,6 +30,8 @@ export function renderPageBody({ page, posts }: { page: Page; posts: Post[] }): 
     return `<article class="post"><header class="post-header">${title}</header><div class="post-content">${page.html}</div></article>`;
   }
 
-  const title = page.title ? `<h1 class="post-title">${escapeHtml({ value: page.title })}</h1>` : "";
-  return `<article class="post"><header class="post-header">${title}</header><div class="page-content">${page.html}</div></article>`;
+  const isAboutPage = page.url === "/about" || page.url === "/about/";
+  const title = page.title && !isAboutPage ? `<h1 class="post-title">${escapeHtml({ value: page.title })}</h1>` : "";
+  const header = title ? `<header class="post-header">${title}</header>` : "";
+  return `<article class="post">${header}<div class="page-content">${page.html}</div></article>`;
 }
