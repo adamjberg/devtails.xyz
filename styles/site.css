@@ -147,6 +147,28 @@ video {
   border-radius: 3px;
 }
 
+.post-content blockquote:not(.twitter-tweet),
+.page-content blockquote:not(.twitter-tweet),
+.home blockquote:not(.twitter-tweet) {
+  margin: 1.25rem 0;
+  padding: 0.65rem 1rem;
+  border-left: 4px solid var(--link);
+  background: var(--code-bg);
+  color: var(--text);
+}
+
+.post-content blockquote:not(.twitter-tweet) > :first-child,
+.page-content blockquote:not(.twitter-tweet) > :first-child,
+.home blockquote:not(.twitter-tweet) > :first-child {
+  margin-top: 0;
+}
+
+.post-content blockquote:not(.twitter-tweet) > :last-child,
+.page-content blockquote:not(.twitter-tweet) > :last-child,
+.home blockquote:not(.twitter-tweet) > :last-child {
+  margin-bottom: 0;
+}
+
 .post-list-filter {
   margin: 0.25rem 0 0.5rem;
 }
